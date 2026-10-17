@@ -1,0 +1,389 @@
+id,group,keyword,intent,target_page,priority
+1,Brand & doctor,phoenix dental care chitlapakkam,Navigational,/,P1
+2,Brand & doctor,phoenix dental care chennai,Navigational,/,P1
+3,Brand & doctor,dr divya's phoenix dental care,Navigational,/,P1
+4,Brand & doctor,phoenix dental clinic chitlapakkam,Navigational,/,P1
+5,Brand & doctor,dr divya dentist chitlapakkam,Navigational,/team/,P1
+6,Brand & doctor,dr divya s bds mds,Navigational,/team/,P1
+7,Brand & doctor,dr divya pediatric dentist chennai,Navigational,/team/,P1
+8,Brand & doctor,dr divya phoenix dental care reviews,Navigational,/,P2
+9,Brand & doctor,phoenix dental care phone number,Navigational,/contact/,P2
+10,Brand & doctor,phoenix dental care address anna street chitlapakkam,Navigational,/contact/,P2
+11,Brand & doctor,phoenix dental care timings,Navigational,/contact/,P2
+12,Brand & doctor,phoenix dental care appointment,Transactional,/contact/,P2
+13,Brand & doctor,phoenix dental care whatsapp,Transactional,/contact/,P3
+14,Brand & doctor,drdivyaphoenixdental.com,Navigational,/,P3
+15,Brand & doctor,mds pediatric and preventive dentistry chennai,Informational,/team/,P2
+16,Brand & doctor,pediatric and preventive dentist chennai,Local,/team/,P2
+17,Brand & doctor,associate professor dentist chennai,Informational,/team/,P3
+18,Brand & doctor,lady dentist in chitlapakkam,Local,/team/,P1
+19,Brand & doctor,female dentist near me,Local,/team/,P2
+20,Brand & doctor,woman dentist chennai,Local,/team/,P3
+21,Brand & doctor,family dental surgeon chitlapakkam,Local,/team/,P2
+22,Brand & doctor,aesthetic dentist chennai,Local,/services/cosmetic-dentistry/,P3
+23,Best doctor / trust searches,best dentist in chitlapakkam,Local,/,P1
+24,Best doctor / trust searches,best dental clinic in chitlapakkam,Local,/,P1
+25,Best doctor / trust searches,top dentist in chitlapakkam,Local,/,P2
+26,Best doctor / trust searches,best dentist in chennai,Local,/,P2
+27,Best doctor / trust searches,best dentist near me,Local,/,P1
+28,Best doctor / trust searches,best dentist in tambaram,Local,Areas We Serve page (new) + Google Business Profile,P2
+29,Best doctor / trust searches,best dentist in selaiyur,Local,Areas We Serve page (new) + Google Business Profile,P2
+30,Best doctor / trust searches,best pediatric dentist in chennai,Local,/services/pediatric-dentistry/,P2
+31,Best doctor / trust searches,best child dentist near tambaram,Local,/services/pediatric-dentistry/,P2
+32,Best doctor / trust searches,best root canal dentist in chennai,Local,/services/root-canal-treatment/,P2
+33,Best doctor / trust searches,best dental implant dentist in chennai,Local,/services/dental-implants/,P2
+34,Best doctor / trust searches,best braces dentist in chennai,Local,/services/braces-treatment/,P2
+35,Best doctor / trust searches,best cosmetic dentist in chennai,Local,/services/cosmetic-dentistry/,P2
+36,Best doctor / trust searches,best lady dentist in chennai,Local,/team/,P3
+37,Best doctor / trust searches,top rated dentist chitlapakkam,Local,/,P2
+38,Best doctor / trust searches,highly rated dental clinic near me,Local,/,P2
+39,Best doctor / trust searches,trusted dentist chitlapakkam,Local,/,P2
+40,Best doctor / trust searches,good dentist near me,Local,/,P2
+41,Best doctor / trust searches,experienced dentist in chitlapakkam,Local,/team/,P2
+42,Best doctor / trust searches,recommended dentist in tambaram,Local,Areas We Serve page (new) + Google Business Profile,P3
+43,Best doctor / trust searches,best dental clinic in south chennai,Local,/,P2
+44,Best doctor / trust searches,best dentist for children in chennai,Local,/services/pediatric-dentistry/,P2
+45,Best doctor / trust searches,best teeth whitening dentist in chennai,Local,/services/teeth-whitening/,P3
+46,Best doctor / trust searches,best invisible aligners dentist in chennai,Local,/services/invisible-aligners/,P3
+47,Service — Preventive dentistry,dental check-up in chitlapakkam,Local,/services/preventive-dentistry/,P1
+48,Service — Preventive dentistry,regular dental check-up near me,Local,/services/preventive-dentistry/,P1
+49,Service — Preventive dentistry,teeth cleaning in chitlapakkam,Local,/services/preventive-dentistry/,P1
+50,Service — Preventive dentistry,dental scaling and polishing chennai,Transactional,/services/preventive-dentistry/,P2
+51,Service — Preventive dentistry,professional teeth cleaning cost chennai,Transactional,/services/preventive-dentistry/,P2
+52,Service — Preventive dentistry,fluoride treatment for teeth chennai,Transactional,/services/preventive-dentistry/,P3
+53,Service — Preventive dentistry,dental sealants for children chennai,Transactional,/services/preventive-dentistry/,P3
+54,Service — Preventive dentistry,how often should i visit a dentist,Informational,/services/preventive-dentistry/,P2
+55,Service — Preventive dentistry,preventive dentistry chennai,Transactional,/services/preventive-dentistry/,P2
+56,Service — Preventive dentistry,family dental check-up chitlapakkam,Local,/services/preventive-dentistry/,P2
+57,Service — Preventive dentistry,plaque and tartar removal chennai,Transactional,/services/preventive-dentistry/,P2
+58,Service — Preventive dentistry,oral hygiene check-up near me,Local,/services/preventive-dentistry/,P3
+59,Service — Cosmetic dentistry,cosmetic dentist in chitlapakkam,Local,/services/cosmetic-dentistry/,P1
+60,Service — Cosmetic dentistry,cosmetic dentistry chennai,Transactional,/services/cosmetic-dentistry/,P1
+61,Service — Cosmetic dentistry,dental veneers in chennai,Transactional,/services/cosmetic-dentistry/,P2
+62,Service — Cosmetic dentistry,veneers cost in chennai,Transactional,/services/cosmetic-dentistry/,P2
+63,Service — Cosmetic dentistry,smile design chennai,Transactional,/services/cosmetic-dentistry/,P2
+64,Service — Cosmetic dentistry,cosmetic dental treatments near me,Local,/services/cosmetic-dentistry/,P2
+65,Service — Cosmetic dentistry,are dental veneers safe,Informational,/services/cosmetic-dentistry/,P3
+66,Service — Cosmetic dentistry,how long do dental veneers last,Informational,/services/cosmetic-dentistry/,P3
+67,Service — Cosmetic dentistry,cosmetic dentist near tambaram,Local,/services/cosmetic-dentistry/,P2
+68,Service — Cosmetic dentistry,improve smile with dental treatment,Informational,/services/cosmetic-dentistry/,P3
+69,Service — Restorative dentistry,dental fillings in chitlapakkam,Local,/services/restorative-dentistry/,P1
+70,Service — Restorative dentistry,tooth coloured fillings chennai,Transactional,/services/restorative-dentistry/,P2
+71,Service — Restorative dentistry,cavity filling near me,Local,/services/restorative-dentistry/,P1
+72,Service — Restorative dentistry,tooth filling cost in chennai,Transactional,/services/restorative-dentistry/,P2
+73,Service — Restorative dentistry,dental crown in chennai,Transactional,/services/restorative-dentistry/,P2
+74,Service — Restorative dentistry,dental crown cost chennai,Transactional,/services/restorative-dentistry/,P2
+75,Service — Restorative dentistry,dental bridge treatment chennai,Transactional,/services/restorative-dentistry/,P2
+76,Service — Restorative dentistry,broken tooth repair chennai,Transactional,/services/restorative-dentistry/,P2
+77,Service — Restorative dentistry,restorative dentistry chennai,Transactional,/services/restorative-dentistry/,P3
+78,Service — Restorative dentistry,tooth cap near me,Local,/services/restorative-dentistry/,P3
+79,Service — Restorative dentistry,filling or crown which is better,Informational,/services/restorative-dentistry/,P3
+80,Service — Orthodontics,orthodontic treatment in chitlapakkam,Local,/services/orthodontics/,P1
+81,Service — Orthodontics,orthodontist near me,Local,/services/orthodontics/,P1
+82,Service — Orthodontics,braces or aligners which is better,Informational,/services/orthodontics/,P2
+83,Service — Orthodontics,braces for adults chennai,Transactional,/services/orthodontics/,P2
+84,Service — Orthodontics,crooked teeth treatment chennai,Transactional,/services/orthodontics/,P2
+85,Service — Orthodontics,teeth alignment treatment near me,Local,/services/orthodontics/,P2
+86,Service — Orthodontics,bite correction treatment chennai,Transactional,/services/orthodontics/,P3
+87,Service — Orthodontics,orthodontic treatment cost in chennai,Transactional,/services/orthodontics/,P2
+88,Service — Orthodontics,orthodontics for children chennai,Transactional,/services/orthodontics/,P3
+89,Service — Orthodontics,how long does orthodontic treatment take,Informational,/services/orthodontics/,P3
+90,Service — Tooth replacement,missing tooth replacement chennai,Transactional,/services/tooth-replacement/,P1
+91,Service — Tooth replacement,dentures in chitlapakkam,Local,/services/tooth-replacement/,P2
+92,Service — Tooth replacement,denture cost in chennai,Transactional,/services/tooth-replacement/,P2
+93,Service — Tooth replacement,dental bridge vs implant,Informational,/services/tooth-replacement/,P2
+94,Service — Tooth replacement,options to replace missing teeth,Informational,/services/tooth-replacement/,P2
+95,Service — Tooth replacement,artificial teeth near me,Local,/services/tooth-replacement/,P2
+96,Service — Tooth replacement,teeth fixing near me,Local,/services/tooth-replacement/,P2
+97,Service — Tooth replacement,replace one missing tooth cost,Transactional,/services/tooth-replacement/,P3
+98,Service — Tooth replacement,how soon should a missing tooth be replaced,Informational,/services/tooth-replacement/,P3
+99,Service — Tooth replacement,tooth replacement solutions chennai,Transactional,/services/tooth-replacement/,P3
+100,Service — Root canal,root canal treatment in chitlapakkam,Local,/services/root-canal-treatment/,P1
+101,Service — Root canal,painless root canal chennai,Transactional,/services/root-canal-treatment/,P1
+102,Service — Root canal,root canal treatment cost in chennai,Transactional,/services/root-canal-treatment/,P1
+103,Service — Root canal,root canal near me,Local,/services/root-canal-treatment/,P1
+104,Service — Root canal,rct treatment chennai,Transactional,/services/root-canal-treatment/,P2
+105,Service — Root canal,root canal vs extraction,Informational,/services/root-canal-treatment/,P2
+106,Service — Root canal,how many visits for root canal,Informational,/services/root-canal-treatment/,P3
+107,Service — Root canal,tooth nerve treatment chennai,Transactional,/services/root-canal-treatment/,P2
+108,Service — Root canal,is root canal treatment painful,Informational,/services/root-canal-treatment/,P2
+109,Service — Root canal,root canal and crown cost chennai,Transactional,/services/root-canal-treatment/,P2
+110,Service — Root canal,root canal specialist chitlapakkam,Local,/services/root-canal-treatment/,P2
+111,Service — Root canal,can i eat after root canal treatment,Informational,/services/root-canal-treatment/,P3
+112,Service — Dental implants,dental implants in chitlapakkam,Local,/services/dental-implants/,P1
+113,Service — Dental implants,dental implant cost in chennai,Transactional,/services/dental-implants/,P1
+114,Service — Dental implants,single tooth implant chennai,Transactional,/services/dental-implants/,P2
+115,Service — Dental implants,dental implants near me,Local,/services/dental-implants/,P1
+116,Service — Dental implants,are dental implants painful,Informational,/services/dental-implants/,P2
+117,Service — Dental implants,dental implant procedure steps,Informational,/services/dental-implants/,P2
+118,Service — Dental implants,dental implants success rate,Informational,/services/dental-implants/,P2
+119,Service — Dental implants,implants vs dentures,Informational,/services/dental-implants/,P2
+120,Service — Dental implants,dental implant crown chennai,Transactional,/services/dental-implants/,P3
+121,Service — Dental implants,permanent teeth fixing chennai,Transactional,/services/dental-implants/,P2
+122,Service — Dental implants,who is a good candidate for dental implants,Informational,/services/dental-implants/,P3
+123,Service — Teeth whitening,teeth whitening in chitlapakkam,Local,/services/teeth-whitening/,P1
+124,Service — Teeth whitening,teeth whitening cost in chennai,Transactional,/services/teeth-whitening/,P1
+125,Service — Teeth whitening,professional teeth whitening chennai,Transactional,/services/teeth-whitening/,P1
+126,Service — Teeth whitening,yellow teeth treatment chennai,Transactional,/services/teeth-whitening/,P2
+127,Service — Teeth whitening,is teeth whitening safe,Informational,/services/teeth-whitening/,P2
+128,Service — Teeth whitening,teeth bleaching near me,Local,/services/teeth-whitening/,P2
+129,Service — Teeth whitening,how long does teeth whitening last,Informational,/services/teeth-whitening/,P2
+130,Service — Teeth whitening,teeth whitening for sensitive teeth,Informational,/services/teeth-whitening/,P3
+131,Service — Teeth whitening,whitening before wedding chennai,Transactional,/services/teeth-whitening/,P3
+132,Service — Teeth whitening,stained teeth removal near me,Local,/services/teeth-whitening/,P3
+133,Service — Invisible aligners,invisible aligners in chennai,Transactional,/services/invisible-aligners/,P1
+134,Service — Invisible aligners,clear aligners in chitlapakkam,Local,/services/invisible-aligners/,P1
+135,Service — Invisible aligners,invisible braces cost in chennai,Transactional,/services/invisible-aligners/,P1
+136,Service — Invisible aligners,clear aligners cost chennai,Transactional,/services/invisible-aligners/,P1
+137,Service — Invisible aligners,aligners for adults chennai,Transactional,/services/invisible-aligners/,P2
+138,Service — Invisible aligners,invisible braces near me,Local,/services/invisible-aligners/,P2
+139,Service — Invisible aligners,how long do aligners take,Informational,/services/invisible-aligners/,P2
+140,Service — Invisible aligners,clear aligners vs braces,Informational,/services/invisible-aligners/,P2
+141,Service — Invisible aligners,can i eat with aligners,Informational,/services/invisible-aligners/,P3
+142,Service — Invisible aligners,do aligners affect speech,Informational,/services/invisible-aligners/,P3
+143,Service — Braces,braces treatment in chitlapakkam,Local,/services/braces-treatment/,P1
+144,Service — Braces,braces cost in chennai,Transactional,/services/braces-treatment/,P1
+145,Service — Braces,metal braces cost chennai,Transactional,/services/braces-treatment/,P2
+146,Service — Braces,ceramic braces in chennai,Transactional,/services/braces-treatment/,P2
+147,Service — Braces,dental braces near me,Local,/services/braces-treatment/,P1
+148,Service — Braces,how long do braces take,Informational,/services/braces-treatment/,P2
+149,Service — Braces,braces for kids chennai,Transactional,/services/braces-treatment/,P2
+150,Service — Braces,teeth straightening chennai,Transactional,/services/braces-treatment/,P2
+151,Service — Braces,are braces painful,Informational,/services/braces-treatment/,P3
+152,Service — Braces,how to clean teeth with braces,Informational,/services/braces-treatment/,P3
+153,Service — Braces,types of braces,Informational,/services/braces-treatment/,P3
+154,Service — Pediatric dentistry,pediatric dentist in chitlapakkam,Local,/services/pediatric-dentistry/,P1
+155,Service — Pediatric dentistry,kids dentist near me,Local,/services/pediatric-dentistry/,P1
+156,Service — Pediatric dentistry,child dental clinic chennai,Local,/services/pediatric-dentistry/,P1
+157,Service — Pediatric dentistry,children's dentist tambaram,Local,/services/pediatric-dentistry/,P2
+158,Service — Pediatric dentistry,baby teeth cavities treatment,Transactional,/services/pediatric-dentistry/,P2
+159,Service — Pediatric dentistry,fluoride for kids chennai,Transactional,/services/pediatric-dentistry/,P3
+160,Service — Pediatric dentistry,first dental visit for child,Informational,/services/pediatric-dentistry/,P2
+161,Service — Pediatric dentistry,dentist for toddlers chennai,Local,/services/pediatric-dentistry/,P2
+162,Service — Pediatric dentistry,child friendly dentist chennai,Local,/services/pediatric-dentistry/,P1
+163,Service — Pediatric dentistry,paediatric dentist chennai,Local,/services/pediatric-dentistry/,P2
+164,Service — Pediatric dentistry,dental sealants for kids,Informational,/services/pediatric-dentistry/,P3
+165,Service — Pediatric dentistry,do baby teeth matter,Informational,/services/pediatric-dentistry/,P3
+166,Service — Laser dentistry,laser dentistry in chennai,Transactional,/services/laser-dentistry/,P1
+167,Service — Laser dentistry,painless dentist in chitlapakkam,Local,/services/laser-dentistry/,P1
+168,Service — Laser dentistry,laser dental treatment near me,Local,/services/laser-dentistry/,P1
+169,Service — Laser dentistry,laser gum treatment chennai,Transactional,/services/laser-dentistry/,P2
+170,Service — Laser dentistry,laser dentist chitlapakkam,Local,/services/laser-dentistry/,P2
+171,Service — Laser dentistry,pain free dental treatment chennai,Transactional,/services/laser-dentistry/,P2
+172,Service — Laser dentistry,benefits of dental laser treatment,Informational,/services/laser-dentistry/,P3
+173,Service — Laser dentistry,is laser dentistry safe,Informational,/services/laser-dentistry/,P3
+174,Service — Laser dentistry,laser dentistry cost chennai,Transactional,/services/laser-dentistry/,P2
+175,Service — Laser dentistry,gentle dentist chennai,Local,/services/laser-dentistry/,P2
+176,Service — Smile makeover,smile makeover in chennai,Transactional,/services/smile-makeover/,P1
+177,Service — Smile makeover,smile makeover cost in chennai,Transactional,/services/smile-makeover/,P1
+178,Service — Smile makeover,smile makeover chitlapakkam,Local,/services/smile-makeover/,P1
+179,Service — Smile makeover,full smile makeover treatment,Transactional,/services/smile-makeover/,P2
+180,Service — Smile makeover,cosmetic smile design chennai,Transactional,/services/smile-makeover/,P2
+181,Service — Smile makeover,wedding smile makeover chennai,Transactional,/services/smile-makeover/,P3
+182,Service — Smile makeover,what is included in a smile makeover,Informational,/services/smile-makeover/,P3
+183,Service — Smile makeover,smile makeover near me,Local,/services/smile-makeover/,P2
+184,Service — Gum care,gum treatment in chitlapakkam,Local,/services/gum-care/,P1
+185,Service — Gum care,bleeding gums treatment chennai,Transactional,/services/gum-care/,P1
+186,Service — Gum care,gum disease treatment chennai,Transactional,/services/gum-care/,P1
+187,Service — Gum care,periodontist near me,Local,/services/gum-care/,P2
+188,Service — Gum care,gum scaling and deep cleaning chennai,Transactional,/services/gum-care/,P2
+189,Service — Gum care,swollen gums treatment,Informational,/services/gum-care/,P2
+190,Service — Gum care,periodontal treatment chennai,Transactional,/services/gum-care/,P2
+191,Service — Gum care,can gum disease be reversed,Informational,/services/gum-care/,P2
+192,Service — Gum care,early signs of gum disease,Informational,/services/gum-care/,P2
+193,Service — Gum care,gum care dentist chitlapakkam,Local,/services/gum-care/,P2
+194,Service — Tooth extraction,tooth extraction in chitlapakkam,Local,/services/tooth-extraction/,P1
+195,Service — Tooth extraction,tooth removal near me,Local,/services/tooth-extraction/,P1
+196,Service — Tooth extraction,tooth extraction cost in chennai,Transactional,/services/tooth-extraction/,P1
+197,Service — Tooth extraction,painless tooth extraction chennai,Transactional,/services/tooth-extraction/,P2
+198,Service — Tooth extraction,tooth extraction aftercare,Informational,/services/tooth-extraction/,P2
+199,Service — Tooth extraction,surgical tooth extraction chennai,Transactional,/services/tooth-extraction/,P2
+200,Service — Tooth extraction,what to eat after tooth extraction,Informational,/services/tooth-extraction/,P2
+201,Service — Tooth extraction,when is tooth extraction necessary,Informational,/services/tooth-extraction/,P3
+202,Service — Tooth extraction,how long does extraction recovery take,Informational,/services/tooth-extraction/,P3
+203,Location — nearby localities,dentist in selaiyur,Local,Areas We Serve page (new) + Google Business Profile,P1
+204,Location — nearby localities,dental clinic in selaiyur,Local,Areas We Serve page (new) + Google Business Profile,P1
+205,Location — nearby localities,root canal treatment in selaiyur,Local,/services/root-canal-treatment/,P1
+206,Location — nearby localities,dental implants in selaiyur,Local,/services/dental-implants/,P1
+207,Location — nearby localities,braces treatment in selaiyur,Local,/services/braces-treatment/,P1
+208,Location — nearby localities,teeth whitening in selaiyur,Local,/services/teeth-whitening/,P1
+209,Location — nearby localities,pediatric dentist in selaiyur,Local,/services/pediatric-dentistry/,P1
+210,Location — nearby localities,teeth cleaning in selaiyur,Local,/services/preventive-dentistry/,P2
+211,Location — nearby localities,dentist in sembakkam,Local,Areas We Serve page (new) + Google Business Profile,P1
+212,Location — nearby localities,dental clinic in sembakkam,Local,Areas We Serve page (new) + Google Business Profile,P1
+213,Location — nearby localities,root canal treatment in sembakkam,Local,/services/root-canal-treatment/,P1
+214,Location — nearby localities,dental implants in sembakkam,Local,/services/dental-implants/,P1
+215,Location — nearby localities,braces treatment in sembakkam,Local,/services/braces-treatment/,P1
+216,Location — nearby localities,teeth whitening in sembakkam,Local,/services/teeth-whitening/,P1
+217,Location — nearby localities,pediatric dentist in sembakkam,Local,/services/pediatric-dentistry/,P1
+218,Location — nearby localities,teeth cleaning in sembakkam,Local,/services/preventive-dentistry/,P2
+219,Location — nearby localities,dentist in rajakilpakkam,Local,Areas We Serve page (new) + Google Business Profile,P1
+220,Location — nearby localities,dental clinic in rajakilpakkam,Local,Areas We Serve page (new) + Google Business Profile,P1
+221,Location — nearby localities,root canal treatment in rajakilpakkam,Local,/services/root-canal-treatment/,P1
+222,Location — nearby localities,dental implants in rajakilpakkam,Local,/services/dental-implants/,P1
+223,Location — nearby localities,braces treatment in rajakilpakkam,Local,/services/braces-treatment/,P1
+224,Location — nearby localities,teeth whitening in rajakilpakkam,Local,/services/teeth-whitening/,P1
+225,Location — nearby localities,pediatric dentist in rajakilpakkam,Local,/services/pediatric-dentistry/,P1
+226,Location — nearby localities,teeth cleaning in rajakilpakkam,Local,/services/preventive-dentistry/,P2
+227,Location — nearby localities,dentist in madambakkam,Local,Areas We Serve page (new) + Google Business Profile,P2
+228,Location — nearby localities,dental clinic in madambakkam,Local,Areas We Serve page (new) + Google Business Profile,P2
+229,Location — nearby localities,root canal treatment in madambakkam,Local,/services/root-canal-treatment/,P2
+230,Location — nearby localities,dental implants in madambakkam,Local,/services/dental-implants/,P2
+231,Location — nearby localities,braces treatment in madambakkam,Local,/services/braces-treatment/,P2
+232,Location — nearby localities,teeth whitening in madambakkam,Local,/services/teeth-whitening/,P2
+233,Location — nearby localities,pediatric dentist in madambakkam,Local,/services/pediatric-dentistry/,P2
+234,Location — nearby localities,teeth cleaning in madambakkam,Local,/services/preventive-dentistry/,P2
+235,Location — nearby localities,dentist in gowrivakkam,Local,Areas We Serve page (new) + Google Business Profile,P2
+236,Location — nearby localities,dental clinic in gowrivakkam,Local,Areas We Serve page (new) + Google Business Profile,P2
+237,Location — nearby localities,root canal treatment in gowrivakkam,Local,/services/root-canal-treatment/,P2
+238,Location — nearby localities,dental implants in gowrivakkam,Local,/services/dental-implants/,P2
+239,Location — nearby localities,braces treatment in gowrivakkam,Local,/services/braces-treatment/,P2
+240,Location — nearby localities,teeth whitening in gowrivakkam,Local,/services/teeth-whitening/,P2
+241,Location — nearby localities,pediatric dentist in gowrivakkam,Local,/services/pediatric-dentistry/,P2
+242,Location — nearby localities,teeth cleaning in gowrivakkam,Local,/services/preventive-dentistry/,P2
+243,Location — nearby localities,dentist in tambaram,Local,Areas We Serve page (new) + Google Business Profile,P1
+244,Location — nearby localities,dental clinic in tambaram,Local,Areas We Serve page (new) + Google Business Profile,P1
+245,Location — nearby localities,root canal treatment in tambaram,Local,/services/root-canal-treatment/,P1
+246,Location — nearby localities,dental implants in tambaram,Local,/services/dental-implants/,P1
+247,Location — nearby localities,braces treatment in tambaram,Local,/services/braces-treatment/,P1
+248,Location — nearby localities,teeth whitening in tambaram,Local,/services/teeth-whitening/,P1
+249,Location — nearby localities,pediatric dentist in tambaram,Local,/services/pediatric-dentistry/,P1
+250,Location — nearby localities,teeth cleaning in tambaram,Local,/services/preventive-dentistry/,P2
+251,Location — nearby localities,dentist in east tambaram,Local,Areas We Serve page (new) + Google Business Profile,P2
+252,Location — nearby localities,dental clinic in east tambaram,Local,Areas We Serve page (new) + Google Business Profile,P2
+253,Location — nearby localities,root canal treatment in east tambaram,Local,/services/root-canal-treatment/,P2
+254,Location — nearby localities,dental implants in east tambaram,Local,/services/dental-implants/,P2
+255,Location — nearby localities,braces treatment in east tambaram,Local,/services/braces-treatment/,P2
+256,Location — nearby localities,teeth whitening in east tambaram,Local,/services/teeth-whitening/,P2
+257,Location — nearby localities,pediatric dentist in east tambaram,Local,/services/pediatric-dentistry/,P2
+258,Location — nearby localities,teeth cleaning in east tambaram,Local,/services/preventive-dentistry/,P2
+259,Location — nearby localities,dentist in peerkankaranai,Local,Areas We Serve page (new) + Google Business Profile,P3
+260,Location — nearby localities,dental clinic in peerkankaranai,Local,Areas We Serve page (new) + Google Business Profile,P3
+261,Location — nearby localities,root canal treatment in peerkankaranai,Local,/services/root-canal-treatment/,P3
+262,Location — nearby localities,dental implants in peerkankaranai,Local,/services/dental-implants/,P3
+263,Location — nearby localities,braces treatment in peerkankaranai,Local,/services/braces-treatment/,P3
+264,Location — nearby localities,teeth whitening in peerkankaranai,Local,/services/teeth-whitening/,P3
+265,Location — nearby localities,pediatric dentist in peerkankaranai,Local,/services/pediatric-dentistry/,P3
+266,Location — nearby localities,teeth cleaning in peerkankaranai,Local,/services/preventive-dentistry/,P3
+267,Location — nearby localities,dentist in perungalathur,Local,Areas We Serve page (new) + Google Business Profile,P3
+268,Location — nearby localities,dental clinic in perungalathur,Local,Areas We Serve page (new) + Google Business Profile,P3
+269,Location — nearby localities,root canal treatment in perungalathur,Local,/services/root-canal-treatment/,P3
+270,Location — nearby localities,dental implants in perungalathur,Local,/services/dental-implants/,P3
+271,Location — nearby localities,braces treatment in perungalathur,Local,/services/braces-treatment/,P3
+272,Location — nearby localities,teeth whitening in perungalathur,Local,/services/teeth-whitening/,P3
+273,Location — nearby localities,pediatric dentist in perungalathur,Local,/services/pediatric-dentistry/,P3
+274,Location — nearby localities,teeth cleaning in perungalathur,Local,/services/preventive-dentistry/,P3
+275,Location — nearby localities,dentist in chromepet,Local,Areas We Serve page (new) + Google Business Profile,P3
+276,Location — nearby localities,dental clinic in chromepet,Local,Areas We Serve page (new) + Google Business Profile,P3
+277,Location — nearby localities,root canal treatment in chromepet,Local,/services/root-canal-treatment/,P3
+278,Location — nearby localities,dental implants in chromepet,Local,/services/dental-implants/,P3
+279,Location — nearby localities,braces treatment in chromepet,Local,/services/braces-treatment/,P3
+280,Location — nearby localities,teeth whitening in chromepet,Local,/services/teeth-whitening/,P3
+281,Location — nearby localities,pediatric dentist in chromepet,Local,/services/pediatric-dentistry/,P3
+282,Location — nearby localities,teeth cleaning in chromepet,Local,/services/preventive-dentistry/,P3
+283,Location — nearby localities,dentist in pallavaram,Local,Areas We Serve page (new) + Google Business Profile,P3
+284,Location — nearby localities,dental clinic in pallavaram,Local,Areas We Serve page (new) + Google Business Profile,P3
+285,Location — nearby localities,root canal treatment in pallavaram,Local,/services/root-canal-treatment/,P3
+286,Location — nearby localities,dental implants in pallavaram,Local,/services/dental-implants/,P3
+287,Location — nearby localities,braces treatment in pallavaram,Local,/services/braces-treatment/,P3
+288,Location — nearby localities,teeth whitening in pallavaram,Local,/services/teeth-whitening/,P3
+289,Location — nearby localities,pediatric dentist in pallavaram,Local,/services/pediatric-dentistry/,P3
+290,Location — nearby localities,teeth cleaning in pallavaram,Local,/services/preventive-dentistry/,P3
+291,Location — nearby localities,dentist in camp road,Local,Areas We Serve page (new) + Google Business Profile,P3
+292,Location — nearby localities,dental clinic in camp road,Local,Areas We Serve page (new) + Google Business Profile,P3
+293,Location — nearby localities,root canal treatment in camp road,Local,/services/root-canal-treatment/,P3
+294,Location — nearby localities,dental implants in camp road,Local,/services/dental-implants/,P3
+295,Location — nearby localities,braces treatment in camp road,Local,/services/braces-treatment/,P3
+296,Location — nearby localities,teeth whitening in camp road,Local,/services/teeth-whitening/,P3
+297,Location — nearby localities,pediatric dentist in camp road,Local,/services/pediatric-dentistry/,P3
+298,Location — nearby localities,teeth cleaning in camp road,Local,/services/preventive-dentistry/,P3
+299,Location — nearby localities,dentist in medavakkam,Local,Areas We Serve page (new) + Google Business Profile,P3
+300,Location — nearby localities,dental clinic in medavakkam,Local,Areas We Serve page (new) + Google Business Profile,P3
+301,Location — nearby localities,root canal treatment in medavakkam,Local,/services/root-canal-treatment/,P3
+302,Location — nearby localities,dental implants in medavakkam,Local,/services/dental-implants/,P3
+303,Location — nearby localities,braces treatment in medavakkam,Local,/services/braces-treatment/,P3
+304,Location — nearby localities,teeth whitening in medavakkam,Local,/services/teeth-whitening/,P3
+305,Location — nearby localities,pediatric dentist in medavakkam,Local,/services/pediatric-dentistry/,P3
+306,Location — nearby localities,teeth cleaning in medavakkam,Local,/services/preventive-dentistry/,P3
+307,Location — Chennai-wide & landmarks,dentist in chitlapakkam,Local,/,P1
+308,Location — Chennai-wide & landmarks,dental clinic in chitlapakkam,Local,/,P1
+309,Location — Chennai-wide & landmarks,dentist in chitlapakkam chennai 600064,Local,/contact/,P1
+310,Location — Chennai-wide & landmarks,dentist near chitlapakkam,Local,Areas We Serve page (new) + Google Business Profile,P1
+311,Location — Chennai-wide & landmarks,dentist in anna street chitlapakkam,Local,/contact/,P2
+312,Location — Chennai-wide & landmarks,dentist in south chennai,Local,/,P2
+313,Location — Chennai-wide & landmarks,dental clinic in south chennai,Local,/,P2
+314,Location — Chennai-wide & landmarks,family dentist in chennai,Local,/,P2
+315,Location — Chennai-wide & landmarks,affordable dentist in chennai,Local,/,P2
+316,Location — Chennai-wide & landmarks,dentist near gst road tambaram,Local,Areas We Serve page (new) + Google Business Profile,P3
+317,Location — Chennai-wide & landmarks,dentist near outer ring road chennai,Local,Areas We Serve page (new) + Google Business Profile,P3
+318,Location — Chennai-wide & landmarks,dental clinic near tambaram corporation,Local,Areas We Serve page (new) + Google Business Profile,P3
+319,"Search behaviour — near me, timing, cost, trust",dentist near me,Local,/,P1
+320,"Search behaviour — near me, timing, cost, trust",dental clinic near me,Local,/,P1
+321,"Search behaviour — near me, timing, cost, trust",dentist open now near me,Local,/contact/,P1
+322,"Search behaviour — near me, timing, cost, trust",dentist open on sunday near me,Local,/contact/,P1
+323,"Search behaviour — near me, timing, cost, trust",evening dentist near me,Local,/contact/,P2
+324,"Search behaviour — near me, timing, cost, trust",walk in dentist near me,Local,/contact/,P2
+325,"Search behaviour — near me, timing, cost, trust",emergency dentist near me,Local,/contact/,P2
+326,"Search behaviour — near me, timing, cost, trust",dentist open late near me,Local,/contact/,P3
+327,"Search behaviour — near me, timing, cost, trust",family dentist near me,Local,/,P2
+328,"Search behaviour — near me, timing, cost, trust",dentist for kids near me,Local,/services/pediatric-dentistry/,P1
+329,"Search behaviour — near me, timing, cost, trust",dentist for adults and children,Local,/,P3
+330,"Search behaviour — near me, timing, cost, trust",painless dentist near me,Local,/services/laser-dentistry/,P1
+331,"Search behaviour — near me, timing, cost, trust",gentle dentist near me,Local,/services/laser-dentistry/,P2
+332,"Search behaviour — near me, timing, cost, trust",hygienic dental clinic chennai,Local,/about/,P3
+333,"Search behaviour — near me, timing, cost, trust",affordable dental clinic chennai,Local,/,P2
+334,"Search behaviour — near me, timing, cost, trust",low cost dental treatment chennai,Transactional,/,P3
+335,"Search behaviour — near me, timing, cost, trust",dentist consultation fee chennai,Transactional,/contact/,P2
+336,"Search behaviour — near me, timing, cost, trust",dentist fees chitlapakkam,Transactional,/contact/,P2
+337,"Search behaviour — near me, timing, cost, trust",dental treatment cost chennai,Transactional,/services/,P2
+338,"Search behaviour — near me, timing, cost, trust",dentist appointment booking chennai,Transactional,/contact/,P1
+339,"Search behaviour — near me, timing, cost, trust",book dentist appointment on whatsapp,Transactional,/contact/,P2
+340,"Search behaviour — near me, timing, cost, trust",online dentist appointment chennai,Transactional,/contact/,P2
+341,"Search behaviour — near me, timing, cost, trust",dentist reviews chitlapakkam,Local,/,P2
+342,"Search behaviour — near me, timing, cost, trust",dental clinic ratings chitlapakkam,Local,/,P2
+343,"Search behaviour — near me, timing, cost, trust",dentist with modern equipment chennai,Local,/about/,P3
+344,"Search behaviour — near me, timing, cost, trust",dentist for anxious patients,Local,/services/pediatric-dentistry/,P2
+345,"Search behaviour — near me, timing, cost, trust",dental fear dentist chennai,Local,/services/pediatric-dentistry/,P2
+346,"Search behaviour — near me, timing, cost, trust",dentist for whole family chennai,Local,/,P3
+347,"Search behaviour — near me, timing, cost, trust",dentist for school children chennai,Local,/services/pediatric-dentistry/,P3
+348,"Search behaviour — near me, timing, cost, trust",dentist near me with parking,Local,/contact/,P3
+349,"Search behaviour — near me, timing, cost, trust",dentist consultation near me today,Local,/contact/,P2
+350,"Search behaviour — near me, timing, cost, trust",same day dentist appointment chennai,Local,/contact/,P3
+351,Search behaviour — symptoms & problems,tooth pain treatment near me,Local,/services/root-canal-treatment/,P1
+352,Search behaviour — symptoms & problems,toothache dentist chitlapakkam,Local,/services/root-canal-treatment/,P1
+353,Search behaviour — symptoms & problems,severe toothache at night what to do,Informational,/services/root-canal-treatment/,P2
+354,Search behaviour — symptoms & problems,tooth abscess treatment chennai,Transactional,/services/root-canal-treatment/,P2
+355,Search behaviour — symptoms & problems,swollen cheek due to tooth infection,Informational,/services/root-canal-treatment/,P3
+356,Search behaviour — symptoms & problems,bleeding gums treatment near me,Local,/services/gum-care/,P1
+357,Search behaviour — symptoms & problems,gums bleeding while brushing reasons,Informational,/services/gum-care/,P2
+358,Search behaviour — symptoms & problems,bad breath treatment dentist chennai,Transactional,/services/gum-care/,P2
+359,Search behaviour — symptoms & problems,yellow teeth how to whiten,Informational,/services/teeth-whitening/,P2
+360,Search behaviour — symptoms & problems,stained teeth dentist near me,Local,/services/teeth-whitening/,P3
+361,Search behaviour — symptoms & problems,crooked teeth dentist near me,Local,/services/orthodontics/,P2
+362,Search behaviour — symptoms & problems,gap between teeth treatment,Informational,/services/orthodontics/,P3
+363,Search behaviour — symptoms & problems,missing front tooth solution,Informational,/services/tooth-replacement/,P2
+364,Search behaviour — symptoms & problems,broken tooth dentist near me,Local,/services/restorative-dentistry/,P1
+365,Search behaviour — symptoms & problems,chipped tooth repair near me,Local,/services/restorative-dentistry/,P2
+366,Search behaviour — symptoms & problems,cavity treatment near me,Local,/services/restorative-dentistry/,P1
+367,Search behaviour — symptoms & problems,black spots on teeth treatment,Informational,/services/restorative-dentistry/,P3
+368,Search behaviour — symptoms & problems,baby tooth decay treatment,Transactional,/services/pediatric-dentistry/,P2
+369,Search behaviour — symptoms & problems,child teeth cavity dentist,Local,/services/pediatric-dentistry/,P2
+370,Search behaviour — symptoms & problems,my child is afraid of the dentist,Informational,/services/pediatric-dentistry/,P2
+371,Search behaviour — symptoms & problems,tooth sensitivity treatment chennai,Transactional,/services/preventive-dentistry/,P3
+372,Search behaviour — symptoms & problems,dental x-ray near me,Local,/services/preventive-dentistry/,P3
+373,Search behaviour — symptoms & problems,loose filling or crown dentist near me,Local,/services/restorative-dentistry/,P3
+374,Search behaviour — symptoms & problems,food getting stuck in cavity teeth,Informational,/services/restorative-dentistry/,P3
+375,Search behaviour — symptoms & problems,how to remove tartar from teeth,Informational,/services/preventive-dentistry/,P3
+376,Search behaviour — symptoms & problems,teeth cleaning bleeding is it normal,Informational,/services/gum-care/,P3
+377,Tamil & Tanglish (verify spellings with a native speaker),பல் மருத்துவர் சிட்லப்பாக்கம்,Local,/,P2
+378,Tamil & Tanglish (verify spellings with a native speaker),பல் மருத்துவமனை சென்னை,Local,/,P3
+379,Tamil & Tanglish (verify spellings with a native speaker),பல் வலி சிகிச்சை,Informational,/services/root-canal-treatment/,P3
+380,Tamil & Tanglish (verify spellings with a native speaker),குழந்தைகள் பல் மருத்துவர்,Local,/services/pediatric-dentistry/,P2
+381,Tamil & Tanglish (verify spellings with a native speaker),பல் சுத்தம் செய்தல்,Transactional,/services/preventive-dentistry/,P3
+382,Tamil & Tanglish (verify spellings with a native speaker),பல் பிடுங்குதல்,Transactional,/services/tooth-extraction/,P3
+383,Tamil & Tanglish (verify spellings with a native speaker),ரூட் கனால் சிகிச்சை,Transactional,/services/root-canal-treatment/,P3
+384,Tamil & Tanglish (verify spellings with a native speaker),பல் செட் சென்னை,Transactional,/services/tooth-replacement/,P3
+385,Tamil & Tanglish (verify spellings with a native speaker),pal doctor near me,Local,/,P3
+386,Tamil & Tanglish (verify spellings with a native speaker),pal vali doctor chitlapakkam,Local,/services/root-canal-treatment/,P3
+387,Tamil & Tanglish (verify spellings with a native speaker),pal clinic chitlapakkam,Local,/,P3
+388,Tamil & Tanglish (verify spellings with a native speaker),pal doctor tambaram,Local,Areas We Serve page (new) + Google Business Profile,P3
