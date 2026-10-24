@@ -4,6 +4,21 @@ Update this file at the end of every working session. Newest session first. Rule
 
 ---
 
+## Divya — open action items (keep this list current)
+
+| # | What we need from Divya | Needed for | Status |
+|---|---|---|---|
+| 1 | Access to **Google Search Console** for Prodman Nexus | Indexing, search data, monthly report | Open |
+| 2 | Access to the **Google Business Profile** (Manager) | Maps listing, posts, reviews | Open |
+| 3 | A professional **photo of Dr Divya** | Doctor card on the Team page and Google's doctor details (no image is set until then) | Open |
+| 4 | Real **Instagram / Facebook page links** | Footer icons and `sameAs` in Google's clinic details (left out until then) | Open |
+| 5 | Email / WhatsApp number for contact-form enquiries | Akash to connect the form (S1) | Open |
+| 6 | Current timings incl. lunch break and holidays | Listings and site | Open |
+| 7 | Decisions: testimonials, Home offers, designation & experience wording | Advertising rules | Open |
+| 8 | What to do with phoenixdentalcare.in (we recommend a redirect) | Old-domain redirect (S4) | Open |
+
+---
+
 ## Session 4 — 24 Oct 2026 (code: Task 1 — correct website address)
 
 ### Task 1 done (audit T1, T2, T3, T10) — not committed yet
@@ -39,6 +54,13 @@ Update this file at the end of every working session. Newest session first. Rule
 - **Revised after Sathish's review (same day):** location text was over-repeated (77 mentions across pages). Rule now: **location added once per visible page** — Home: the small H1 line; other pages: the opening line. Reverted: treatment H1s back to the treatment name (`heading` fields removed), H1s on About/Services/Contact back to the originals (Team → "Meet Dr. Divya S"), Home opening-line location, Home "Our Treatments"/"Contact Us", Contact "Clinic Information", treatment headings "Benefits"/"Treatment Process"/"Frequently Asked Questions"/"Ready to Book Your …?". Kept: "About [treatment]", intros, alt text, heading-level fixes, compliance edits, Team title. Location stays in meta titles/descriptions. Result: 39 mentions (the extra one per page is the existing address or the on-hold testimonial). Before/after PDF regenerated (v2); the earlier v1 duplicated Root Canal part 1 as part 2 (sips crop bug) — fixed by cropping with Chrome.
 - **Second review (same day):** Services intro reverted to the original (added sentence removed); Team "Our Doctors" section reverted (H1 + intro original; doctor title change kept); Contact intro rewritten as one paragraph with a tap-to-call number (hours left to the Opening Hours block); long dashes removed from all new text (5 treatment intros, Team and Contact meta descriptions; Growth Plan Appendix A synced); Root Canal intro no longer mentions the location. Pre-existing site text still has some long dashes (not changed). Location mentions now 36. Before/after PDF v3.
 - **Task 7 (Analytics/Search Console) skipped** at Sathish's request (24 Oct 2026).
+
+### Task 4 done (T8, A2) — branch `seo/task-4-structured-data` (from task 3), not committed yet
+- Plan confirmed by Sathish first (new rule: every task starts with a plan and waits for OK). Area served: **not added** (Sathish: don't change). Sunday left out of opening hours (by appointment only). No doctor image; no social links until Divya supplies them (see action items).
+- `practiceInfo.name` = "Dr. Divya's Phoenix Dental Care"; new `postalAddress`, `geo`, `googleMapsUrl` in `app/utils/config.js`. New `app/utils/schema.js`: `clinicSchema()` (Dentist with @id, logo/image, PostalAddress, geo, hasMap, Mon–Sat hours), `clinicRef`, `doctorSchema()` (Person, honorificSuffix, jobTitle, knowsAbout, worksFor clinic).
+- Home + Contact carry the clinic card; Team carries the doctor card (was "Physician"); treatment pages' MedicalProcedure provider = clinic with full PostalAddress (was a text address).
+- Visible: header name with full stop (from config), footer copyright uses the official name, WhatsApp prefilled text "Hello Dr. Divya's Phoenix Dental Care". Header logo alt uses the official name.
+- Verified: build passes; structured data checked on all 20 pages (0 issues); titles/descriptions still match Appendix A; one H1 / no skipped levels / alt everywhere. Review: `seo/task-4-before-after.pdf`.
 
 ---
 

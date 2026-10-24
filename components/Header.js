@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import MobileMenu from "./mobileMenu";
+import { practiceInfo } from "../app/utils/config";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -20,8 +21,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b">
       <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
         <Link href="/" className="flex gap-3 items-center">
-          <Image src="/images/Logo.jpeg" alt="Phoenix Dental Care logo" width={48} height={48} className="w-12 h-12 object-contain" />
-          <span className="text-xl font-bold text-primary">Dr Divya's Phoenix Dental Care</span>
+          <Image src="/images/Logo.jpeg" alt={`${practiceInfo.name} logo`} width={48} height={48} className="w-12 h-12 object-contain" />
+          <span className="text-xl font-bold text-primary">{practiceInfo.name}</span>
         </Link>
 
         <nav className="space-x-6 hidden md:flex items-center">

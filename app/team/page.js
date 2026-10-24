@@ -1,8 +1,8 @@
 import team from "../../data/team";
-import { absoluteUrl } from "../utils/config";
 import DoctorCard from "../../components/team/DoctorCard";
 import Breadcrumb from "../../components/Breadcrumb";
 import JsonLd from "../../components/seo/JsonLd";
+import { doctorSchema } from "../utils/schema";
 import Link from "next/link";
 import { pageMetadata } from "../utils/seo";
 
@@ -15,20 +15,7 @@ export const metadata = pageMetadata({
 
 const primaryDoctor = team[0];
 
-const personJsonLd = primaryDoctor
-  ? {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      name: primaryDoctor.name,
-      jobTitle: primaryDoctor.title,
-      description: primaryDoctor.bio,
-      worksFor: {
-        "@type": "Dentist",
-        name: "Phoenix Dental Care",
-        url: absoluteUrl("/"),
-      },
-    }
-  : null;
+const personJsonLd = primaryDoctor ? doctorSchema(primaryDoctor) : null;
 
 export default function TeamPage() {
   return (

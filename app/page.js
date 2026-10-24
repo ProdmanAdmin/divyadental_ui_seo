@@ -11,6 +11,7 @@ import FadeUp from "./utils/animations/FadeUp";
 import Treatments from "../components/home/treatments";
 import Link from "next/link";
 import JsonLd from "../components/seo/JsonLd";
+import { clinicSchema } from "./utils/schema";
 import { practiceInfo, whatsappUrl, absoluteUrl } from "./utils/config";
 import { pageMetadata } from "./utils/seo";
 
@@ -21,37 +22,11 @@ export const metadata = pageMetadata({
   path: "/",
 });
 
-const dentistJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Dentist",
-  name: practiceInfo.name,
-  description:
-    "Gentle, advanced, and affordable dental care for all ages in Chitlapakkam, Chennai.",
-  url: absoluteUrl("/"),
-  telephone: practiceInfo.phone,
-  email: practiceInfo.email,
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "No 58/60, Ground Floor, Anna Street",
-    addressLocality: "Chitlapakkam",
-    addressRegion: "Tamil Nadu",
-    postalCode: "600064",
-    addressCountry: "IN",
-  },
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "09:00",
-      closes: "20:00",
-    },
-  ],
-};
 
 export default function Home() {
   return (
     <main className="bg-[#F8F9FA]">
-      <JsonLd data={dentistJsonLd} />
+      <JsonLd data={clinicSchema()} />
 
       <div className="relative overflow-hidden">
         {/* Floating Icons */}

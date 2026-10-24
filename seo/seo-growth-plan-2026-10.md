@@ -210,12 +210,12 @@ Dentists in India follow the Dental Council's code of ethics. On **14 October 20
 
 | # | What | Why |
 |---|---|---|
-| 1 | Access for Prodman Nexus to Google Search Console, Google Analytics and Google Business Profile (you stay the owner) | To set up tracking, publish the Maps listing and report real numbers |
+| 1 | Access for Prodman Nexus to **Google Search Console** and the **Google Business Profile** (and Google Analytics, when we set it up). You stay the owner. | To publish the Maps listing, see real searches and report real numbers |
 | 2 | The email address and/or WhatsApp number where website enquiries should go | So Akash can connect the contact form |
 | 3 | Your current timings, including Sunday, lunch break and holidays | Every listing must show the same, correct hours |
 | 4 | The decisions in Section 8 (testimonials, offers, designation and experience wording) | So we can publish safely |
-| 5 | Clinic and doctor photos (no patients) | For the Maps listing, directories and the website |
-| 6 | Links to the clinic's Instagram and Facebook pages, if they exist | To connect them to the website and listings |
+| 5 | A professional **photo of Dr Divya**, plus clinic photos (no patients) | Her photo goes on the doctor profile on the website and Google (today the site shows a drawing); clinic photos for the Maps listing and directories |
+| 6 | Links to the clinic's **Instagram and Facebook pages**, if they exist (the current Instagram link on the site is an invite link, not the clinic's profile) | To connect them to the website, Google's clinic details and listings |
 | 7 | What should happen to the old address phoenixdentalcare.in (we recommend redirecting it to the new website) | So no patient lands on an error page |
 
 *Domain renewal (drdivyaphoenixdental.com, expires 13 Nov 2026) is being handled by Prodman Nexus on your behalf — no action needed from you.*

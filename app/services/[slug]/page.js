@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import services from "../../../data/services";
-import { practiceInfo, absoluteUrl } from "../../utils/config";
+import { absoluteUrl } from "../../utils/config";
 import { pageMetadata } from "../../utils/seo";
+import { clinicRef } from "../../utils/schema";
 import Breadcrumb from "../../../components/Breadcrumb";
 import JsonLd from "../../../components/seo/JsonLd";
 import TreatmentHero from "../../../components/services/TreatmentHero";
@@ -55,11 +56,7 @@ export default async function ServiceDetailPage({ params }) {
     description: service.description,
     procedureType: "Therapeutic",
     url: pageUrl,
-    provider: {
-      "@type": "Dentist",
-      name: practiceInfo.name,
-      address: practiceInfo.address,
-    },
+    provider: clinicRef,
   };
 
   const serviceNames = { [service.slug]: service.name };

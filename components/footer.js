@@ -87,7 +87,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t">
         <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between text-sm text-gray-500">
-          <p>© {new Date().getFullYear()} Phoenix Dental Care. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} {practiceInfo.name}. All rights reserved.</p>
           <div className="flex space-x-6 mt-2 md:mt-0">
             <span className="hover:text-pink-500 cursor-pointer">Privacy Policy</span>
             <span className="hover:text-pink-500 cursor-pointer">Terms of Use</span>

@@ -3,6 +3,8 @@ import ContactForm from "../../components/ContactForm";
 import Breadcrumb from "../../components/Breadcrumb";
 import { practiceInfo } from "../utils/config";
 import { pageMetadata } from "../utils/seo";
+import JsonLd from "../../components/seo/JsonLd";
+import { clinicSchema } from "../utils/schema";
 
 export const metadata = pageMetadata({
   title: "Book a Dentist Appointment in Chitlapakkam | Phoenix Dental",
@@ -14,6 +16,7 @@ export const metadata = pageMetadata({
 export default function ContactPage() {
   return (
     <main className="bg-[#F8F9FA] min-h-screen">
+      <JsonLd data={clinicSchema()} />
       <div className="max-w-7xl mx-auto px-6 py-12">
         <Breadcrumb />
 
