@@ -1,3 +1,15 @@
+// Official website address. Override with NEXT_PUBLIC_SITE_URL (e.g. for a preview deploy).
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://drdivyaphoenixdental.com").replace(/\/+$/, "");
+
+// Absolute URL for a page path, in the trailing-slash form the site serves (see next.config.js).
+export function absoluteUrl(path = "/") {
+  const trimmed = path.replace(/^\/+|\/+$/g, "");
+  return trimmed ? `${SITE_URL}/${trimmed}/` : `${SITE_URL}/`;
+}
+
+// Date the site content was last updated — used as the sitemap lastModified. Update when pages change.
+export const CONTENT_UPDATED = "2026-10-24";
+
 export const Experience_count = 10;
 export const Client_count = 1000;
 

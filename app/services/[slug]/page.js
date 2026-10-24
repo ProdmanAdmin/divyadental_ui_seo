@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import services from "../../../data/services";
-import { practiceInfo } from "../../utils/config";
+import { practiceInfo, absoluteUrl, SITE_URL } from "../../utils/config";
 import Breadcrumb from "../../../components/Breadcrumb";
 import JsonLd from "../../../components/seo/JsonLd";
 import TreatmentHero from "../../../components/services/TreatmentHero";
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const service = services.find((s) => s.slug === slug);
   if (!service) return {};
-  const canonicalUrl = `https://www.phoenixdentalcare.in/services/${slug}`;
+  const canonicalUrl = absoluteUrl(`/services/${slug}`);
   return {
     title: service.metaTitle || service.name,
     description: service.metaDescription || service.summary,
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }) {
       title: service.metaTitle || service.name,
       description: service.metaDescription || service.summary,
       url: canonicalUrl,
-      images: [{ url: `https://www.phoenixdentalcare.in${service.imageSrc}` }],
+      images: [{ url: `${SITE_URL}${service.imageSrc}` }],
     },
   };
 }
@@ -43,15 +43,14 @@ export default async function ServiceDetailPage({ params }) {
   const service = services.find((s) => s.slug === slug);
   if (!service) notFound();
 
-  const baseUrl = "https://www.phoenixdentalcare.in";
-  const pageUrl = `${baseUrl}/services/${slug}`;
+  const pageUrl = absoluteUrl(`/services/${slug}`);
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: baseUrl },
-      { "@type": "ListItem", position: 2, name: "Services", item: `${baseUrl}/services` },
+      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
+      { "@type": "ListItem", position: 2, name: "Services", item: absoluteUrl("/services") },
       { "@type": "ListItem", position: 3, name: service.name },
     ],
   };

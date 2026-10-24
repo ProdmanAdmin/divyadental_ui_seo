@@ -11,7 +11,7 @@ import FadeUp from "./utils/animations/FadeUp";
 import Treatments from "../components/home/treatments";
 import Link from "next/link";
 import JsonLd from "../components/seo/JsonLd";
-import { practiceInfo, whatsappUrl } from "./utils/config";
+import { practiceInfo, whatsappUrl, absoluteUrl } from "./utils/config";
 
 export const metadata = {
   title: "Phoenix Dental Care — Chitlapakkam, Chennai",
@@ -21,7 +21,10 @@ export const metadata = {
     title: "Phoenix Dental Care — Chitlapakkam, Chennai",
     description:
       "Dr. Divya's Phoenix Dental Care in Chitlapakkam, Chennai — gentle, advanced, and affordable dental care for all ages.",
-    url: "https://www.phoenixdentalcare.in",
+    url: absoluteUrl("/"),
+  },
+  alternates: {
+    canonical: absoluteUrl("/"),
   },
 };
 
@@ -31,7 +34,7 @@ const dentistJsonLd = {
   name: practiceInfo.name,
   description:
     "Gentle, advanced, and affordable dental care for all ages in Chitlapakkam, Chennai.",
-  url: "https://www.phoenixdentalcare.in",
+  url: absoluteUrl("/"),
   telephone: practiceInfo.phone,
   email: practiceInfo.email,
   address: {

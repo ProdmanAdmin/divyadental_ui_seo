@@ -2,6 +2,7 @@ import "./globals.css";
 import { Montserrat, Inter } from "next/font/google";
 import Header from "../components/Header";
 import Footer from "../components/footer";
+import { SITE_URL } from "./utils/config";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -16,6 +17,7 @@ const inter = Inter({
 });
 
 export const metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Phoenix Dental Care — Chitlapakkam, Chennai",
     template: "%s | Phoenix Dental Care",
@@ -28,7 +30,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.phoenixdentalcare.in/images/Logo.jpeg",
+        url: "/images/Logo.jpeg",
         width: 400,
         height: 400,
         alt: "Phoenix Dental Care",

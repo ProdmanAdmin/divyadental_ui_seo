@@ -1,20 +1,20 @@
 import services from "../data/services";
+import { absoluteUrl, CONTENT_UPDATED } from "./utils/config";
 
 export default function sitemap() {
-  const baseUrl = "https://www.phoenixdentalcare.in";
-  const now = new Date();
+  const lastModified = new Date(CONTENT_UPDATED);
 
   const staticRoutes = [
-    { url: baseUrl, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
-    { url: `${baseUrl}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/services`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${baseUrl}/team`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: absoluteUrl("/"), lastModified, changeFrequency: "weekly", priority: 1.0 },
+    { url: absoluteUrl("/about"), lastModified, changeFrequency: "monthly", priority: 0.8 },
+    { url: absoluteUrl("/services"), lastModified, changeFrequency: "weekly", priority: 0.9 },
+    { url: absoluteUrl("/team"), lastModified, changeFrequency: "monthly", priority: 0.7 },
+    { url: absoluteUrl("/contact"), lastModified, changeFrequency: "monthly", priority: 0.8 },
   ];
 
   const serviceRoutes = services.map((service) => ({
-    url: `${baseUrl}/services/${service.slug}`,
-    lastModified: now,
+    url: absoluteUrl(`/services/${service.slug}`),
+    lastModified: new Date(service.updatedAt || CONTENT_UPDATED),
     changeFrequency: "monthly",
     priority: 0.7,
   }));

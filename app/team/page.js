@@ -1,4 +1,5 @@
 import team from "../../data/team";
+import { absoluteUrl } from "../utils/config";
 import DoctorCard from "../../components/team/DoctorCard";
 import Breadcrumb from "../../components/Breadcrumb";
 import JsonLd from "../../components/seo/JsonLd";
@@ -12,7 +13,10 @@ export const metadata = {
     title: "Our Doctors | Phoenix Dental Care",
     description:
       "Meet the dental team at Phoenix Dental Care — led by Dr. Divya S, specialist in Pediatric and Preventive Dentistry.",
-    url: "https://www.phoenixdentalcare.in/team",
+    url: absoluteUrl("/team"),
+  },
+  alternates: {
+    canonical: absoluteUrl("/team"),
   },
 };
 
@@ -28,7 +32,7 @@ const personJsonLd = primaryDoctor
       worksFor: {
         "@type": "Dentist",
         name: "Phoenix Dental Care",
-        url: "https://www.phoenixdentalcare.in",
+        url: absoluteUrl("/"),
       },
     }
   : null;

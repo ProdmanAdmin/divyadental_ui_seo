@@ -4,6 +4,58 @@ Update this file at the end of every working session. Newest session first. Rule
 
 ---
 
+## Session 4 — 24 Oct 2026 (code: Task 1 — correct website address)
+
+### Task 1 done (audit T1, T2, T3, T10) — not committed yet
+- `app/utils/config.js`: new `SITE_URL` (env `NEXT_PUBLIC_SITE_URL`, default `https://drdivyaphoenixdental.com`), `absoluteUrl(path)` (trailing-slash form), `CONTENT_UPDATED = "2026-10-24"` for sitemap dates — **update this date whenever page content changes** (or set `updatedAt` on a service in `data/services.js`).
+- New `next.config.js` with `trailingSlash: true` to match the live site (`/about/`). No next.config existed in repo history; the live trailing slash came from an unknown deployed config (T11).
+- `app/layout.js`: `metadataBase` from `SITE_URL`; OG logo now relative.
+- Canonical + `og:url` on Home, About, Services, Team, Contact (new) and all 15 treatment pages (now on the official domain). JSON-LD `url`/breadcrumb `item` values use the official domain.
+- `app/robots.js`: sitemap → `https://drdivyaphoenixdental.com/sitemap.xml`. `app/sitemap.js`: official domain, trailing slashes, fixed `lastModified` instead of build time.
+- Verified: `npm run build` passes (25 pages); locally all 20 pages return 200 with self-referencing canonicals; `/about` → 308 `/about/`; internal links use trailing slashes; sitemap lists 20 URLs; **0** occurrences of `phoenixdentalcare` in any page, robots or sitemap output.
+- **Still open:** which repo/branch Netlify deploys from (T11) — changes reach the live site only once Netlify builds from code that contains them.
+
+---
+
+## Session 3 — 24 Oct 2026 (documents split into a clear set of three)
+
+### What was done
+- The combined plan `seo/seo-aeo-growth-plan-2026-10.*` was split into two documents and removed:
+  - **Document 2 — Keyword Library**: `seo/keyword-library-2026-10.md/.pdf` (484 keywords §2, keyword-to-page map §2.10, 81 AEO questions §3, 14 AI test prompts §3.3) + `seo/keywords-2026-10.csv`.
+  - **Document 3 — SEO & AEO Growth Plan**: `seo/seo-growth-plan-2026-10.md/.pdf` (compliance §2, research §3, meta §4, AEO playbook §5, listings §6, social §7, 90-day plan §8, open items §9).
+  - **Document 1 — Website Health Audit** unchanged: `audits/audit-2026-10-12.pdf`.
+- New `DOCUMENTS.md` at the repo root lists the three client documents and the internal docs.
+- `CLAUDE.md` references updated to the new files and section numbers.
+- Content is unchanged apart from cross-references and the document-set header. No application code changed.
+- **Later the same day:** Document 3 rewritten as a **client edition (version 3)** after feedback that it was not client-friendly: clickable index; §1 at a glance; §2 what we fix (high level, with owner); §3 gains by end of Nov 2026 and over 2–3 months, each with "how you can check"; §4 keyword implementation steps + 12 tracked keywords + self-check searches; §5 AEO; §6 listings; §7 social; §8 never-publish rules and decisions; §9 needs from Divya; §10 monthly report. All technical tables moved to Appendices A–H (meta = App. A).
+- Rule recorded in CLAUDE.md: client documents lead with index → fixes → outcome → how to check; technical detail in appendices.
+- **Not committed or pushed** (Session 2 and 3 changes are both pending the user's go-ahead).
+
+### Section-number changes (old combined plan → new)
+Keyword library §4.x → Keyword Library §2.x · AEO questions §5.x → Keyword Library §3.x · In the v3 client edition: Meta → Appendix A · Listings → §6 + Appendix B · Social → §7 + Appendix C · Research & rules table → Appendix D · AEO checklist → Appendix E · Open items → Appendix F · 90-day plan → Appendix G. References in Sessions 1–2 below use the old numbers.
+
+---
+
+## Session 2 — 18 Oct 2026 (keyword plan v2: Dr Divya's background)
+
+### What was done
+- Sathish provided Dr Divya's background: **BDS, MDS; Associate Professor; Adult and Child Dental Surgeon; Consultant Paediatric Dentist; 7.5 years hospital & clinic experience; 7.8 years in dental college.**
+- Keyword plan updated to **version 2** (`seo/seo-aeo-growth-plan-2026-10.md/.pdf`, `seo/keywords-2026-10.csv`):
+  - New **§4.8 credentials, specialty & experience** — 42 keywords (pedodontist, consultant paediatric dentist, adult and child dental surgeon, MDS, associate professor).
+  - New **§4.9 procedure & benefit terms** re-taken from every treatment page — 54 keywords.
+  - Total **484 keywords** (was 388); rows 389–484 appended, earlier numbering unchanged. Keyword map moved to **§4.10**, adjacent searches to **§4.11**.
+  - Meta for Home, Team and Pediatric Dentistry updated with the credentials (all within 60 / 155 characters).
+  - 5 new AEO questions about Dr Divya (**81** total), 2 new AI test prompts (**14** total), updated Instagram/Facebook/LinkedIn/GBP bios, listing description, hashtags, compliance row for qualifications and experience.
+- `CLAUDE.md` updated: doctor facts, keyword counts, section numbers, prompt count.
+- The PDF build scripts lived in a temporary scratchpad that was cleared between sessions; the plan was patched from the committed Markdown instead. To rebuild a PDF: Python `markdown` + headless Chrome, same CSS as before (see Gotchas in Session 1).
+- No application code changed. **Not committed or pushed yet** (waiting for the user's go-ahead).
+
+### Decisions / open points
+- Experience is stated as two separate facts (7.5 years practice, 7.8 years teaching), never summed. The site counter shows "10+ years" — **Divya to confirm** whether to change it.
+- "Consultant Paediatric Dentist" taken from the note "Consultant peadiatric consultant" — **Divya to confirm the exact designation wording** before it goes on the site or listings.
+
+---
+
 ## Session 1 — 17 Oct 2026 (project kick-off, audit, keyword plan)
 
 **People:** Sathish Kumar M (Prodman Nexus Solutions — SEO/AEO/Search Console) · Akash (designer, UI/UX team) · Divya (clinic owner, Dr. Divya S).

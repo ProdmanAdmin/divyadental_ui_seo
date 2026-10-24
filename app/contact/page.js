@@ -1,7 +1,7 @@
 import { FiPhone, FiMail, FiMapPin, FiClock } from "react-icons/fi";
 import ContactForm from "../../components/ContactForm";
 import Breadcrumb from "../../components/Breadcrumb";
-import { practiceInfo } from "../utils/config";
+import { practiceInfo, absoluteUrl } from "../utils/config";
 
 export const metadata = {
   title: "Contact Us",
@@ -11,7 +11,10 @@ export const metadata = {
     title: "Contact Us | Phoenix Dental Care",
     description:
       "Get in touch with Phoenix Dental Care — call us or send a message to book your dental appointment.",
-    url: "https://www.phoenixdentalcare.in/contact",
+    url: absoluteUrl("/contact"),
+  },
+  alternates: {
+    canonical: absoluteUrl("/contact"),
   },
 };
 

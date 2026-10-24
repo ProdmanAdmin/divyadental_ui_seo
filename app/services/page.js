@@ -1,4 +1,5 @@
 import services from "../../data/services";
+import { absoluteUrl } from "../utils/config";
 import ServiceCard from "../../components/services/ServiceCard";
 import Breadcrumb from "../../components/Breadcrumb";
 import JsonLd from "../../components/seo/JsonLd";
@@ -11,7 +12,10 @@ export const metadata = {
     title: "Our Services | Phoenix Dental Care",
     description:
       "Explore dental treatments at Phoenix Dental Care in Chitlapakkam, Chennai.",
-    url: "https://www.phoenixdentalcare.in/services",
+    url: absoluteUrl("/services"),
+  },
+  alternates: {
+    canonical: absoluteUrl("/services"),
   },
 };
 
@@ -19,8 +23,8 @@ const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.phoenixdentalcare.in" },
-    { "@type": "ListItem", position: 2, name: "Services", item: "https://www.phoenixdentalcare.in/services" },
+    { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
+    { "@type": "ListItem", position: 2, name: "Services", item: absoluteUrl("/services") },
   ],
 };
 

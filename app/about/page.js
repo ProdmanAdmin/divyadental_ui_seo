@@ -2,7 +2,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import WhyChooseUs from "../../components/home/whyChooseUs";
 import Stats from "../../components/Stats";
-import { practiceInfo } from "../utils/config";
+import { practiceInfo, absoluteUrl } from "../utils/config";
 import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
 
 export const metadata = {
@@ -13,7 +13,10 @@ export const metadata = {
     title: "About Us | Phoenix Dental Care",
     description:
       "Learn about Dr. Divya's Phoenix Dental Care — a trusted dental clinic in Chitlapakkam, Chennai.",
-    url: "https://www.phoenixdentalcare.in/about",
+    url: absoluteUrl("/about"),
+  },
+  alternates: {
+    canonical: absoluteUrl("/about"),
   },
 };
 
