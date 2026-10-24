@@ -15,6 +15,12 @@ Update this file at the end of every working session. Newest session first. Rule
 - Verified: `npm run build` passes (25 pages); locally all 20 pages return 200 with self-referencing canonicals; `/about` → 308 `/about/`; internal links use trailing slashes; sitemap lists 20 URLs; **0** occurrences of `phoenixdentalcare` in any page, robots or sitemap output.
 - **Still open:** which repo/branch Netlify deploys from (T11) — changes reach the live site only once Netlify builds from code that contains them.
 
+### Task 2 done (audit T12, T4) — branch `seo/task-2-meta` (from `seo/task-1-site-url`), not committed yet
+- New `app/utils/seo.js` → `pageMetadata({ title, description, path, image })`: full title (`title.absolute`, no double suffix), description, canonical, Open Graph (title, description, url, site name "Dr. Divya's Phoenix Dental Care", `en_IN`, image) and Twitter (`summary` with logo, or `summary_large_image` with the page photo).
+- Home, About, Services, Team, Contact use `pageMetadata` with the Growth Plan Appendix A text. Treatment pages read `metaTitle`/`metaDescription` from `data/services.js` (all 15 now set; the 5 category entries had none before).
+- Verified from the build output: all 20 pages match Appendix A exactly (titles 51–60 chars, descriptions 134–155), canonical on the official domain, OG + Twitter image present.
+- Known limit: 7 treatment pages use very large photos as their social image (braces 6.6 MB, tooth_replacement 8.6 MB, periodontics 12.4 MB, laser 4 MB) — WhatsApp/Facebook previews may not show until the UI/UX team compresses images (P1).
+
 ---
 
 ## Session 3 — 24 Oct 2026 (documents split into a clear set of three)

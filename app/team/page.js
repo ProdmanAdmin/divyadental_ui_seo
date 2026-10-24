@@ -4,21 +4,14 @@ import DoctorCard from "../../components/team/DoctorCard";
 import Breadcrumb from "../../components/Breadcrumb";
 import JsonLd from "../../components/seo/JsonLd";
 import Link from "next/link";
+import { pageMetadata } from "../utils/seo";
 
-export const metadata = {
-  title: "Our Doctors",
+export const metadata = pageMetadata({
+  title: "Dr Divya S, BDS, MDS | Child & Adult Dentist, Chitlapakkam",
   description:
-    "Meet the dental team at Phoenix Dental Care. Led by Dr. Divya S, BDS, MDS — a specialist in Pediatric and Preventive Dentistry in Chitlapakkam, Chennai.",
-  openGraph: {
-    title: "Our Doctors | Phoenix Dental Care",
-    description:
-      "Meet the dental team at Phoenix Dental Care — led by Dr. Divya S, specialist in Pediatric and Preventive Dentistry.",
-    url: absoluteUrl("/team"),
-  },
-  alternates: {
-    canonical: absoluteUrl("/team"),
-  },
-};
+    "Dr Divya S, BDS, MDS — consultant paediatric dentist, adult and child dental surgeon and Associate Professor. Phoenix Dental Care, Chitlapakkam, Chennai.",
+  path: "/team",
+});
 
 const primaryDoctor = team[0];
 

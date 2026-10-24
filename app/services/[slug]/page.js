@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import services from "../../../data/services";
-import { practiceInfo, absoluteUrl, SITE_URL } from "../../utils/config";
+import { practiceInfo, absoluteUrl } from "../../utils/config";
+import { pageMetadata } from "../../utils/seo";
 import Breadcrumb from "../../../components/Breadcrumb";
 import JsonLd from "../../../components/seo/JsonLd";
 import TreatmentHero from "../../../components/services/TreatmentHero";
@@ -22,20 +23,12 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const service = services.find((s) => s.slug === slug);
   if (!service) return {};
-  const canonicalUrl = absoluteUrl(`/services/${slug}`);
-  return {
-    title: service.metaTitle || service.name,
+  return pageMetadata({
+    title: service.metaTitle || `${service.name} | Phoenix Dental Care`,
     description: service.metaDescription || service.summary,
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      title: service.metaTitle || service.name,
-      description: service.metaDescription || service.summary,
-      url: canonicalUrl,
-      images: [{ url: `${SITE_URL}${service.imageSrc}` }],
-    },
-  };
+    path: `/services/${slug}`,
+    image: { url: service.imageSrc, alt: service.heroAlt || service.name },
+  });
 }
 
 export default async function ServiceDetailPage({ params }) {

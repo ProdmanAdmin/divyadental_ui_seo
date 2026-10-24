@@ -2,23 +2,16 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import WhyChooseUs from "../../components/home/whyChooseUs";
 import Stats from "../../components/Stats";
-import { practiceInfo, absoluteUrl } from "../utils/config";
+import { practiceInfo } from "../utils/config";
 import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
+import { pageMetadata } from "../utils/seo";
 
-export const metadata = {
-  title: "About Us",
+export const metadata = pageMetadata({
+  title: "About Dr Divya's Phoenix Dental Care | Chitlapakkam",
   description:
-    "Learn about Dr. Divya's Phoenix Dental Care — a trusted dental clinic in Chitlapakkam, Chennai, committed to gentle, advanced, and affordable dental care for all ages.",
-  openGraph: {
-    title: "About Us | Phoenix Dental Care",
-    description:
-      "Learn about Dr. Divya's Phoenix Dental Care — a trusted dental clinic in Chitlapakkam, Chennai.",
-    url: absoluteUrl("/about"),
-  },
-  alternates: {
-    canonical: absoluteUrl("/about"),
-  },
-};
+    "About Dr Divya's Phoenix Dental Care, a neighbourhood dental clinic in Chitlapakkam, Chennai, offering gentle, modern and affordable care for all ages.",
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (

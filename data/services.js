@@ -3,6 +3,9 @@ const categoryEntries = [
   {
     slug: "preventive-dentistry",
     name: "Preventive Dentistry",
+    metaTitle: "Dental Check-up & Teeth Cleaning in Chitlapakkam, Chennai",
+    metaDescription:
+      "Dental check-ups, professional cleaning, fluoride and sealants in Chitlapakkam, Chennai. Prevent problems early with family-friendly care from Dr Divya.",
     summary: "Protect your smile before problems begin with routine check-ups, cleaning, fluoride, and sealants.",
     description:
       "Protect your smile before problems begin. Our preventive care includes routine check-ups, professional cleaning, fluoride application, and sealants to maintain strong and healthy teeth. Early detection and consistent care are the foundation of lifelong oral health.",
@@ -12,6 +15,9 @@ const categoryEntries = [
   {
     slug: "cosmetic-dentistry",
     name: "Cosmetic Dentistry",
+    metaTitle: "Cosmetic Dentistry in Chitlapakkam, Chennai | Phoenix Dental",
+    metaDescription:
+      "Teeth whitening, veneers and smile design in Chitlapakkam, Chennai. Natural-looking cosmetic dentistry planned around your goals. Book a consultation.",
     summary: "Enhance your smile with teeth whitening, veneers, and smile design tailored to boost your confidence.",
     description:
       "Enhance your smile's beauty with safe and effective cosmetic treatments like teeth whitening, veneers, and smile design — tailored to boost your confidence. Our cosmetic procedures are designed to complement your natural features and deliver stunning, lasting results.",
@@ -21,6 +27,9 @@ const categoryEntries = [
   {
     slug: "restorative-dentistry",
     name: "Restorative Dentistry",
+    metaTitle: "Fillings, Crowns & Bridges in Chitlapakkam | Phoenix Dental",
+    metaDescription:
+      "Tooth-coloured fillings, crowns and bridges in Chitlapakkam, Chennai. Restore damaged or missing teeth for comfort, strength and a natural look.",
     summary: "Restore damaged or missing teeth with fillings, crowns, bridges, and dental implants.",
     description:
       "Restore damaged or missing teeth with advanced restorations, including tooth-colored fillings, crowns, bridges, and dental implants for a natural look and feel. We use the latest materials and techniques to rebuild your smile's strength and appearance.",
@@ -30,6 +39,9 @@ const categoryEntries = [
   {
     slug: "orthodontics",
     name: "Orthodontics (Braces & Aligners)",
+    metaTitle: "Orthodontic Treatment in Chitlapakkam | Braces & Aligners",
+    metaDescription:
+      "Braces and clear aligners in Chitlapakkam, Chennai for children, teens and adults. Straighten teeth and improve your bite with a plan made for you.",
     summary: "Correct misaligned teeth and improve your bite with traditional braces or clear aligners.",
     description:
       "Correct misaligned teeth and improve your bite with traditional braces or clear aligners for a confident, well-aligned smile. We offer both conventional metal braces and modern clear aligner options to suit your lifestyle and clinical needs.",
@@ -39,6 +51,9 @@ const categoryEntries = [
   {
     slug: "tooth-replacement",
     name: "Tooth Replacement Solutions",
+    metaTitle: "Missing Tooth Replacement in Chitlapakkam | Phoenix Dental",
+    metaDescription:
+      "Replace missing teeth with dentures, bridges or implants in Chitlapakkam, Chennai. Restore chewing, speech and confidence. Book a consultation.",
     summary: "Replace missing teeth with dentures, bridges, or implants — restoring function and confidence.",
     description:
       "Replace missing teeth with lifelike options such as dentures, bridges, or implants — restoring both function and confidence. Missing teeth affect chewing, speech, and self-esteem. Our replacement solutions are natural-looking, durable, and designed to last.",
@@ -52,9 +67,9 @@ const treatmentEntries = [
   {
     slug: "root-canal-treatment",
     name: "Root Canal Treatment",
-    metaTitle: "Root Canal Treatment in Chennai",
+    metaTitle: "Root Canal Treatment in Chitlapakkam | Phoenix Dental Care",
     metaDescription:
-      "Painless root canal treatment at Phoenix Dental Care, Chitlapakkam. Save your natural tooth with advanced, gentle procedures by Dr. Divya.",
+      "Root canal treatment in Chitlapakkam, Chennai under local anaesthesia, usually in one or two visits. Save your natural tooth with Dr Divya's gentle care.",
     summary: "Save your natural teeth with comfortable, precise root canal procedures using advanced technology.",
     description:
       "Root canal treatment removes infected or damaged pulp tissue from inside a tooth, eliminating pain and preventing the spread of infection. Using modern techniques and gentle anaesthesia, the procedure is far more comfortable than its reputation suggests and remains the best way to save a severely infected natural tooth.",
@@ -90,9 +105,9 @@ const treatmentEntries = [
   {
     slug: "dental-implants",
     name: "Dental Implants",
-    metaTitle: "Dental Implants in Chennai",
+    metaTitle: "Dental Implants in Chitlapakkam, Chennai | Phoenix Dental",
     metaDescription:
-      "Restore missing teeth with permanent dental implants at Phoenix Dental Care. Natural-looking, long-lasting results by Dr. Divya in Chitlapakkam.",
+      "Dental implants in Chitlapakkam, Chennai: natural-looking replacements for missing teeth. Learn the process, healing time and care. Book a consultation.",
     summary: "Replace missing teeth permanently with natural-looking dental implants that feel and function like your own teeth.",
     description:
       "Dental implants are titanium posts surgically placed into the jawbone to act as artificial tooth roots. Once fused with the bone, they support realistic-looking crowns that are virtually indistinguishable from natural teeth. Unlike dentures or bridges, implants are a permanent solution that preserves bone structure and restores full chewing function.",
@@ -128,9 +143,9 @@ const treatmentEntries = [
   {
     slug: "teeth-whitening",
     name: "Teeth Whitening",
-    metaTitle: "Professional Teeth Whitening in Chennai",
+    metaTitle: "Teeth Whitening in Chitlapakkam, Chennai | Phoenix Dental",
     metaDescription:
-      "Get a brighter, whiter smile with professional teeth whitening at Phoenix Dental Care, Chitlapakkam. Safe and effective results by Dr. Divya.",
+      "Professional teeth whitening in Chitlapakkam, Chennai for a brighter smile. Supervised treatment with aftercare advice from Dr Divya. Book a visit.",
     summary: "Brighten your smile with safe, professional teeth whitening treatments tailored to your needs.",
     description:
       "Professional teeth whitening uses clinically proven whitening agents to lighten the shade of your teeth by several tones in a single visit. Unlike over-the-counter kits, in-clinic whitening is carefully controlled to maximise effectiveness while protecting your gums and enamel. The result is a noticeably brighter, more confident smile.",
@@ -166,9 +181,9 @@ const treatmentEntries = [
   {
     slug: "invisible-aligners",
     name: "Invisible Aligners",
-    metaTitle: "Invisible Aligners in Chennai",
+    metaTitle: "Invisible Aligners in Chitlapakkam, Chennai | Phoenix Dental",
     metaDescription:
-      "Straighten your teeth discreetly with invisible aligners at Phoenix Dental Care, Chitlapakkam. Clear, removable, and comfortable orthodontic treatment.",
+      "Invisible (clear) aligners in Chitlapakkam, Chennai: discreet, removable teeth straightening for teens and adults. Book a consultation with Dr Divya.",
     summary: "Straighten your teeth discreetly with custom clear aligners — removable, comfortable, and virtually invisible.",
     description:
       "Invisible aligners are a series of custom-made, clear plastic trays that gradually shift your teeth into the desired position. Nearly undetectable when worn, they offer a discreet alternative to traditional braces. Because they are removable, eating, brushing, and flossing remain completely normal throughout treatment.",
@@ -204,9 +219,9 @@ const treatmentEntries = [
   {
     slug: "braces-treatment",
     name: "Braces Treatment",
-    metaTitle: "Braces Treatment in Chennai",
+    metaTitle: "Braces Treatment in Chitlapakkam, Chennai | Phoenix Dental",
     metaDescription:
-      "Correct misaligned teeth with professional braces treatment at Phoenix Dental Care, Chitlapakkam. Metal and ceramic braces for all ages.",
+      "Metal and ceramic braces in Chitlapakkam, Chennai for all ages. Correct crooked teeth and bite problems with regular, caring follow-ups.",
     summary: "Achieve a well-aligned, confident smile with traditional braces — effective for all ages and suitable for complex cases.",
     description:
       "Braces use brackets and archwires to apply gentle, controlled pressure to teeth over time, gradually moving them into the correct position. They are one of the most time-tested orthodontic treatments and can address complex bite issues, significant crowding, and spacing that may not be suitable for aligners alone.",
@@ -242,9 +257,9 @@ const treatmentEntries = [
   {
     slug: "pediatric-dentistry",
     name: "Pediatric Dentistry",
-    metaTitle: "Pediatric Dentist in Chennai for Children",
+    metaTitle: "Pediatric Dentist (Pedodontist) in Chitlapakkam, Chennai",
     metaDescription:
-      "Gentle, child-friendly dental care at Phoenix Dental Care, Chitlapakkam. Dr. Divya specialises in paediatric dentistry for children of all ages.",
+      "Child-friendly dental care in Chitlapakkam, Chennai by Dr Divya S, MDS (Pediatric & Preventive Dentistry), consultant paediatric dentist. Book a visit.",
     summary: "Gentle dental care for children, creating a positive experience from their very first visit.",
     description:
       "Paediatric dentistry focuses on the oral health of children from infancy through adolescence. Dr. Divya's specialised training in Paediatric and Preventive Dentistry, combined with a calm and reassuring approach, helps children feel safe and comfortable. Building positive dental habits early sets children up for a lifetime of healthy smiles.",
@@ -280,9 +295,9 @@ const treatmentEntries = [
   {
     slug: "laser-dentistry",
     name: "Laser Dentistry",
-    metaTitle: "Laser Dentistry in Chennai",
+    metaTitle: "Laser Dentistry in Chitlapakkam, Chennai | Phoenix Dental",
     metaDescription:
-      "Experience gentle, precise laser dental treatments at Phoenix Dental Care, Chitlapakkam. Faster healing, minimal discomfort, and advanced care by Dr. Divya.",
+      "Laser dentistry in Chitlapakkam, Chennai for gentle, precise treatment with minimal discomfort and faster healing. Ask Dr Divya what suits you.",
     summary: "Experience stress-free dentistry with advanced laser techniques for faster healing and minimal discomfort.",
     description:
       "Laser dentistry uses concentrated light energy to perform a wide range of dental procedures with exceptional precision. Lasers can treat gum disease, remove decay, contour gum tissue, and assist in whitening — often without the need for traditional instruments or extensive anaesthesia. The result is less discomfort, minimal bleeding, and faster recovery.",
@@ -317,9 +332,9 @@ const treatmentEntries = [
   {
     slug: "smile-makeover",
     name: "Smile Makeover",
-    metaTitle: "Smile Makeover in Chennai",
+    metaTitle: "Smile Makeover in Chitlapakkam, Chennai | Phoenix Dental",
     metaDescription:
-      "Transform your smile with a personalised smile makeover at Phoenix Dental Care, Chitlapakkam. Combining cosmetic and restorative treatments by Dr. Divya.",
+      "Personalised smile makeover in Chitlapakkam, Chennai combining cosmetic and restorative treatments. Plan your new smile with Dr Divya.",
     summary: "Transform your smile with a personalised plan combining cosmetic and restorative treatments.",
     description:
       "A smile makeover is a comprehensive, personalised treatment plan that combines two or more cosmetic and restorative procedures to achieve your ideal smile. Each plan is tailored to your facial features, skin tone, and personal goals — addressing colour, shape, alignment, and overall harmony. The result is a smile that looks natural, healthy, and uniquely yours.",
@@ -355,9 +370,9 @@ const treatmentEntries = [
   {
     slug: "gum-care",
     name: "Gum Treatments",
-    metaTitle: "Gum Disease Treatment in Chennai",
+    metaTitle: "Gum Disease Treatment in Chitlapakkam | Phoenix Dental",
     metaDescription:
-      "Treat and prevent gum disease at Phoenix Dental Care, Chitlapakkam. Scaling, deep cleaning, and periodontal therapy by Dr. Divya.",
+      "Gum disease treatment in Chitlapakkam, Chennai: scaling, deep cleaning and gum care. Spot early signs like bleeding gums and protect your teeth.",
     summary: "Healthy gums are the foundation of a beautiful smile. We treat and prevent gum disease effectively with gentle periodontal care.",
     description:
       "Gum disease (periodontal disease) is one of the most common causes of tooth loss in adults, yet it is largely preventable and treatable when caught early. Our gum treatments range from professional scaling and root planing to advanced periodontal therapy — all aimed at eliminating infection, restoring gum health, and protecting the supporting structures of your teeth.",
@@ -392,9 +407,9 @@ const treatmentEntries = [
   {
     slug: "tooth-extraction",
     name: "Tooth Extraction",
-    metaTitle: "Tooth Extraction in Chennai",
+    metaTitle: "Tooth Extraction in Chitlapakkam, Chennai | Phoenix Dental",
     metaDescription:
-      "Safe, gentle tooth extraction at Phoenix Dental Care, Chitlapakkam. Simple and surgical extractions with minimal discomfort by Dr. Divya.",
+      "Safe, gentle tooth extraction in Chitlapakkam, Chennai, simple or surgical, with clear aftercare advice from Dr Divya. Book an appointment.",
     summary: "When a tooth cannot be saved, our gentle extraction procedure relieves pain and prepares your smile for the next step.",
     description:
       "Tooth extraction is the removal of a tooth from its socket in the jawbone. While we always explore options to save a natural tooth first, extraction becomes necessary for severely decayed, fractured, or impacted teeth. Using precise techniques and effective anaesthesia, extraction at Phoenix Dental Care is as gentle and comfortable as possible, with clear aftercare guidance.",

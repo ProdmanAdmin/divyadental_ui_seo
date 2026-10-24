@@ -12,21 +12,14 @@ import Treatments from "../components/home/treatments";
 import Link from "next/link";
 import JsonLd from "../components/seo/JsonLd";
 import { practiceInfo, whatsappUrl, absoluteUrl } from "./utils/config";
+import { pageMetadata } from "./utils/seo";
 
-export const metadata = {
-  title: "Phoenix Dental Care — Chitlapakkam, Chennai",
+export const metadata = pageMetadata({
+  title: "Dentist in Chitlapakkam, Chennai | Phoenix Dental Care",
   description:
-    "Dr. Divya's Phoenix Dental Care in Chitlapakkam, Chennai — gentle, advanced, and affordable dental care for all ages. Book your appointment today.",
-  openGraph: {
-    title: "Phoenix Dental Care — Chitlapakkam, Chennai",
-    description:
-      "Dr. Divya's Phoenix Dental Care in Chitlapakkam, Chennai — gentle, advanced, and affordable dental care for all ages.",
-    url: absoluteUrl("/"),
-  },
-  alternates: {
-    canonical: absoluteUrl("/"),
-  },
-};
+    "Gentle care for children and adults in Chitlapakkam, Chennai by Dr Divya S, BDS, MDS, adult and child dental surgeon. Check-ups, root canal, braces & more.",
+  path: "/",
+});
 
 const dentistJsonLd = {
   "@context": "https://schema.org",

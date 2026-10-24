@@ -1,22 +1,15 @@
 import { FiPhone, FiMail, FiMapPin, FiClock } from "react-icons/fi";
 import ContactForm from "../../components/ContactForm";
 import Breadcrumb from "../../components/Breadcrumb";
-import { practiceInfo, absoluteUrl } from "../utils/config";
+import { practiceInfo } from "../utils/config";
+import { pageMetadata } from "../utils/seo";
 
-export const metadata = {
-  title: "Contact Us",
+export const metadata = pageMetadata({
+  title: "Book a Dentist Appointment in Chitlapakkam | Phoenix Dental",
   description:
-    "Get in touch with Phoenix Dental Care in Chitlapakkam, Chennai. Call us or send a message to book your appointment.",
-  openGraph: {
-    title: "Contact Us | Phoenix Dental Care",
-    description:
-      "Get in touch with Phoenix Dental Care — call us or send a message to book your dental appointment.",
-    url: absoluteUrl("/contact"),
-  },
-  alternates: {
-    canonical: absoluteUrl("/contact"),
-  },
-};
+    "Book at Phoenix Dental Care, Anna Street, Chitlapakkam, Chennai 600064. Open Mon–Sat 9 AM–8 PM, Sunday by appointment. Call or WhatsApp +91 90032 26380.",
+  path: "/contact",
+});
 
 export default function ContactPage() {
   return (
