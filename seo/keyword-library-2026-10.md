@@ -1,84 +1,53 @@
-# SEO & AEO Growth Plan — Dr Divya's Phoenix Dental Care
+# Keyword Library — Dr Divya's Phoenix Dental Care
 
 | Prepared by | Prepared for | Website | Document |
 |---|---|---|---|
-| Prodman Nexus Solutions — Sathish Kumar M | Dr Divya S | https://drdivyaphoenixdental.com | Keywords, meta titles & descriptions, AI-search plan, listings and social media — October 2026 |
+| Prodman Nexus Solutions — Sathish Kumar M | Dr Divya S | https://drdivyaphoenixdental.com | Keyword library and AI-search (AEO) questions — version 2, 24 Oct 2026 |
+
+| Part of a set of three documents |
+|---|
+| 1 · Website Health Audit — `audits/audit-2026-10-12.pdf` · **2 · Keyword Library — `seo/keyword-library-2026-10.pdf` (+ `seo/keywords-2026-10.csv`)** (this document) · 3 · SEO & AEO Growth Plan — `seo/seo-growth-plan-2026-10.pdf` |
 
 ---
 
-## 1. The Plan in One Page
+## 1. About This Keyword Library
 
-**Goal (Divya's words):** *shine in the locality, get more reach and more marketing.* We do that by being the clinic people find first when they search in Chitlapakkam and the nearby areas of Tambaram — on Google, Google Maps, and AI assistants such as ChatGPT, Gemini, Perplexity and Claude.
+**Purpose:** the full list of search words and questions we will use to help patients in Chitlapakkam and nearby areas find Dr Divya's Phoenix Dental Care on Google, Google Maps and AI assistants. Each keyword has a target page and a priority. The same list is in `seo/keywords-2026-10.csv` for spreadsheets and rank trackers. How these keywords are used (meta titles, listings, social posts, 90-day plan) is in **Document 3 — SEO & AEO Growth Plan**.
 
-| What this document gives you | Where | How it helps |
-|---|---|---|
-| **388 keywords** — brand, doctor, "best doctor" searches, 15 treatments, 13 nearby localities, how patients really search, symptoms, Tamil/Tanglish | Section 4 | Every page gets a main keyword and supporting keywords, so Google knows what each page is for. |
-| **76 questions** for AI assistants (50 already on the site, 26 new) | Section 5 | AI assistants quote pages that answer questions directly. This is how the clinic gets named in AI answers. |
-| **Meta titles & descriptions for all 20 pages**, within safe length | Section 6 | More people click your result in Google. |
-| **AI-search (AEO) playbook** and a monthly test list | Section 7 | Track whether ChatGPT, Gemini, Perplexity and Claude mention the clinic. |
-| **25 places to list the clinic** — maps, directories, social and community | Section 8 | More places where patients can find the same, correct clinic details. |
-| **Facebook, Instagram, LinkedIn & YouTube** — bios, words to use and avoid, hashtags, weekly rhythm, sample posts | Section 9 | Regular, dignified posts that build local recognition. |
-| **Rules for dental advertising in India** — what we will and won't publish | Section 2 | Protects Dr Divya's registration while we grow the clinic's reach. |
-| **90-day plan and measures** | Section 10 | Clear steps, owners and what we track each month. |
+**How to read the labels:** **P1** = start now (high chance of bringing patients) · **P2** = next · **P3** = later or supporting. Search *intent*: **Local** = looking for a clinic nearby · **Transactional** = ready to book or compare cost · **Informational** = learning · **Navigational** = looking for the clinic or Dr Divya by name.
 
-**How to read the priority labels:** **P1** = start now (high chance of bringing patients) · **P2** = next · **P3** = later or supporting. Search *intent*: **Local** = looking for a clinic nearby · **Transactional** = ready to book or compare cost · **Informational** = learning · **Navigational** = looking for you by name.
+> **Important — advertising rules.** Some keywords (for example "best dentist in Chitlapakkam") are what patients type. We target them with helpful content but **never** describe the clinic as best, top or No. 1, and we never use testimonials, before/after photos or offers. See the Growth Plan, Section 2.
 
----
-
-## 2. Rules for Dental Advertising — Read First
-
-Dentists in India are bound by the *Revised Dentists (Code of Ethics) Regulations, 2014* (Chapter VI, Clauses 8.1–8.3 cover advertising, patient solicitation, publicity and signage). On **14 October 2026** the Ethics and Dental Registration Board of the National Dental Commission issued an advisory to all registered dentists, as reported by Medical Dialogues. Breaches may lead to a show-cause notice, suspension or removal from the dentist register. Everything below is built to stay on the safe side.
-
-| Topic | What the advisory cautions against | What we do in this plan | Decision for Divya |
-|---|---|---|---|
-| Patient testimonials & before/after photos | Publishing them | None in meta text, posts or ads. Use educational graphics, the doctor's introduction and clinic hygiene photos instead. | **Important:** the website currently shows 3 testimonials on Home and every treatment page. Please confirm whether to keep them (see note below). |
-| "Best", "No.1", "top" about the clinic | Self-aggrandising publicity and misleading claims | "Best dentist in Chitlapakkam" is what *patients type*, so we target it with helpful pages (e.g. *How to choose a dentist*), but never call the clinic best. Titles and posts use "gentle", "family", "child-friendly". | Approve wording. |
-| Recording / broadcasting consultations and procedures | Cautioned against | No procedure videos or reels. Use animations, diagrams and talking-head tips. | — |
-| Offers and discounts ("free consultation", "Upto 700 off", referral rewards) | Not named in the advisory, but covered by the solicitation clauses | Offers are kept out of titles, descriptions and social posts until confirmed. | Check the offers on the Home page with the Tamil Nadu Dental Council / IDA. |
-| Health claims ("100% painless", "permanent cure", "guaranteed") | Misleading treatment claims | Use "gentle", "comfortable", "designed to minimise discomfort". No guarantees, no results promises. | Approve wording. |
-| Large signboards | Disproportionate signboards | Not part of the digital plan. | Keep clinic signage modest. |
-
-> **What this changes in the audit report.** Three suggestions in the health report should be **put on hold until Divya confirms**: showing more real patient reviews on the website (A5), the before/after gallery (U10), and the "real reviews" row in the action plan. We will also review the existing testimonials on the site.
-
-> **Confidence note.** The advisory is reported by one news outlet; we could not read the original text of Clauses 8.1–8.3. Please ask the Tamil Nadu Dental Council or your IDA branch to confirm what is permitted before any paid advertising or social-media launch.
-
----
-
-## 3. How These Keywords Were Chosen — and What Is Not Yet Verified
-
-| Source | What it gave us | Limit |
-|---|---|---|
-| The website's own content: 15 treatments, 50 FAQ questions, doctor profile, address, timings | Every keyword is tied to a service the clinic actually offers. Adjacent searches the site does not support are parked in a separate table (Section 4.9). | We only target what Dr Divya offers. |
-| Live Google results for "dentist in Chitlapakkam Chennai" (checked October 2026) | Who and what ranks today: directories Lybrate, Clinicspots, DocIndia and Apollo 24\|7, and clinics such as Clove Dental, Dr. Shalma Banu (also on Anna Street), Pandian's Multispeciality Clinic and Cute Smiles Family Dental Clinic. | Directory data can be outdated. |
-| How patients phrase searches in India: "near me", "open now", "cost", "painless", symptoms, Tamil and Tanglish | The behaviour-based lists in Sections 4.4–4.8. | Modelled from search patterns, not measured. |
-| **Search volumes and the last 12 months of real searches** | **Not verified — we do not yet have access to Google Search Console, Google Keyword Planner data or Google Trends exports for this site.** | We will re-rank every keyword with real data after Search Console access (planned next month). |
-
-**Competitor snapshot (from directory listings; verify before relying on it):**
-
-| Clinic / directory | What the listing shows | Opportunity for Phoenix Dental Care |
-|---|---|---|
-| Clove Dental (Chitlapakkam branch) | Chain; listed hours 10 AM–7 PM and closed Mondays | Target "dentist open on Monday" and later evening hours (Phoenix: Mon–Sat 9–8). |
-| Dr. Shalma Banu A M (BDS) | Listed at Anna Street, Chitlapakkam | Same street — name consistency and strong Google Business Profile matter. |
-| Pandian's Multispeciality Clinic | Listed 9 AM–9 PM | Compete on child-friendly and MDS-qualified care. |
-| Cute Smiles Family Dental Clinic | Listed evening availability 5–10 PM | Evening demand exists; consider showing late-evening slots if Divya offers them. |
-| Lybrate, Clinicspots, DocIndia, Apollo 24\|7 | Directories that currently rank for the local search | List the clinic on these so patients who land there find Phoenix too (Section 8). |
-
----
-
-## 4. Keyword Library — 388 Keywords
+### 1.1 What is in this library
 
 | Group | Keywords | What it is for |
 |---|---|---|
-| 4.1 Brand & doctor | 22 | People looking for Dr Divya or the clinic by name; lady dentist and family dentist searches |
-| 4.2 "Best doctor" / trust searches | 24 | What patients type when choosing a dentist (never used as a claim about the clinic) |
-| 4.3 Service-wise (15 treatments) | 156 | Treatment pages — cost, process, pain, "near me" |
-| 4.4 Location-wise | 116 | Chitlapakkam, 13 nearby localities, Chennai-wide |
-| 4.5 Search behaviour — near me, timing, cost, trust | 32 | How people search on phones |
-| 4.6 Search behaviour — symptoms & problems | 26 | People with a problem, not yet looking for a treatment name |
-| 4.7 Tamil & Tanglish | 12 | Local-language searches, low competition |
-| **Total** | **388** | Plus 76 AI-search questions in Section 5 |
+| 2.1 Brand & doctor | 22 | People looking for Dr Divya or the clinic by name; lady dentist and family dentist searches |
+| 2.2 "Best doctor" / trust searches | 24 | What patients type when choosing a dentist (never used as a claim about the clinic) |
+| 2.3 Service-wise (15 treatments) | 156 | Treatment pages — cost, process, pain, "near me" |
+| 2.4 Location-wise | 116 | Chitlapakkam, 13 nearby localities, Chennai-wide |
+| 2.5 Search behaviour — near me, timing, cost, trust | 32 | How people search on phones |
+| 2.6 Search behaviour — symptoms & problems | 26 | People with a problem, not yet looking for a treatment name |
+| 2.7 Tamil & Tanglish | 12 | Local-language searches, low competition |
+| 2.8 Dr Divya — credentials, specialty & experience (new) | 42 | Pedodontist, consultant paediatric dentist, adult and child dental surgeon, MDS, associate professor, experienced |
+| 2.9 Service procedures & benefits — website wording (new) | 54 | Procedure and benefit terms from each treatment page |
+| **Total** | **484** | Plus 81 AI-search questions in Section 3 |
 
-### 4.1 Brand & doctor
+### 1.2 How the keywords were chosen — and what is not yet verified
+
+| Source | What it gave us | Limit |
+|---|---|---|
+| The website's own content: 15 treatments, 50 FAQ questions, doctor profile, address, timings | Every keyword is tied to a service the clinic actually offers. Adjacent searches the site does not support are parked in a separate table (Section 2.11). | We only target what Dr Divya offers. |
+| Live Google results for "dentist in Chitlapakkam Chennai" (checked October 2026) | Who and what ranks today: directories Lybrate, Clinicspots, DocIndia and Apollo 24\|7, and clinics such as Clove Dental, Dr. Shalma Banu (also on Anna Street), Pandian's Multispeciality Clinic and Cute Smiles Family Dental Clinic. | Directory data can be outdated. |
+| Dr Divya's background as provided by Sathish Kumar M (18 Oct 2026) | The credentials, specialty and experience keywords in Section 2.8 and the doctor-focused AEO questions. | Designation wording and experience figures to be confirmed by Divya before publishing. |
+| How patients phrase searches in India: "near me", "open now", "cost", "painless", symptoms, Tamil and Tanglish | The behaviour-based lists in Sections 2.5–2.7. | Modelled from search patterns, not measured. |
+| **Search volumes and the last 12 months of real searches** | **Not verified — we do not yet have access to Google Search Console, Google Keyword Planner data or Google Trends exports for this site.** | We will re-rank every keyword with real data after Search Console access (planned next month). |
+
+---
+
+## 2. Keyword Library — 484 Keywords
+
+### 2.1 Brand & doctor
 
 | # | Keyword | Intent | Target page | Priority |
 |---|---|---|---|---|
@@ -105,9 +74,9 @@ Dentists in India are bound by the *Revised Dentists (Code of Ethics) Regulation
 | 21 | family dental surgeon chitlapakkam | Local | /team/ | P2 |
 | 22 | aesthetic dentist chennai | Local | /services/cosmetic-dentistry/ | P3 |
 
-### 4.2 "Best doctor" and trust searches
+### 2.2 "Best doctor" and trust searches
 
-*These are the exact words patients type. We use them as search targets and answer them with helpful content — we never describe the clinic as "best" (see Section 2).*
+*These are the exact words patients type. We use them as search targets and answer them with helpful content — we never describe the clinic as "best" (see the SEO & AEO Growth Plan, Section 2).*
 
 | # | Keyword | Intent | Target page | Priority |
 |---|---|---|---|---|
@@ -136,7 +105,7 @@ Dentists in India are bound by the *Revised Dentists (Code of Ethics) Regulation
 | 45 | best teeth whitening dentist in chennai | Local | /services/teeth-whitening/ | P3 |
 | 46 | best invisible aligners dentist in chennai | Local | /services/invisible-aligners/ | P3 |
 
-### 4.3 Service-wise keywords (15 treatments)
+### 2.3 Service-wise keywords (15 treatments)
 
 **Preventive dentistry** — target page `/services/preventive-dentistry/`
 
@@ -369,7 +338,7 @@ Dentists in India are bound by the *Revised Dentists (Code of Ethics) Regulation
 | 201 | when is tooth extraction necessary | Informational | /services/tooth-extraction/ | P3 |
 | 202 | how long does extraction recovery take | Informational | /services/tooth-extraction/ | P3 |
 
-### 4.4 Location-wise keywords
+### 2.4 Location-wise keywords
 
 **Localities** (sources: Wikipedia, property portals, other clinics' listings; validate with real patient addresses and Search Console):
 
@@ -516,7 +485,7 @@ Dentists in India are bound by the *Revised Dentists (Code of Ethics) Regulation
 | 317 | dentist near outer ring road chennai | Local | Areas We Serve page (new) + Google Business Profile | P3 |
 | 318 | dental clinic near tambaram corporation | Local | Areas We Serve page (new) + Google Business Profile | P3 |
 
-### 4.5 Search behaviour — near me, timing, cost, trust
+### 2.5 Search behaviour — near me, timing, cost, trust
 
 | # | Keyword | Intent | Target page | Priority |
 |---|---|---|---|---|
@@ -553,7 +522,7 @@ Dentists in India are bound by the *Revised Dentists (Code of Ethics) Regulation
 | 349 | dentist consultation near me today | Local | /contact/ | P2 |
 | 350 | same day dentist appointment chennai | Local | /contact/ | P3 |
 
-### 4.6 Search behaviour — symptoms and problems
+### 2.6 Search behaviour — symptoms and problems
 
 *Most patients search for a problem first, then a treatment. Each of these maps to a treatment page — add the symptom wording to that page's headings and FAQs.*
 
@@ -586,7 +555,7 @@ Dentists in India are bound by the *Revised Dentists (Code of Ethics) Regulation
 | 375 | how to remove tartar from teeth | Informational | /services/preventive-dentistry/ | P3 |
 | 376 | teeth cleaning bleeding is it normal | Informational | /services/gum-care/ | P3 |
 
-### 4.7 Tamil & Tanglish
+### 2.7 Tamil & Tanglish
 
 *Low volume, low competition. Use on Google Business Profile Q&A, Facebook and YouTube first; have a native Tamil speaker check spelling before publishing.*
 
@@ -605,14 +574,124 @@ Dentists in India are bound by the *Revised Dentists (Code of Ethics) Regulation
 | 387 | pal clinic chitlapakkam | Local | / | P3 |
 | 388 | pal doctor tambaram | Local | Areas We Serve page (new) + Google Business Profile | P3 |
 
-### 4.8 Keyword-to-page map (what each page should target)
+### 2.8 Dr Divya — credentials, specialty and experience (new in v2)
+
+*Built from Dr Divya's background: BDS, MDS; Associate Professor; Adult and Child Dental Surgeon; Consultant Paediatric Dentist; 7.5 years hospital & clinic practice; 7.8 years in dental college. "Pedodontist" is the term many parents search for a children's dental specialist. Use these on the Team and Pediatric Dentistry pages, Google Business Profile and directory profiles — factual wording only (SEO & AEO Growth Plan, Section 2).*
+
+| # | Keyword | Intent | Target page | Priority |
+|---|---|---|---|---|
+| 389 | dr divya s dentist chennai | Navigational | /team/ | P1 |
+| 390 | dr divya s bds mds chitlapakkam | Navigational | /team/ | P1 |
+| 391 | dr divya pedodontist chennai | Navigational | /team/ | P1 |
+| 392 | dr divya dental surgeon chitlapakkam | Navigational | /team/ | P1 |
+| 393 | dr divya associate professor dentist | Navigational | /team/ | P2 |
+| 394 | dr divya consultant pediatric dentist | Navigational | /team/ | P2 |
+| 395 | dr divya child dentist tambaram | Navigational | /team/ | P2 |
+| 396 | consultant pediatric dentist chennai | Local | /services/pediatric-dentistry/ | P1 |
+| 397 | consultant paediatric dentist chitlapakkam | Local | /services/pediatric-dentistry/ | P1 |
+| 398 | pedodontist in chennai | Local | /services/pediatric-dentistry/ | P1 |
+| 399 | pedodontist near me | Local | /services/pediatric-dentistry/ | P1 |
+| 400 | pedodontist in chitlapakkam | Local | /services/pediatric-dentistry/ | P1 |
+| 401 | pedodontist in tambaram | Local | /services/pediatric-dentistry/ | P2 |
+| 402 | pedodontist in selaiyur | Local | /services/pediatric-dentistry/ | P2 |
+| 403 | mds pedodontist chennai | Local | /services/pediatric-dentistry/ | P2 |
+| 404 | pediatric dental specialist chennai | Local | /services/pediatric-dentistry/ | P1 |
+| 405 | child dental specialist near me | Local | /services/pediatric-dentistry/ | P2 |
+| 406 | children's dental surgeon chennai | Local | /services/pediatric-dentistry/ | P2 |
+| 407 | child dental surgeon chitlapakkam | Local | /services/pediatric-dentistry/ | P2 |
+| 408 | pediatric dental consultant near me | Local | /services/pediatric-dentistry/ | P2 |
+| 409 | specialist dentist for kids chennai | Local | /services/pediatric-dentistry/ | P2 |
+| 410 | kids dental specialist tambaram | Local | /services/pediatric-dentistry/ | P3 |
+| 411 | peadiatric dentist chennai | Local | /services/pediatric-dentistry/ | P3 |
+| 412 | pedodontics and preventive dentistry chennai | Informational | /services/pediatric-dentistry/ | P3 |
+| 413 | experienced pediatric dentist chennai | Local | /services/pediatric-dentistry/ | P1 |
+| 414 | lady pediatric dentist chennai | Local | /services/pediatric-dentistry/ | P2 |
+| 415 | female child dentist near me | Local | /services/pediatric-dentistry/ | P2 |
+| 416 | adult and child dental surgeon chitlapakkam | Local | /team/ | P1 |
+| 417 | dental surgeon in chitlapakkam | Local | /team/ | P1 |
+| 418 | dental surgeon near me | Local | /team/ | P1 |
+| 419 | dental surgeon in tambaram | Local | Areas We Serve page (new) + Google Business Profile | P2 |
+| 420 | dental surgeon in selaiyur | Local | Areas We Serve page (new) + Google Business Profile | P2 |
+| 421 | dentist for adults and kids chitlapakkam | Local | / | P2 |
+| 422 | bds mds dentist near me | Local | /team/ | P2 |
+| 423 | mds dentist in chitlapakkam | Local | /team/ | P1 |
+| 424 | mds dentist in tambaram | Local | /team/ | P2 |
+| 425 | specialist dentist in chitlapakkam | Local | /team/ | P2 |
+| 426 | associate professor dentist chitlapakkam | Local | /team/ | P2 |
+| 427 | dental college professor dentist chennai | Informational | /team/ | P3 |
+| 428 | experienced dental surgeon chennai | Local | /team/ | P2 |
+| 429 | dentist with hospital experience chennai | Local | /team/ | P3 |
+| 430 | woman dental surgeon chitlapakkam | Local | /team/ | P3 |
+
+### 2.9 Service procedures and benefits — website wording (new in v2)
+
+*Taken from the benefits and step-by-step process on each treatment page. These long-tail searches are low competition and help the treatment pages answer detailed questions.*
+
+| # | Keyword | Intent | Target page | Priority |
+|---|---|---|---|---|
+| 431 | crown after root canal chennai | Transactional | /services/root-canal-treatment/ | P2 |
+| 432 | tooth infection treatment chennai | Transactional | /services/root-canal-treatment/ | P2 |
+| 433 | save natural tooth with root canal | Informational | /services/root-canal-treatment/ | P2 |
+| 434 | digital dental x-ray chennai | Transactional | /services/root-canal-treatment/ | P3 |
+| 435 | root canal under local anaesthesia | Informational | /services/root-canal-treatment/ | P3 |
+| 436 | canal cleaning and shaping root canal | Informational | /services/root-canal-treatment/ | P3 |
+| 437 | dental implant consultation chennai | Transactional | /services/dental-implants/ | P2 |
+| 438 | natural looking dental implants | Transactional | /services/dental-implants/ | P2 |
+| 439 | implant abutment and crown | Informational | /services/dental-implants/ | P3 |
+| 440 | osseointegration healing time | Informational | /services/dental-implants/ | P3 |
+| 441 | prevent jawbone loss after missing tooth | Informational | /services/dental-implants/ | P3 |
+| 442 | dental implant placement procedure | Informational | /services/dental-implants/ | P3 |
+| 443 | in-clinic teeth whitening chennai | Transactional | /services/teeth-whitening/ | P2 |
+| 444 | non-invasive teeth whitening | Transactional | /services/teeth-whitening/ | P3 |
+| 445 | whitening gel treatment for teeth | Informational | /services/teeth-whitening/ | P3 |
+| 446 | gum protection during teeth whitening | Informational | /services/teeth-whitening/ | P3 |
+| 447 | custom clear aligners chennai | Transactional | /services/invisible-aligners/ | P2 |
+| 448 | removable braces for adults | Transactional | /services/invisible-aligners/ | P2 |
+| 449 | digital smile assessment chennai | Transactional | /services/invisible-aligners/ | P3 |
+| 450 | aligner trays how often to change | Informational | /services/invisible-aligners/ | P3 |
+| 451 | retainer after aligners | Informational | /services/invisible-aligners/ | P3 |
+| 452 | braces for all ages chennai | Transactional | /services/braces-treatment/ | P2 |
+| 453 | bracket bonding for braces | Informational | /services/braces-treatment/ | P3 |
+| 454 | braces adjustment visit | Informational | /services/braces-treatment/ | P3 |
+| 455 | retainer after braces chennai | Transactional | /services/braces-treatment/ | P3 |
+| 456 | braces for complex cases | Informational | /services/braces-treatment/ | P3 |
+| 457 | child dental check-up chennai | Transactional | /services/pediatric-dentistry/ | P1 |
+| 458 | kids teeth cleaning chennai | Transactional | /services/pediatric-dentistry/ | P2 |
+| 459 | fluoride application for children chennai | Transactional | /services/pediatric-dentistry/ | P2 |
+| 460 | sealants for children's teeth chitlapakkam | Transactional | /services/pediatric-dentistry/ | P3 |
+| 461 | early dental problem detection in children | Informational | /services/pediatric-dentistry/ | P3 |
+| 462 | dental habits for kids parent guidance | Informational | /services/pediatric-dentistry/ | P3 |
+| 463 | laser dental procedure chennai | Transactional | /services/laser-dentistry/ | P2 |
+| 464 | laser dentistry faster healing | Informational | /services/laser-dentistry/ | P3 |
+| 465 | laser dental treatment less bleeding | Informational | /services/laser-dentistry/ | P3 |
+| 466 | natural looking smile makeover chennai | Transactional | /services/smile-makeover/ | P2 |
+| 467 | personalised smile makeover plan | Transactional | /services/smile-makeover/ | P3 |
+| 468 | smile analysis and smile photography | Informational | /services/smile-makeover/ | P3 |
+| 469 | root planing treatment chennai | Transactional | /services/gum-care/ | P2 |
+| 470 | professional scaling chennai | Transactional | /services/gum-care/ | P2 |
+| 471 | antimicrobial gum treatment | Informational | /services/gum-care/ | P3 |
+| 472 | periodontal maintenance visits | Informational | /services/gum-care/ | P3 |
+| 473 | gum treatment for bad breath | Transactional | /services/gum-care/ | P3 |
+| 474 | prevent tooth loss from gum disease | Informational | /services/gum-care/ | P3 |
+| 475 | infected tooth removal chennai | Transactional | /services/tooth-extraction/ | P2 |
+| 476 | tooth extraction for crowding | Informational | /services/tooth-extraction/ | P3 |
+| 477 | tooth extraction before braces | Informational | /services/tooth-extraction/ | P3 |
+| 478 | blood clot care after tooth extraction | Informational | /services/tooth-extraction/ | P3 |
+| 479 | dental crowns and bridges chitlapakkam | Local | /services/restorative-dentistry/ | P2 |
+| 480 | dentures and bridges chennai | Transactional | /services/tooth-replacement/ | P3 |
+| 481 | smile design and veneers chitlapakkam | Local | /services/cosmetic-dentistry/ | P3 |
+| 482 | fluoride and sealants chitlapakkam | Local | /services/preventive-dentistry/ | P3 |
+| 483 | aesthetic dental surgeon chennai | Local | /services/cosmetic-dentistry/ | P3 |
+| 484 | family check-up and cleaning tambaram | Local | /services/preventive-dentistry/ | P3 |
+
+### 2.10 Keyword-to-page map (what each page should target)
 
 | Page | Main keyword | Supporting keywords | Questions the page should answer |
 |---|---|---|---|
-| Home | dentist in chitlapakkam | dental clinic in chitlapakkam; dentist near me; family dentist in chennai; best dentist in chitlapakkam (as a helpful 'how to choose' section) | Who is a good dentist in Chitlapakkam? · What are the clinic timings? · Is the clinic open on Sunday? |
+| Home | dentist in chitlapakkam | dental clinic in chitlapakkam; dental surgeon in chitlapakkam; dentist for adults and kids chitlapakkam; dentist near me; family dentist in chennai; best dentist in chitlapakkam (as a helpful 'how to choose' section) | Who is a good dentist in Chitlapakkam? · What are the clinic timings? · Is the clinic open on Sunday? |
 | About | dental clinic in chitlapakkam | hygienic dental clinic chennai; family dentist near me; affordable dental clinic chennai | Where is Phoenix Dental Care? · What makes a good family dentist? |
 | Services | dental treatments in chennai | dental treatment cost chennai; dentist in chitlapakkam; family dental care chennai | Which dental treatments are available in Chitlapakkam? |
-| Team | dr divya dentist chitlapakkam | lady dentist in chitlapakkam; mds pediatric and preventive dentistry chennai; family dental surgeon chitlapakkam | What are Dr Divya S's qualifications? · Is there a lady dentist in Chitlapakkam? |
+| Team | dr divya dentist chitlapakkam | adult and child dental surgeon chitlapakkam; consultant pediatric dentist chennai; pedodontist in chitlapakkam; mds dentist in chitlapakkam; lady dentist in chitlapakkam; associate professor dentist chitlapakkam | What are Dr Divya S's qualifications? · How much experience does Dr Divya have? · Is Dr Divya a pediatric dentist? · Does she treat adults too? |
 | Contact | dentist appointment chitlapakkam | dentist open on sunday near me; dentist open now near me; phoenix dental care phone number; book dentist appointment on whatsapp | How do I book an appointment? · Where is the clinic? · Do you take Sunday appointments? |
 | Preventive Dentistry | dental check-up in chitlapakkam | teeth cleaning in chitlapakkam; fluoride treatment for teeth chennai; dental sealants for children chennai | How often should I visit a dentist? · What happens in a dental cleaning? |
 | Cosmetic Dentistry | cosmetic dentist in chitlapakkam | dental veneers in chennai; smile design chennai; cosmetic dentistry chennai | Whitening or veneers — which is right? · How long do veneers last? |
@@ -624,13 +703,13 @@ Dentists in India are bound by the *Revised Dentists (Code of Ethics) Regulation
 | Teeth Whitening | teeth whitening in chitlapakkam | teeth whitening cost in chennai; professional teeth whitening chennai; yellow teeth treatment chennai | How long do results last? · Is whitening safe for sensitive teeth? (already on page) |
 | Invisible Aligners | clear aligners in chitlapakkam | invisible aligners in chennai; invisible braces cost in chennai; clear aligners vs braces | How long does aligner treatment take? (already on page) |
 | Braces Treatment | braces treatment in chitlapakkam | braces cost in chennai; metal braces cost chennai; ceramic braces in chennai | Are braces painful? · What types of braces are available? (already on page) |
-| Pediatric Dentistry | pediatric dentist in chitlapakkam | kids dentist near me; child friendly dentist chennai; first dental visit for child | When should my child first visit the dentist? (already on page) |
+| Pediatric Dentistry | pediatric dentist in chitlapakkam | pedodontist in chennai; consultant paediatric dentist chitlapakkam; pediatric dental specialist chennai; kids dentist near me; child dental check-up chennai | When should my child first visit the dentist? (already on page) · Who treats children at the clinic? |
 | Laser Dentistry | laser dentistry in chennai | painless dentist in chitlapakkam; laser dental treatment near me; laser gum treatment chennai | Does laser treatment hurt? · Is it safe? (already on page) |
 | Smile Makeover | smile makeover in chennai | smile makeover cost in chennai; smile makeover chitlapakkam; full smile makeover treatment | What is included in a smile makeover? (already on page) |
 | Gum Care | gum treatment in chitlapakkam | bleeding gums treatment chennai; gum disease treatment chennai; periodontist near me | What are the early signs of gum disease? (already on page) |
 | Tooth Extraction | tooth extraction in chitlapakkam | tooth removal near me; tooth extraction cost in chennai; what to eat after tooth extraction | Is extraction painful? · What can I eat afterwards? (already on page) |
 
-### 4.9 Adjacent searches — confirm with Dr Divya before targeting
+### 2.11 Adjacent searches — confirm with Dr Divya before targeting
 
 | Search | Why we are holding it | Action |
 |---|---|---|
@@ -645,11 +724,11 @@ Dentists in India are bound by the *Revised Dentists (Code of Ethics) Regulation
 
 ---
 
-## 5. Questions for AI Assistants and Voice Search (AEO)
+## 3. AEO Keywords — Questions for AI Assistants and Voice Search
 
 AI assistants and Google's AI answers lean on pages that answer a question in the first one or two sentences, in plain words, with facts that match the rest of the web. Every answer must come from Dr Divya's content or be confirmed by her.
 
-### 5.1 Already on the website — keep, and make sure they stay answer-first
+### 3.1 Already on the website — keep, and make sure they stay answer-first
 
 | # | Question | Page | Status |
 |---|---|---|---|
@@ -704,7 +783,7 @@ AI assistants and Google's AI answers lean on pages that answer a question in th
 | 49 | What happens to the gap left by the extracted tooth? | Tooth Extraction | On site |
 | 50 | Can all teeth be extracted at once? | Tooth Extraction | On site |
 
-### 5.2 New questions to add
+### 3.2 New questions to add
 
 | # | Question | Page | Facts to use / who supplies |
 |---|---|---|---|
@@ -734,10 +813,15 @@ AI assistants and Google's AI answers lean on pages that answer a question in th
 | 24 | What should I do for a severe toothache at night? | Root Canal (blog) | General first-aid advice and 'see a dentist' message; no medicine dosages |
 | 25 | How can I help my child feel comfortable at the dentist? | Pediatric (blog) | Builds on 'child anxious' FAQ; tips for parents |
 | 26 | Why do my gums bleed when I brush? | Gum Care (blog) | Early gum disease signs; when to see a dentist |
+| 27 | Is Dr Divya S a pediatric dentist (pedodontist)? | Team / Pediatric Dentistry | Yes — MDS in Pediatric and Preventive Dentistry; consultant paediatric dentist (Divya to confirm the exact designation wording) |
+| 28 | How much experience does Dr Divya have? | Team | 7.5 years in hospital and clinic practice and 7.8 years teaching in a dental college — state the two separately, do not add them up; reconcile with the "10+ years" counter on the site |
+| 29 | Does Dr Divya treat adults as well as children? | Team / Home | Yes — adult and child dental surgeon; the clinic treats all ages |
+| 30 | Is Dr Divya a teaching dentist? | Team | Associate Professor in a dental college (college name only if Divya wants it shown) |
+| 31 | Who treats children at Phoenix Dental Care? | Pediatric Dentistry | Dr Divya S, BDS, MDS (Pediatric and Preventive Dentistry), consultant paediatric dentist |
 
 **Answer format that works:** first sentence = the direct answer (40–60 words), then 2–3 supporting points, then "Book a visit". Mark up with FAQ structured data and show a "last reviewed" date and Dr Divya's name.
 
-### 5.3 Monthly AI test list — ask each prompt in ChatGPT, Gemini, Perplexity, Claude and Google AI Overviews
+### 3.3 Monthly AI test list — ask each prompt in ChatGPT, Gemini, Perplexity, Claude and Google AI Overviews
 
 | # | Prompt to ask | What to record |
 |---|---|---|
@@ -753,230 +837,7 @@ AI assistants and Google's AI answers lean on pages that answer a question in th
 | 10 | who is Dr Divya S dentist Chennai | Qualifications correct? |
 | 11 | kids dentist near me Chennai | Appears? |
 | 12 | dentist appointment Chitlapakkam WhatsApp | Contact details correct? |
+| 13 | pedodontist near Chitlapakkam | Clinic and Dr Divya named? |
+| 14 | MDS pediatric dentist in Tambaram | Credentials described correctly? |
 
 ---
-
-## 6. Meta Titles & Descriptions — All 20 Pages
-
-Titles are under 60 characters and descriptions under about 155, so they are not cut off in Google. They use the clinic's real facts, the local keyword near the start, and no superlatives, offers or guarantees.
-
-| Page | URL | Recommended title (characters) | Recommended description (characters) | Main keyword |
-|---|---|---|---|---|
-| Home | / | Dentist in Chitlapakkam, Chennai \| Phoenix Dental Care (54) | Gentle family dental care in Chitlapakkam, Chennai by Dr Divya S (BDS, MDS). Check-ups, root canal, implants, braces and kids' dentistry. Book today. (149) | dentist in chitlapakkam |
-| About | /about/ | About Dr Divya's Phoenix Dental Care \| Chitlapakkam (51) | About Dr Divya's Phoenix Dental Care, a neighbourhood dental clinic in Chitlapakkam, Chennai, offering gentle, modern and affordable care for all ages. (151) | dental clinic in chitlapakkam |
-| Services | /services/ | Dental Treatments in Chitlapakkam, Chennai \| Phoenix Dental (59) | Explore dental treatments in Chitlapakkam, Chennai: check-ups, root canal, implants, braces, aligners, whitening, laser dentistry and children's care. (150) | dental treatments in chennai |
-| Team | /team/ | Dr Divya S, BDS MDS \| Dentist in Chitlapakkam, Chennai (54) | Meet Dr Divya S (BDS, MDS – Pediatric and Preventive Dentistry), founder of Phoenix Dental Care in Chitlapakkam, Chennai. Care for children and adults. (151) | dr divya dentist chitlapakkam |
-| Contact | /contact/ | Book a Dentist Appointment in Chitlapakkam \| Phoenix Dental (59) | Book at Phoenix Dental Care, Anna Street, Chitlapakkam, Chennai 600064. Open Mon–Sat 9 AM–8 PM, Sunday by appointment. Call or WhatsApp +91 90032 26380. (152) | dentist appointment chitlapakkam |
-| Preventive Dentistry | /services/preventive-dentistry/ | Dental Check-up & Teeth Cleaning in Chitlapakkam, Chennai (57) | Dental check-ups, professional cleaning, fluoride and sealants in Chitlapakkam, Chennai. Prevent problems early with family-friendly care from Dr Divya. (152) | dental check-up in chitlapakkam |
-| Cosmetic Dentistry | /services/cosmetic-dentistry/ | Cosmetic Dentistry in Chitlapakkam, Chennai \| Phoenix Dental (60) | Teeth whitening, veneers and smile design in Chitlapakkam, Chennai. Natural-looking cosmetic dentistry planned around your goals. Book a consultation. (150) | cosmetic dentist in chitlapakkam |
-| Restorative Dentistry | /services/restorative-dentistry/ | Fillings, Crowns & Bridges in Chitlapakkam \| Phoenix Dental (59) | Tooth-coloured fillings, crowns and bridges in Chitlapakkam, Chennai. Restore damaged or missing teeth for comfort, strength and a natural look. (144) | dental fillings in chitlapakkam |
-| Orthodontics | /services/orthodontics/ | Orthodontic Treatment in Chitlapakkam \| Braces & Aligners (57) | Braces and clear aligners in Chitlapakkam, Chennai for children, teens and adults. Straighten teeth and improve your bite with a plan made for you. (147) | orthodontic treatment in chitlapakkam |
-| Tooth Replacement | /services/tooth-replacement/ | Missing Tooth Replacement in Chitlapakkam \| Phoenix Dental (58) | Replace missing teeth with dentures, bridges or implants in Chitlapakkam, Chennai. Restore chewing, speech and confidence. Book a consultation. (143) | missing tooth replacement chennai |
-| Root Canal Treatment | /services/root-canal-treatment/ | Root Canal Treatment in Chitlapakkam \| Phoenix Dental Care (58) | Root canal treatment in Chitlapakkam, Chennai under local anaesthesia, usually in one or two visits. Save your natural tooth with Dr Divya's gentle care. (153) | root canal treatment in chitlapakkam |
-| Dental Implants | /services/dental-implants/ | Dental Implants in Chitlapakkam, Chennai \| Phoenix Dental (57) | Dental implants in Chitlapakkam, Chennai: natural-looking replacements for missing teeth. Learn the process, healing time and care. Book a consultation. (152) | dental implants in chitlapakkam |
-| Teeth Whitening | /services/teeth-whitening/ | Teeth Whitening in Chitlapakkam, Chennai \| Phoenix Dental (57) | Professional teeth whitening in Chitlapakkam, Chennai for a brighter smile. Supervised treatment with aftercare advice from Dr Divya. Book a visit. (147) | teeth whitening in chitlapakkam |
-| Invisible Aligners | /services/invisible-aligners/ | Invisible Aligners in Chitlapakkam, Chennai \| Phoenix Dental (60) | Invisible (clear) aligners in Chitlapakkam, Chennai: discreet, removable teeth straightening for teens and adults. Book a consultation with Dr Divya. (149) | clear aligners in chitlapakkam |
-| Braces Treatment | /services/braces-treatment/ | Braces Treatment in Chitlapakkam, Chennai \| Phoenix Dental (58) | Metal and ceramic braces in Chitlapakkam, Chennai for all ages. Correct crooked teeth and bite problems with regular, caring follow-ups. (136) | braces treatment in chitlapakkam |
-| Pediatric Dentistry | /services/pediatric-dentistry/ | Pediatric Dentist in Chitlapakkam, Chennai \| Phoenix Dental (59) | Gentle, child-friendly dentistry in Chitlapakkam, Chennai by Dr Divya, MDS in Pediatric and Preventive Dentistry. First visits, check-ups and cavity care. (154) | pediatric dentist in chitlapakkam |
-| Laser Dentistry | /services/laser-dentistry/ | Laser Dentistry in Chitlapakkam, Chennai \| Phoenix Dental (57) | Laser dentistry in Chitlapakkam, Chennai for gentle, precise treatment with minimal discomfort and faster healing. Ask Dr Divya what suits you. (143) | laser dentistry in chennai |
-| Smile Makeover | /services/smile-makeover/ | Smile Makeover in Chitlapakkam, Chennai \| Phoenix Dental (56) | Personalised smile makeover in Chitlapakkam, Chennai combining cosmetic and restorative treatments. Plan your new smile with Dr Divya. (134) | smile makeover in chennai |
-| Gum Care | /services/gum-care/ | Gum Disease Treatment in Chitlapakkam \| Phoenix Dental (54) | Gum disease treatment in Chitlapakkam, Chennai: scaling, deep cleaning and gum care. Spot early signs like bleeding gums and protect your teeth. (144) | gum treatment in chitlapakkam |
-| Tooth Extraction | /services/tooth-extraction/ | Tooth Extraction in Chitlapakkam, Chennai \| Phoenix Dental (58) | Safe, gentle tooth extraction in Chitlapakkam, Chennai, simple or surgical, with clear aftercare advice from Dr Divya. Book an appointment. (139) | tooth extraction in chitlapakkam |
-
-**Also set for every page:** a social-sharing image (1200×630 px), a unique H1 containing the main keyword, one canonical URL on `drdivyaphoenixdental.com`, and image alt text that describes the picture.
-
----
-
-## 7. AI-Search (AEO) and Local Ranking Playbook
-
-*No platform publishes how it chooses businesses, so the evidence below is from industry reports and Google's own guidance. We will test and record results monthly rather than assume.*
-
-| # | Action | Why | Helps | Priority |
-|---|---|---|---|---|
-| 1 | Complete and verify Google Business Profile (categories, services, hours, photos, Q&A, weekly posts) | Google says its AI features are built on its core search systems; local data from the profile is widely reported to feed AI answers and Maps | Google, Maps, Gemini, AI Overviews | P1 |
-| 2 | Claim Bing Places (import from Google) and set up Bing Webmaster Tools with IndexNow | ChatGPT search is reported to use Bing-based data; Copilot uses Bing | ChatGPT, Copilot, Bing | P1 |
-| 3 | Claim Apple Business Connect | Apple Maps, Siri and iPhone search | Apple devices | P1 |
-| 4 | Use exactly one clinic name, address, phone and hours everywhere | Conflicting details make assistants omit or distrust a business (vendor-reported) | All | P1 |
-| 5 | Put direct, short answers at the top of each treatment page, with FAQ structured data | Easy for assistants to quote | All AI assistants | P1 |
-| 6 | Add Dr Divya's credentials, registration number (if she agrees), photo and 'last reviewed' date to treatment pages | Shows who is responsible for the advice — important for health topics | Google, all assistants | P1 |
-| 7 | Add `Dentist`, `Physician`, FAQ, breadcrumb and `sameAs` links in structured data | Helps machines connect the website, the profile and the doctor | Google, all assistants | P2 |
-| 8 | Keep AI and search crawlers allowed (Googlebot, Bingbot, OAI-SearchBot, GPTBot, ClaudeBot, PerplexityBot) | Blocked pages cannot be quoted. Already allowed today | All | P1 |
-| 9 | Get listed on the directories that already rank locally (Lybrate, Clinicspots, DocIndia, Justdial, Practo) | Aggregator listings are frequently cited by assistants (vendor-reported) | Perplexity, ChatGPT | P1 |
-| 10 | Publish helpful local content: 'How to choose a dentist in Chitlapakkam', 'Dental care for children', Areas We Serve | Targets 'best dentist' searches without self-praise; gives assistants local context | Google, all assistants | P2 |
-| 11 | Add `llms.txt` (clinic summary and key links) | Low cost; evidence that assistants use it is limited, so treat it as optional | Some assistants | P3 |
-| 12 | Run the monthly AI test list (Section 5.3) and record results | The only reliable way to know whether it is working | All | P1 |
-
----
-
-## 8. Where to List the Clinic — Platforms, Directories and Local Channels
-
-**Use the same details on every listing.** Divya to confirm the name; we recommend the spelling already used in the website footer:
-
-| Field | Standard text to use everywhere |
-|---|---|
-| Name | Dr. Divya's Phoenix Dental Care |
-| Address | No 58/60, Ground Floor, Anna Street, Chitlapakkam, Chennai – 600064 |
-| Phone / WhatsApp | +91 90032 26380 |
-| Email | phoenixdentalc@gmail.com |
-| Website | https://drdivyaphoenixdental.com |
-| Hours | Monday–Saturday 9:00 AM–8:00 PM; Sunday by appointment |
-| Categories | Dentist (primary); Dental clinic; Pediatric dentist; Cosmetic dentist — add others only if they match Dr Divya's qualifications and services |
-| Short description | Gentle, modern and affordable dental care for children and adults in Chitlapakkam, Chennai — led by Dr. Divya S, BDS, MDS (Pediatric and Preventive Dentistry). |
-
-**Facts only on every profile:** name, qualifications, services, address, timings. No testimonials, before/after photos or offers (Section 2).
-
-| # | Platform / place | Type | Why it matters for Dr Divya | What to put on it | Cost | Priority |
-|---|---|---|---|---|---|---|
-| 1 | Google Business Profile | Maps & search | The single most important listing — Maps, the local pack and Google's AI answers | Primary category Dentist; services list (all 15 treatments); hours; photos of the clinic and team; Q&A; one post a week; WhatsApp and appointment links; service area | Free | P1 |
-| 2 | Bing Places for Business | Maps & search | Bing, Copilot and (reportedly) ChatGPT search | Import from Google; identical details | Free | P1 |
-| 3 | Apple Business Connect | Maps | Apple Maps and Siri for iPhone users | Same standard details; photos; hours | Free | P1 |
-| 4 | Justdial | Directory | India's largest local listing; strong in Chennai suburbs | Categories: Dentists, Pediatric Dentists, Dental Implants, Orthodontists (only if appropriate); standard details | Free basic listing; paid promotions optional — verify | P1 |
-| 5 | Lybrate | Doctor directory | Currently ranks for "dentist in Chitlapakkam" | Doctor profile: qualifications, services, clinic address, timings | Verify | P1 |
-| 6 | Practo | Doctor directory & booking | Large patient base that books online | Doctor and clinic profile; booking link | Verify (usually paid) | P2 |
-| 7 | Clinicspots | Clinic directory | Currently ranks for the local dentist search | Clinic profile | Verify | P2 |
-| 8 | DocIndia | Doctor directory | Currently ranks for Chennai dentist searches | Doctor profile | Verify | P2 |
-| 9 | Apollo 24\|7 | Doctor directory | Ranks for dentist searches in Chennai; check whether independent clinics can join | Doctor profile if eligible | Verify | P3 |
-| 10 | Sulekha | Local services | Local discovery in Chennai | Standard details | Verify | P2 |
-| 11 | Mappls (MapmyIndia) | Maps | Indian map app used in navigation | Standard details | Free | P3 |
-| 12 | Facebook Page | Social | Local awareness; reported as a review source Bing uses | Page with standard details, WhatsApp button, weekly posts | Free | P1 |
-| 13 | Instagram (Business) | Social | Visual, local reach; link in bio to WhatsApp | Business account, category Dentist, contact buttons | Free | P1 |
-| 14 | WhatsApp Business | Messaging | Easiest way for patients to book; QR code at clinic | Business profile, hours, greeting message, auto-reply, catalog of services (no prices unless confirmed) | Free | P1 |
-| 15 | LinkedIn — Dr Divya's profile and clinic page | Professional | Trust and credibility; referrals from doctors and schools | Headline, About, qualifications, clinic page | Free | P2 |
-| 16 | YouTube channel | Video | Educational videos and Shorts rank in Google and are cited by assistants | Doctor explainers (no procedure recordings); playlist per treatment | Free | P2 |
-| 17 | Tamil Nadu Dental Council register and Indian Dental Association (local branch) | Professional | Verifiable credentials and professional citations | Registration details; IDA membership if held | Per body | P2 |
-| 18 | Quora and Reddit (r/chennai) | Community Q&A | Answers to 'dentist in Chennai' questions can be cited by assistants | Helpful, honest answers with a disclosed profile — no promotion, no patient details | Free | P3 |
-| 19 | Facebook community groups, resident-welfare associations, apartment groups in Chitlapakkam, Selaiyur, Sembakkam | Local community | Direct local reach | Oral-health tips and awareness posts; follow each group's rules; no solicitation | Free | P2 |
-| 20 | Schools, pre-schools and day-care centres in the area | Local outreach | Fits Dr Divya's pediatric specialism | Oral-health talks and awareness material (check with the Dental Council that it is permitted) | Free | P2 |
-| 21 | Local newspapers' and magazines' health columns | Local press | Authority and citations | Dr Divya as an educational contributor | Varies | P3 |
-| 22 | Pediatricians and other doctors nearby | Professional referral | Steady, trusted referrals | Professional courtesy only — no commissions or incentives | Free | P3 |
-| 23 | Google Q&A and Google Posts | Within GBP | Gets common questions answered where patients look | Seed with the FAQs in Section 5 | Free | P1 |
-| 24 | Website 'Areas We Serve' page | Own website | Ranks for each nearby locality | One genuine section per locality | Free | P2 |
-| 25 | Email signature, visiting card, prescription pad, QR code in clinic | Offline-to-online | Every patient interaction points to the website and the Google profile | Website, WhatsApp number, Google review link | Minimal | P2 |
-
-*Costs are not verified — confirm on each platform. Where the cost says "Verify", check for free plans before paying.*
-
----
-
-## 9. Social Media — Words, Bios, Hashtags and Weekly Rhythm
-
-### 9.1 Voice
-
-| Do | Don't |
-|---|---|
-| Calm, caring, educational, local, family-friendly | Boasting, comparisons with other clinics, fear-based messages |
-| Plain English (add Tamil greetings on festival days) | Medical jargon with no explanation |
-| "Gentle", "comfortable", "explained step by step", "for children and adults" | "Best", "No.1", "top", "guaranteed", "100% painless", "permanent cure", "cheapest" |
-| Ask people to **call, WhatsApp or book** | Offers, discounts, testimonials, patient photos, before/after, recorded procedures |
-
-### 9.2 Words that work
-
-| Purpose | Use these | Avoid |
-|---|---|---|
-| Trust | Qualified, BDS MDS, experienced care, explained clearly, hygienic, step by step, neighbourhood clinic | Best, top, number one, leading, famous |
-| Comfort | Gentle, comfortable, calm, relaxed, child-friendly, designed to minimise discomfort | Painless guaranteed, pain-free for everyone, no pain at all |
-| Family | For children and adults, whole family, first dental visit, little smiles, healthy smiles | Cheap, discount, free, offer, lowest price |
-| Local | Chitlapakkam, Tambaram, Selaiyur, Sembakkam, Rajakilpakkam, south Chennai, near you | Misleading distances or claims of being the only clinic |
-| Action | Book, call, WhatsApp us, ask us, visit, check-up, consult | Hurry, last chance, limited slots |
-| Education | Tips, myths, how it works, what to expect, aftercare, signs to watch for | Medical advice for a specific person in comments |
-
-### 9.3 Ready-to-use bios (Divya to approve facts)
-
-| Where | Text | Characters |
-|---|---|---|
-| Instagram bio (limit 150) | Dr. Divya S \| BDS, MDS (Pediatric & Preventive Dentistry) / Gentle family dentistry in Chitlapakkam, Chennai / Mon–Sat 9–8 · Sun by appointment / WhatsApp ↓ | 150 |
-| Facebook short description | Dr. Divya's Phoenix Dental Care — gentle, modern and affordable dental care for children and adults in Chitlapakkam, Chennai. Led by Dr. Divya S, BDS, MDS (Pediatric and Preventive Dentistry). | 192 |
-| LinkedIn headline (limit 220) | Dr. Divya S, BDS, MDS \| Pediatric & Preventive Dentistry \| Founder, Phoenix Dental Care, Chitlapakkam, Chennai | 110 |
-| LinkedIn / company About | Dr. Divya's Phoenix Dental Care is a neighbourhood dental clinic in Chitlapakkam, Chennai. We provide check-ups and cleaning, fillings and crowns, root canal treatment, dental implants, braces and invisible aligners, teeth whitening, laser dentistry, gum care, tooth extraction and smile makeovers for children and adults. | 322 |
-| YouTube channel description | Simple dental-care tips from Dr. Divya S, BDS, MDS (Pediatric and Preventive Dentistry), Phoenix Dental Care, Chitlapakkam, Chennai. Educational content only — please consult a dentist for personal advice. | 205 |
-| Google Business Profile description (limit 750) | Dr. Divya's Phoenix Dental Care is a neighbourhood dental clinic in Chitlapakkam, Chennai, led by Dr. Divya S (BDS, MDS – Pediatric and Preventive Dentistry). We offer gentle, modern and affordable care for children and adults: check-ups and cleaning, fillings and crowns, root canal treatment, dental implants, braces and invisible aligners, teeth whitening, laser dentistry, gum care, tooth extraction and smile makeovers. Open Monday to Saturday, 9 AM to 8 PM; Sunday by appointment. Call or WhatsApp +91 90032 26380. | 520 |
-
-### 9.4 Hashtag sets
-
-| Set | Hashtags | How many per post |
-|---|---|---|
-| Local | #ChitlapakkamDentist #ChennaiDentist #TambaramDentist #SouthChennai #Chitlapakkam #Selaiyur #Tambaram #ChennaiDentalClinic | Instagram 5–8 · Facebook 2–3 · LinkedIn 3–5 |
-| Treatments | #RootCanalTreatment #DentalImplants #TeethWhitening #InvisibleAligners #BracesTreatment #LaserDentistry #SmileMakeover #GumCare #PreventiveDentistry #CosmeticDentistry | Pick the 2–3 that match the post |
-| Children | #PediatricDentist #KidsDentist #ChildrensDentalHealth #HealthyBabyTeeth #FirstDentalVisit | Use on kids' posts |
-| Education | #OralHealth #DentalCare #ToothCareTips #HealthySmile #OralHygiene #DentalAwareness | Use on tips and myth-busting posts |
-| Brand | #PhoenixDentalCare #DrDivyaDentalCare | Every post |
-| Tamil | #பல்மருத்துவர் #பல்பராமரிப்பு | Festival and awareness posts (check spelling) |
-
-### 9.5 Weekly rhythm (3–4 posts a week is enough; 1 Google Business Profile post a week)
-
-| Day | Theme | Format | Where | Example (compliant) |
-|---|---|---|---|---|
-| Monday | Educate | Carousel / graphic | Instagram, Facebook, LinkedIn | "5 signs it is time for a dental check-up" |
-| Tuesday | Ask the dentist | Short text or talking-head video | Instagram, Facebook, YouTube Shorts | "Is a root canal painful?" — answer from the site's FAQ |
-| Wednesday | Little smiles | Graphic / short video | Instagram, Facebook | "When should my child first visit the dentist?" |
-| Thursday | How it works | Step-by-step graphic | Instagram, LinkedIn | "Root canal in six steps" (from the treatment page) |
-| Friday | Local & community | Photo / text | Facebook groups, Google post | "Dental care tips for Chitlapakkam families"; holiday timings |
-| Saturday | Meet the doctor / the clinic | Photo of team and clinic (no patients) | Instagram, Facebook, LinkedIn | "Meet Dr Divya — BDS, MDS in Pediatric & Preventive Dentistry" |
-| Sunday | Rest, or a gentle reminder | — | — | "Sunday appointments are by booking — WhatsApp us" |
-
-### 9.6 Sample captions (edit with Dr Divya)
-
-| Platform | Theme | Caption |
-|---|---|---|
-| Instagram | Kids | A child's first dental visit should feel calm, not scary. Bring them in early — our team explains every step in a gentle, child-friendly way. 🦷 WhatsApp us to book. #ChitlapakkamDentist #KidsDentist #FirstDentalVisit #PhoenixDentalCare |
-| Instagram | Gums | Bleeding gums when you brush? It can be an early sign of gum disease, and early care makes treatment simpler. Come for a check-up. #GumCare #OralHealth #ChennaiDentist #PhoenixDentalCare |
-| Facebook | Local | Dental check-ups for the whole family in Chitlapakkam. Open Monday to Saturday, 9 AM to 8 PM; Sunday by appointment. Call or WhatsApp +91 90032 26380. |
-| LinkedIn | Authority | Why preventive dentistry matters: regular check-ups and cleaning catch small problems before they become complex. A short guide from Dr. Divya S, BDS, MDS (Pediatric and Preventive Dentistry), Chitlapakkam, Chennai. |
-| Instagram | Root canal | Root canal treatment saves a natural tooth. It is done under local anaesthesia, usually in one or two visits. Swipe for the six steps. #RootCanalTreatment #ToothCareTips #TambaramDentist |
-| Facebook / Instagram | Festival | Enjoying the festival sweets? Brush twice a day and rinse after sweets. Happy festival from all of us at Phoenix Dental Care! 🪔 |
-| YouTube Short | Tip | 30-second tip: how to brush your child's teeth — Dr. Divya S explains in simple steps. |
-| Google Business Post | Timing | Clinic open Monday to Saturday, 9 AM to 8 PM. Sunday by appointment. Book on WhatsApp +91 90032 26380. |
-
-### 9.7 Awareness days worth a post
-
-| Date | Occasion | Idea |
-|---|---|---|
-| 20 March | World Oral Health Day | Check-up reminder; brushing tips for the family |
-| 14 November | Children's Day (India) | Kids' dental-health tips for parents |
-| 14 November | World Diabetes Day | Gum health and general health (the site's gum FAQ covers the link) |
-| Early October | World Smile Day | Smile-care tips (no before/after) |
-| Festival season (Diwali, Pongal, Tamil New Year) | Greetings and sweets-and-teeth tips | Warm greeting plus one simple tip |
-| June | School reopening | Children's check-up reminder |
-| Wedding season | Smile care before big days | Whitening and check-up information, no promises |
-
----
-
-## 10. 90-Day Plan and What We Track
-
-| When | What | Owner | Result |
-|---|---|---|---|
-| This month (SEO) | Approve the keyword map; update meta titles and descriptions; fix the website addresses (audit T1–T3); set up the Areas We Serve page | Prodman Nexus (Sathish) | Pages tell Google clearly what they are about |
-| This month | Claim and complete Google Business Profile, Bing Places, Apple Business Connect; standardise name, address, phone | Prodman Nexus with Divya's approval | Consistent details across maps |
-| This month | Create Justdial, Lybrate, Practo, Clinicspots, DocIndia, Sulekha profiles | Prodman Nexus | Presence on the directories that already rank locally |
-| This month | Divya approves compliance decisions (Section 2) — testimonials, offers, wording | Dr Divya | Safe to publish |
-| Next month (Search Console starts) | Verify Search Console and GA4; submit the corrected sitemap; capture the baseline | Prodman Nexus | A real baseline of searches and clicks |
-| Next month | Re-rank all keywords using real Search Console data; add the new FAQs; start social posting rhythm | Prodman Nexus + Dr Divya | Data-led keyword priorities |
-| Month 3 | Publish 2–4 helpful pages (How to choose a dentist, children's dental care, Areas We Serve); first monthly AI test | Prodman Nexus + Dr Divya | More pages that can be found and quoted |
-| Every month | Report: rankings for the top 20 keywords, Search Console clicks/impressions, Google profile calls and directions, AI test results | Prodman Nexus | Clear progress report |
-
-**What we measure** (baseline set once access is given — **Not verified today**):
-
-| Measure | Where | Direction we want |
-|---|---|---|
-| Impressions and clicks for Chitlapakkam and nearby searches | Google Search Console | Up each month |
-| Average position for the 20 priority keywords (P1) | Search Console / rank tracker | Moving towards page 1 |
-| Calls, direction requests and website clicks from Google Business Profile | Google Business Profile | Up each month |
-| WhatsApp and form enquiries | WhatsApp Business / contact form | Up each month |
-| Mentions in AI answers (Section 5.3) | Manual monthly test | Clinic named, details correct |
-| Directory and map listings complete and consistent | Checklist (Section 8) | 100% |
-
----
-
-## 11. Open Items and What Is Not Verified
-
-| Item | Status | What is needed |
-|---|---|---|
-| Search volumes and 12-month search history for each keyword | Not verified | Search Console access and Keyword Planner check (next month) |
-| Exact text of Clauses 8.1–8.3 and the 14 Oct 2026 advisory | Not verified (one news report) | Ask the Tamil Nadu Dental Council / IDA; Divya's decision on testimonials and offers |
-| Directory costs and eligibility (Practo, Lybrate, Apollo 24\|7, Justdial) | Not verified | Check each platform before paying |
-| Competitor details (hours, services) | From directory listings only | Re-check before using in any copy |
-| Tamil spellings | Not verified | Native Tamil speaker to check |
-| Nearby localities as the real patient catchment | Not verified | Divya's patient addresses and Search Console data |
-| Whether ChatGPT, Gemini, Perplexity and Claude mention the clinic today | Not run | Run the 12 prompts in Section 5.3 |
-| Clinic facts: lunch break, parking, payment methods, first-visit process, registration number | Missing from the site | Divya to supply |
-
-*Sources used for research: live Google results for the local dentist search; Medical Dialogues report on the National Dental Commission advisory (14 October 2026); the Revised Dentists (Code of Ethics) Regulations, 2014 (Tamil Nadu Dental Council copy); industry articles on local and AI search; Wikipedia and property portals for nearby localities.*

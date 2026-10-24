@@ -387,3 +387,99 @@ id,group,keyword,intent,target_page,priority
 386,Tamil & Tanglish (verify spellings with a native speaker),pal vali doctor chitlapakkam,Local,/services/root-canal-treatment/,P3
 387,Tamil & Tanglish (verify spellings with a native speaker),pal clinic chitlapakkam,Local,/,P3
 388,Tamil & Tanglish (verify spellings with a native speaker),pal doctor tambaram,Local,Areas We Serve page (new) + Google Business Profile,P3
+389,"Dr. Divya — credentials, specialty & experience",dr divya s dentist chennai,Navigational,/team/,P1
+390,"Dr. Divya — credentials, specialty & experience",dr divya s bds mds chitlapakkam,Navigational,/team/,P1
+391,"Dr. Divya — credentials, specialty & experience",dr divya pedodontist chennai,Navigational,/team/,P1
+392,"Dr. Divya — credentials, specialty & experience",dr divya dental surgeon chitlapakkam,Navigational,/team/,P1
+393,"Dr. Divya — credentials, specialty & experience",dr divya associate professor dentist,Navigational,/team/,P2
+394,"Dr. Divya — credentials, specialty & experience",dr divya consultant pediatric dentist,Navigational,/team/,P2
+395,"Dr. Divya — credentials, specialty & experience",dr divya child dentist tambaram,Navigational,/team/,P2
+396,"Dr. Divya — credentials, specialty & experience",consultant pediatric dentist chennai,Local,/services/pediatric-dentistry/,P1
+397,"Dr. Divya — credentials, specialty & experience",consultant paediatric dentist chitlapakkam,Local,/services/pediatric-dentistry/,P1
+398,"Dr. Divya — credentials, specialty & experience",pedodontist in chennai,Local,/services/pediatric-dentistry/,P1
+399,"Dr. Divya — credentials, specialty & experience",pedodontist near me,Local,/services/pediatric-dentistry/,P1
+400,"Dr. Divya — credentials, specialty & experience",pedodontist in chitlapakkam,Local,/services/pediatric-dentistry/,P1
+401,"Dr. Divya — credentials, specialty & experience",pedodontist in tambaram,Local,/services/pediatric-dentistry/,P2
+402,"Dr. Divya — credentials, specialty & experience",pedodontist in selaiyur,Local,/services/pediatric-dentistry/,P2
+403,"Dr. Divya — credentials, specialty & experience",mds pedodontist chennai,Local,/services/pediatric-dentistry/,P2
+404,"Dr. Divya — credentials, specialty & experience",pediatric dental specialist chennai,Local,/services/pediatric-dentistry/,P1
+405,"Dr. Divya — credentials, specialty & experience",child dental specialist near me,Local,/services/pediatric-dentistry/,P2
+406,"Dr. Divya — credentials, specialty & experience",children's dental surgeon chennai,Local,/services/pediatric-dentistry/,P2
+407,"Dr. Divya — credentials, specialty & experience",child dental surgeon chitlapakkam,Local,/services/pediatric-dentistry/,P2
+408,"Dr. Divya — credentials, specialty & experience",pediatric dental consultant near me,Local,/services/pediatric-dentistry/,P2
+409,"Dr. Divya — credentials, specialty & experience",specialist dentist for kids chennai,Local,/services/pediatric-dentistry/,P2
+410,"Dr. Divya — credentials, specialty & experience",kids dental specialist tambaram,Local,/services/pediatric-dentistry/,P3
+411,"Dr. Divya — credentials, specialty & experience",peadiatric dentist chennai,Local,/services/pediatric-dentistry/,P3
+412,"Dr. Divya — credentials, specialty & experience",pedodontics and preventive dentistry chennai,Informational,/services/pediatric-dentistry/,P3
+413,"Dr. Divya — credentials, specialty & experience",experienced pediatric dentist chennai,Local,/services/pediatric-dentistry/,P1
+414,"Dr. Divya — credentials, specialty & experience",lady pediatric dentist chennai,Local,/services/pediatric-dentistry/,P2
+415,"Dr. Divya — credentials, specialty & experience",female child dentist near me,Local,/services/pediatric-dentistry/,P2
+416,"Dr. Divya — credentials, specialty & experience",adult and child dental surgeon chitlapakkam,Local,/team/,P1
+417,"Dr. Divya — credentials, specialty & experience",dental surgeon in chitlapakkam,Local,/team/,P1
+418,"Dr. Divya — credentials, specialty & experience",dental surgeon near me,Local,/team/,P1
+419,"Dr. Divya — credentials, specialty & experience",dental surgeon in tambaram,Local,Areas We Serve page (new) + Google Business Profile,P2
+420,"Dr. Divya — credentials, specialty & experience",dental surgeon in selaiyur,Local,Areas We Serve page (new) + Google Business Profile,P2
+421,"Dr. Divya — credentials, specialty & experience",dentist for adults and kids chitlapakkam,Local,/,P2
+422,"Dr. Divya — credentials, specialty & experience",bds mds dentist near me,Local,/team/,P2
+423,"Dr. Divya — credentials, specialty & experience",mds dentist in chitlapakkam,Local,/team/,P1
+424,"Dr. Divya — credentials, specialty & experience",mds dentist in tambaram,Local,/team/,P2
+425,"Dr. Divya — credentials, specialty & experience",specialist dentist in chitlapakkam,Local,/team/,P2
+426,"Dr. Divya — credentials, specialty & experience",associate professor dentist chitlapakkam,Local,/team/,P2
+427,"Dr. Divya — credentials, specialty & experience",dental college professor dentist chennai,Informational,/team/,P3
+428,"Dr. Divya — credentials, specialty & experience",experienced dental surgeon chennai,Local,/team/,P2
+429,"Dr. Divya — credentials, specialty & experience",dentist with hospital experience chennai,Local,/team/,P3
+430,"Dr. Divya — credentials, specialty & experience",woman dental surgeon chitlapakkam,Local,/team/,P3
+431,Service — procedures & benefits (website wording),crown after root canal chennai,Transactional,/services/root-canal-treatment/,P2
+432,Service — procedures & benefits (website wording),tooth infection treatment chennai,Transactional,/services/root-canal-treatment/,P2
+433,Service — procedures & benefits (website wording),save natural tooth with root canal,Informational,/services/root-canal-treatment/,P2
+434,Service — procedures & benefits (website wording),digital dental x-ray chennai,Transactional,/services/root-canal-treatment/,P3
+435,Service — procedures & benefits (website wording),root canal under local anaesthesia,Informational,/services/root-canal-treatment/,P3
+436,Service — procedures & benefits (website wording),canal cleaning and shaping root canal,Informational,/services/root-canal-treatment/,P3
+437,Service — procedures & benefits (website wording),dental implant consultation chennai,Transactional,/services/dental-implants/,P2
+438,Service — procedures & benefits (website wording),natural looking dental implants,Transactional,/services/dental-implants/,P2
+439,Service — procedures & benefits (website wording),implant abutment and crown,Informational,/services/dental-implants/,P3
+440,Service — procedures & benefits (website wording),osseointegration healing time,Informational,/services/dental-implants/,P3
+441,Service — procedures & benefits (website wording),prevent jawbone loss after missing tooth,Informational,/services/dental-implants/,P3
+442,Service — procedures & benefits (website wording),dental implant placement procedure,Informational,/services/dental-implants/,P3
+443,Service — procedures & benefits (website wording),in-clinic teeth whitening chennai,Transactional,/services/teeth-whitening/,P2
+444,Service — procedures & benefits (website wording),non-invasive teeth whitening,Transactional,/services/teeth-whitening/,P3
+445,Service — procedures & benefits (website wording),whitening gel treatment for teeth,Informational,/services/teeth-whitening/,P3
+446,Service — procedures & benefits (website wording),gum protection during teeth whitening,Informational,/services/teeth-whitening/,P3
+447,Service — procedures & benefits (website wording),custom clear aligners chennai,Transactional,/services/invisible-aligners/,P2
+448,Service — procedures & benefits (website wording),removable braces for adults,Transactional,/services/invisible-aligners/,P2
+449,Service — procedures & benefits (website wording),digital smile assessment chennai,Transactional,/services/invisible-aligners/,P3
+450,Service — procedures & benefits (website wording),aligner trays how often to change,Informational,/services/invisible-aligners/,P3
+451,Service — procedures & benefits (website wording),retainer after aligners,Informational,/services/invisible-aligners/,P3
+452,Service — procedures & benefits (website wording),braces for all ages chennai,Transactional,/services/braces-treatment/,P2
+453,Service — procedures & benefits (website wording),bracket bonding for braces,Informational,/services/braces-treatment/,P3
+454,Service — procedures & benefits (website wording),braces adjustment visit,Informational,/services/braces-treatment/,P3
+455,Service — procedures & benefits (website wording),retainer after braces chennai,Transactional,/services/braces-treatment/,P3
+456,Service — procedures & benefits (website wording),braces for complex cases,Informational,/services/braces-treatment/,P3
+457,Service — procedures & benefits (website wording),child dental check-up chennai,Transactional,/services/pediatric-dentistry/,P1
+458,Service — procedures & benefits (website wording),kids teeth cleaning chennai,Transactional,/services/pediatric-dentistry/,P2
+459,Service — procedures & benefits (website wording),fluoride application for children chennai,Transactional,/services/pediatric-dentistry/,P2
+460,Service — procedures & benefits (website wording),sealants for children's teeth chitlapakkam,Transactional,/services/pediatric-dentistry/,P3
+461,Service — procedures & benefits (website wording),early dental problem detection in children,Informational,/services/pediatric-dentistry/,P3
+462,Service — procedures & benefits (website wording),dental habits for kids parent guidance,Informational,/services/pediatric-dentistry/,P3
+463,Service — procedures & benefits (website wording),laser dental procedure chennai,Transactional,/services/laser-dentistry/,P2
+464,Service — procedures & benefits (website wording),laser dentistry faster healing,Informational,/services/laser-dentistry/,P3
+465,Service — procedures & benefits (website wording),laser dental treatment less bleeding,Informational,/services/laser-dentistry/,P3
+466,Service — procedures & benefits (website wording),natural looking smile makeover chennai,Transactional,/services/smile-makeover/,P2
+467,Service — procedures & benefits (website wording),personalised smile makeover plan,Transactional,/services/smile-makeover/,P3
+468,Service — procedures & benefits (website wording),smile analysis and smile photography,Informational,/services/smile-makeover/,P3
+469,Service — procedures & benefits (website wording),root planing treatment chennai,Transactional,/services/gum-care/,P2
+470,Service — procedures & benefits (website wording),professional scaling chennai,Transactional,/services/gum-care/,P2
+471,Service — procedures & benefits (website wording),antimicrobial gum treatment,Informational,/services/gum-care/,P3
+472,Service — procedures & benefits (website wording),periodontal maintenance visits,Informational,/services/gum-care/,P3
+473,Service — procedures & benefits (website wording),gum treatment for bad breath,Transactional,/services/gum-care/,P3
+474,Service — procedures & benefits (website wording),prevent tooth loss from gum disease,Informational,/services/gum-care/,P3
+475,Service — procedures & benefits (website wording),infected tooth removal chennai,Transactional,/services/tooth-extraction/,P2
+476,Service — procedures & benefits (website wording),tooth extraction for crowding,Informational,/services/tooth-extraction/,P3
+477,Service — procedures & benefits (website wording),tooth extraction before braces,Informational,/services/tooth-extraction/,P3
+478,Service — procedures & benefits (website wording),blood clot care after tooth extraction,Informational,/services/tooth-extraction/,P3
+479,Service — procedures & benefits (website wording),dental crowns and bridges chitlapakkam,Local,/services/restorative-dentistry/,P2
+480,Service — procedures & benefits (website wording),dentures and bridges chennai,Transactional,/services/tooth-replacement/,P3
+481,Service — procedures & benefits (website wording),smile design and veneers chitlapakkam,Local,/services/cosmetic-dentistry/,P3
+482,Service — procedures & benefits (website wording),fluoride and sealants chitlapakkam,Local,/services/preventive-dentistry/,P3
+483,Service — procedures & benefits (website wording),aesthetic dental surgeon chennai,Local,/services/cosmetic-dentistry/,P3
+484,Service — procedures & benefits (website wording),family check-up and cleaning tambaram,Local,/services/preventive-dentistry/,P3

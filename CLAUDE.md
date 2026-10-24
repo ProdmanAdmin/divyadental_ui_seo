@@ -9,9 +9,11 @@ The treatment-pages upgrade (specs/001, specs/002) is **built**. The current pha
 
 | Document | Use it for |
 |---|---|
-| `audits/audit-2026-10-12.md` (+ `.pdf`) | **Final audit.** 45 issues with IDs: T = Technical SEO, A = AEO, P = Performance, U = UI/UX, S = Security. Quote the ID in commits and in HANDOFF.md. |
-| `seo/seo-aeo-growth-plan-2026-10.md` (+ `.pdf`) | Keyword map (§4.8), meta titles & descriptions for all 20 pages (§6), AEO questions (§5), listings (§8), social (§9), compliance rules (§2). |
-| `seo/keywords-2026-10.csv` | 388 keywords with intent, target page and priority. |
+| `audits/audit-2026-10-12.md` (+ `.pdf`) | **Document 1 — Final audit.** 45 issues with IDs: T = Technical SEO, A = AEO, P = Performance, U = UI/UX, S = Security. Quote the ID in commits and in HANDOFF.md. |
+| `DOCUMENTS.md` | **Index of the three client documents** (audit, keyword library, growth plan) and the internal docs. Update it when a document is added or re-versioned. |
+| `seo/keyword-library-2026-10.md` (+ `.pdf`) | **Document 2 — Keyword Library, version 2 (24 Oct 2026).** 484 keywords (§2.1–2.9; Dr Divya credentials §2.8, procedures §2.9), keyword-to-page map (§2.10), adjacent searches (§2.11), AEO questions (§3.1–3.2), monthly AI test prompts (§3.3). |
+| `seo/seo-growth-plan-2026-10.md` (+ `.pdf`) | **Document 3 — SEO & AEO Growth Plan, version 3 (client edition, 24 Oct 2026).** Client sections: high-level fixes (§2), gains next month (§3), keyword use, 12 tracked keywords and self-check searches (§4), AEO (§5), listings (§6), social (§7), never-publish rules (§8), needs from Divya (§9), monthly report (§10). Technical appendices: meta titles & descriptions (App. A), full listings (B), social kit (C), research & full rules table (D), AEO checklist (E), open items (F), 90-day timeline (G). |
+| `seo/keywords-2026-10.csv` | 484 keywords with intent, target page and priority (rows 389–484 added in v2). |
 | `DESIGN.md` | Colours, fonts, layout, component patterns, accessibility rules. |
 | `HANDOFF.md` | Where the last session stopped, decisions, next steps. **Read at session start, update at session end.** |
 | `specs/001-…`, `specs/002-…` | Original feature specs (multi-page SEO upgrade, treatment pages). |
@@ -22,7 +24,7 @@ The treatment-pages upgrade (specs/001, specs/002) is **built**. The current pha
 - Address: No 58/60, Ground Floor, Anna Street, Chitlapakkam, Chennai – 600064
 - Phone / WhatsApp: +91 90032 26380 · Email: phoenixdentalc@gmail.com
 - Hours: Monday–Saturday 9:00 AM–8:00 PM; Sunday by appointment only
-- Doctor: Dr. Divya S, BDS, MDS – Pediatric and Preventive Dentistry; Associate Professor in Dental College
+- Doctor: **Dr. Divya S, BDS, MDS** (Pediatric and Preventive Dentistry) — Associate Professor (dental college); Adult and Child Dental Surgeon; Consultant Paediatric Dentist. Experience (provided 18 Oct 2026): **7.5 years hospital & clinic practice, 7.8 years in dental college**. State these as two separate facts — never add them into one number. The site's stats counter says "10+ years" (`Experience_count` in `app/utils/config.js`); do not change it until Divya confirms the wording. Designation wording is still to be confirmed by Divya before publishing.
 - **Official domain: `https://drdivyaphoenixdental.com`** (confirmed by Divya). `phoenixdentalcare.in` is the old domain, currently returning HTTP 500; it should 301-redirect to the official domain.
 - Never invent facts (prices, insurance, EMI, parking, registration number, services). If it is not on the site or confirmed by Divya, ask or leave it out.
 
@@ -40,19 +42,19 @@ If a task belongs to Akash, do not implement it unless the user asks; record it 
 
 ### SEO (audit T-series)
 1. **One site URL.** Never hard-code a domain. Use one `SITE_URL` constant (env `NEXT_PUBLIC_SITE_URL`, default `https://drdivyaphoenixdental.com`) and set `metadataBase`. Remove every `phoenixdentalcare.in` reference (T1).
-2. Every page needs an **absolute, self-referencing canonical** (T3), unique title (≤ 60 chars) and unique description (≤ 155 chars), Open Graph and Twitter tags with an image (T4). Use the exact titles/descriptions in `seo/…growth-plan…md` §6 unless the user changes them.
+2. Every page needs an **absolute, self-referencing canonical** (T3), unique title (≤ 60 chars) and unique description (≤ 155 chars), Open Graph and Twitter tags with an image (T4). Use the exact titles/descriptions in `seo/seo-growth-plan-2026-10.md` Appendix A unless the user changes them.
 3. **One `<h1>` per page**, no skipped heading levels. Stat counters, footer headings and card titles must not be `h1`/`h4` abuse (T5).
 4. Every `<img>`/`next/image` has meaningful `alt`; decorative images use `alt=""` (T6).
 5. Sitemap: correct domain, real `lastModified` per page (not build time), URL form that matches the live trailing-slash behaviour (T2, T10). **Confirm which commit/config Netlify deploys before changing URL form** — live serves `/about/`, repo `main` serves `/about` (T11).
 6. Keep robots allowing Googlebot, Bingbot, OAI-SearchBot, GPTBot, ClaudeBot, PerplexityBot. Never add `noindex` by accident.
 7. Structured data: keep `Dentist`, `Physician`, `BreadcrumbList`, `MedicalProcedure`, `FAQPage`; add `image/logo`, `geo`, `hasMap`, `sameAs`, Sunday hours; `provider.address` must be a `PostalAddress` (T8).
-8. Keyword work: take the page's main + supporting keywords from the keyword map (§4.8 of the growth plan). Natural, patient-focused wording — **no keyword stuffing**.
+8. Keyword work: take the page's main + supporting keywords from the keyword map (Keyword Library §2.10). Natural, patient-focused wording — **no keyword stuffing**.
 
 ### AEO (audit A-series)
-- Treatment pages keep **answer-first FAQs** (first sentence = the answer, 40–60 words) with FAQ JSON-LD. Add the "new questions" listed in growth plan §5.2 to Home, Contact, Team and the five category pages (A3).
+- Treatment pages keep **answer-first FAQs** (first sentence = the answer, 40–60 words) with FAQ JSON-LD. Add the "new questions" listed in Keyword Library §3.2 to Home, Contact, Team and the five category pages (A3).
 - Show Dr. Divya's name, credentials and a "last reviewed" date on treatment pages.
 - Add `public/llms.txt` (A1) — optional, low priority.
-- Monthly: run the 12 AI test prompts (growth plan §5.3) and record results in HANDOFF.md.
+- Monthly: run the 14 AI test prompts (Keyword Library §3.3) and record results in HANDOFF.md.
 
 ### Compliance — dental advertising in India (read before writing any copy)
 The National Dental Commission's advisory of **14 October 2026** (reported by Medical Dialogues; cites Revised Dentists (Code of Ethics) Regulations 2014, Chapter VI, Clauses 8.1–8.3) cautions against patient testimonials, before/after photographs, recording or broadcasting procedures, misleading claims, self-aggrandising publicity and oversized signboards. Therefore:
@@ -107,6 +109,8 @@ There is no lint/type-check/test script. Minimum verification: `npm run build` p
 Run the audit again on the live site, save `audits/audit-YYYY-MM-DD.md` + `.pdf` (same format as `audit-2026-10-12`), compare with the previous report (score, fixed / still open / new), and refresh the AI-prompt test results. Report format and the care-routine checklist are in the 12 Oct report.
 
 ## Agent behaviour
+
+0. Client-facing documents must be in plain language: index first, then what we fix, the outcome for the client and how they can check it; technical detail goes in appendices.
 
 1. Read HANDOFF.md, then the audit/plan sections relevant to the task.
 2. Do not start by creating files blindly; inspect the repository first.
