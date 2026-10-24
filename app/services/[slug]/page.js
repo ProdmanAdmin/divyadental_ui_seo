@@ -94,7 +94,7 @@ export default async function ServiceDetailPage({ params }) {
           category={service.category}
         />
 
-        <TreatmentOverview description={service.description} />
+        <TreatmentOverview name={service.name} intro={service.intro} description={service.description} />
 
         <TreatmentBenefits benefits={service.benefits} />
 

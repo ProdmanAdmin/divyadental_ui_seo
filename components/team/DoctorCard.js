@@ -1,6 +1,7 @@
 import Image from "next/image";
 
-export default function DoctorCard({ member }) {
+export default function DoctorCard({ member, headingLevel = "h2" }) {
+  const Heading = headingLevel;
   return (
     <div className="bg-white rounded-2xl border p-8 flex flex-col md:flex-row gap-8 items-start">
       <div className="shrink-0">
@@ -8,7 +9,7 @@ export default function DoctorCard({ member }) {
           <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-pink-100">
             <Image
               src={member.imageSrc}
-              alt={`Photo of ${member.name}`}
+              alt={member.imageAlt || `Photo of ${member.name}`}
               fill
               className="object-cover"
             />
@@ -21,7 +22,7 @@ export default function DoctorCard({ member }) {
       </div>
       <div className="flex flex-col gap-3">
         <div>
-          <h2 className="text-2xl font-bold text-gray-800">{member.name}</h2>
+          <Heading className="text-2xl font-bold text-gray-800">{member.name}</Heading>
           <p className="text-primary font-medium">{member.title}</p>
           <p className="text-sm text-gray-500 mt-1">{member.qualifications}</p>
         </div>

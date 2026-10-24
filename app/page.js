@@ -65,11 +65,14 @@ export default function Home() {
             <section className="max-w-7xl mx-auto md:px-20 md:py-10 grid md:grid-cols-2 gap-10 items-center">
               <FadeUp delay={0.3}>
                 <div className="animate-fadeIn">
-                  <h1 className="text-4xl font-bold mb-4">
-                    Rejuvenating Smiles...
+                  <h1 className="text-sm font-semibold uppercase tracking-wide text-pink-700 mb-2">
+                    Dental Clinic in Chitlapakkam, Chennai
                   </h1>
+                  <p className="text-4xl font-bold mb-4 [font-family:var(--font-heading)]">
+                    Rejuvenating Smiles...
+                  </p>
                   <p className="mb-6 text-lg">
-                    Start your smile journey with us — book your appointment and discover the Phoenix Dental Care difference.
+                    Gentle dental care for children and adults, led by Dr. Divya S, BDS, MDS. Book your appointment and discover the Phoenix Dental Care difference.
                   </p>
                   <Link
                     href="/contact"

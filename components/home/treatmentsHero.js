@@ -5,11 +5,11 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function TreatmentHero() {
   const initialTreatments = [
-    { name: "Painless & Laser Dentistry", image_src: "/images/laser_dentistry.jpg" },
-    { name: "Cosmetic Dentistry", image_src: "/images/cosmetic.jpg" },
-    { name: "Braces & Aligners", image_src: "/images/braces.jpg" },
-    { name: "Smile Makeover", image_src: "/images/smile.jpeg" },
-    { name: "Root Canal Treatment", image_src: "/images/root_canal.jpg" },
+    { name: "Painless & Laser Dentistry", image_src: "/images/laser_dentistry.jpg", alt: "Dentist using a dental curing light while the patient wears protective glasses" },
+    { name: "Cosmetic Dentistry", image_src: "/images/cosmetic.jpg", alt: "Smiling woman checking her teeth in a hand mirror after cosmetic dental care" },
+    { name: "Braces & Aligners", image_src: "/images/braces.jpg", alt: "Dentist adjusting metal braces with orthodontic pliers" },
+    { name: "Smile Makeover", image_src: "/images/smile.jpeg", alt: "Smile design guide lines drawn over a woman's smile" },
+    { name: "Root Canal Treatment", image_src: "/images/root_canal.jpg", alt: "Dentist treating a patient's tooth with a dental handpiece" },
   ];
 
   const [treatments, setTreatments] = useState(initialTreatments);
@@ -63,6 +63,7 @@ export default function TreatmentHero() {
           <motion.img
             key={active.image_src}
             src={active.image_src}
+            alt={active.alt}
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 1.05 }}
@@ -91,6 +92,7 @@ export default function TreatmentHero() {
             key={t.image_src}
             layout
             src={t.image_src}
+            alt={t.alt}
             onClick={() => handleClick(t)}
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 300 }}

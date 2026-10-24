@@ -18,9 +18,9 @@ export default function Footer() {
 
         {/* Brand */}
         <div className="md:col-span-1">
-          <h2 className="text-xl font-semibold text-pink-500 mb-4">
+          <p className="text-xl font-semibold text-pink-500 mb-4 [font-family:var(--font-heading)]">
             {practiceInfo.tagline}
-          </h2>
+          </p>
           <p className="text-sm text-gray-500 mb-6">
             Gentle, advanced, and affordable dental care for confident smiles.
           </p>
@@ -36,7 +36,7 @@ export default function Footer() {
 
         {/* Navigation */}
         <div className="md:col-span-1">
-          <h4 className="font-semibold mb-4">Clinic</h4>
+          <h2 className="font-semibold mb-4">Clinic</h2>
           <ul className="space-y-2 text-sm text-gray-600">
             {navLinks.map((link) => (
               <li key={link.href}>
@@ -50,7 +50,7 @@ export default function Footer() {
 
         {/* Services quick links */}
         <div className="md:col-span-1">
-          <h4 className="font-semibold mb-4">Services</h4>
+          <h2 className="font-semibold mb-4">Services</h2>
           <ul className="space-y-2 text-sm text-gray-600">
             <li><Link href="/services/preventive-dentistry" className="hover:text-primary transition">Preventive Dentistry</Link></li>
             <li><Link href="/services/cosmetic-dentistry" className="hover:text-primary transition">Cosmetic Dentistry</Link></li>
@@ -62,7 +62,7 @@ export default function Footer() {
 
         {/* Contact */}
         <div>
-          <h4 className="font-semibold mb-4">Contact Us</h4>
+          <h2 className="font-semibold mb-4">Contact Us</h2>
           <div className="space-y-3 text-sm text-gray-600">
             <div className="flex gap-2">
               <FiMapPin className="text-pink-500 mt-0.5 shrink-0" />

@@ -62,9 +62,9 @@ const Treatments = () => {
   return (
      <section id="treatments">
         <div className="max-w-7xl mx-auto px-6">
-        <h3 className="text-3xl font-bold text-primary mb-10 text-center">
-            Our Treatments
-        </h3>
+        <h2 className="text-3xl font-bold text-primary mb-10 text-center">
+          Our Treatments
+        </h2>
 
        <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {TreatmentList.map((t, index) => (
@@ -74,7 +74,7 @@ const Treatments = () => {
                 transition={smoothTransition}
             >
                 <div className="bg-white p-6 rounded-xl border hover:shadow-lg transition">
-                <h4 className="font-semibold">{t.name}</h4>
+                <h3 className="font-semibold">{t.name}</h3>
                 <Image
                     width={400}
                     height={300}

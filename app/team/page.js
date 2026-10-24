@@ -9,7 +9,7 @@ import { pageMetadata } from "../utils/seo";
 export const metadata = pageMetadata({
   title: "Dr Divya S, BDS, MDS | Child & Adult Dentist, Chitlapakkam",
   description:
-    "Dr Divya S, BDS, MDS — consultant paediatric dentist, adult and child dental surgeon and Associate Professor. Phoenix Dental Care, Chitlapakkam, Chennai.",
+    "Dr Divya S, BDS, MDS: consultant paediatric dentist, adult and child dental surgeon and Associate Professor. Phoenix Dental Care, Chitlapakkam, Chennai.",
   path: "/team",
 });
 

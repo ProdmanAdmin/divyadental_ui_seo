@@ -7,12 +7,12 @@ const OurDoctor = () => {
     <>
      {/* <div className='p-5 max-w-[100%] lg:max-w-[80%] mx-auto'> */}
      <div className='lg:px-6'> 
-        <h3 className="text-primary text-3xl font-bold text-center mb-10">Doctors</h3> 
+        <h2 className="text-primary text-3xl font-bold text-center mb-10">Meet Your Dentist</h2> 
         <div className='flex flex-row justify-center items-center gap-10'>
             <div className='flex flex-col gap-5 w-[100%] lg:w-[70%]'>
                 <div>
                     <h3 className="text-3xl font-bold mb-2"> <strong>Dr. Divya S</strong> </h3>
-                    <h5 className='text-xl font-semibold'>BDS, MDS – Pediatric and Preventive Dentistry Founder & Chief Dentist</h5>
+                    <p className='text-xl font-semibold'>BDS, MDS – Pediatric and Preventive Dentistry Founder & Chief Dentist</p>
                 </div>
                 <p>               
                     A passionate and dedicated dental professional committed to providing high-quality, gentle, and child-friendly care.
@@ -30,12 +30,12 @@ const OurDoctor = () => {
                 </a>
             </div>
             <div>
-                <img className='w-80 hidden lg:block' src="../../images/doctor_profile.svg" />
+                <img className='w-80 hidden lg:block' src="../../images/doctor_profile.svg" alt="Illustration of a dentist holding dental instruments" />
             </div>
         </div>
      </div>
     <div className='mx-auto mt-20'>
-        <h3 className="text-primary text-3xl font-bold text-center mb-10">Our Dental Team</h3> 
+        <h2 className="text-primary text-3xl font-bold text-center mb-10">Our Dental Team</h2> 
         <div className='mx-2'>
             <p className='font-medium my-3'>
                 Behind every smile we create is a team of qualified dental professionals and caring support staff.
@@ -50,7 +50,7 @@ const OurDoctor = () => {
     </div>
 
     <div className='flex flex-col lg:flex-row items-center justify-center gap-9 lg:my-16 mt-20'>
-        <h3 className="text-3xl font-bold text-primary text-center my-5">Our Philosophy</h3> 
+        <h2 className="text-3xl font-bold text-primary text-center my-5">Our Philosophy</h2> 
         <p className='max-w-xl font-semibold border-l-[3px]  border-slate-400 p-5'>
             We believe dentistry is not just about treating teeth — it’s about building confidence, comfort, and trust.
             Every patient is treated like family, and every smile receives the attention it truly deserves.

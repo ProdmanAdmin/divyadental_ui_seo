@@ -21,6 +21,25 @@ Update this file at the end of every working session. Newest session first. Rule
 - Verified from the build output: all 20 pages match Appendix A exactly (titles 51–60 chars, descriptions 134–155), canonical on the official domain, OG + Twitter image present.
 - Known limit: 7 treatment pages use very large photos as their social image (braces 6.6 MB, tooth_replacement 8.6 MB, periodontics 12.4 MB, laser 4 MB) — WhatsApp/Facebook previews may not show until the UI/UX team compresses images (P1).
 
+### Task 3 in progress — branch `seo/task-3-headings-keywords` (from `seo/task-2-meta`)
+- Task 2 committed and pushed to `seo/task-2-meta` (`feat(seo): approved titles…`).
+- Task 3 scope expanded (agreed with Sathish): headings + photo descriptions (T5, T6) **plus keyword placement** in visible content (H1 with location, a keyword opening line, keyworded section headings) from Keyword Library §2.10.
+- Check before changes: location in H1 on 0/20 pages; main keyword phrase in page text on 1/20 (About).
+- Wording drafted for approval: `seo/task-3-wording-for-approval.md/.pdf` (20 H1s, 20 opening lines, section-heading pattern, 6 photo descriptions, heading-level fixes). **Approved 24 Oct 2026** (Home option A, Divya title wording OK, remove "at Phoenix Dental Care" from stock-photo alts) **and applied** — see below. Open questions in it: Home H1 option A/B, Divya's title wording, removing "at Phoenix Dental Care" from stock-photo descriptions.
+- New `tools/md2pdf.py` (+ `tools/logo-40.jpeg`): reusable branded PDF builder, because the session scratchpad gets cleared.
+
+### Task 3 done (T5, T6 + keyword placement) — branch `seo/task-3-headings-keywords`, not committed yet
+- H1 with location on all 20 pages (Home: small H1 line "Dental Clinic in Chitlapakkam, Chennai" in `text-pink-700` above the unchanged tagline, now a `<p>`). Treatment H1s/opening lines come from new `heading` and `intro` fields in `data/services.js`.
+- Opening keyword line on all 20 pages; treatment section headings now "About X", "Benefits of X", "X: Step by Step", "X — Frequently Asked Questions", "Book X in Chitlapakkam" (components take a `name` prop).
+- About copy: "trusted" and "painless dentistry" removed. Team title: "Founder & Chief Dentist · Adult and Child Dental Surgeon · Consultant Paediatric Dentist". 10 treatment `heroAlt`s no longer say "at Phoenix Dental Care".
+- Heading levels: Stats counters, testimonial names, footer brand → `<p>` (heading font kept via `[font-family:var(--font-heading)]`); Home section titles h3→h2, treatment names h4→h3; footer h4→h2; ServiceCard h3→h2; DoctorCard `headingLevel` prop (h3 on treatment pages); Home h5 → p.
+- Alt text: 5 Home slider photos + dentist illustration (Home and DoctorCard via `imageAlt`).
+- Verified: one H1, no skipped levels, no images without alt on all 20 pages; `npm run build` passes. Before/after review: `seo/task-3-before-after.pdf` (12 pages).
+- Not changed (flag for later): visible "Painless & Laser Dentistry" label in the Home slider and Home treatments list; testimonials (on hold).
+- **Revised after Sathish's review (same day):** location text was over-repeated (77 mentions across pages). Rule now: **location added once per visible page** — Home: the small H1 line; other pages: the opening line. Reverted: treatment H1s back to the treatment name (`heading` fields removed), H1s on About/Services/Contact back to the originals (Team → "Meet Dr. Divya S"), Home opening-line location, Home "Our Treatments"/"Contact Us", Contact "Clinic Information", treatment headings "Benefits"/"Treatment Process"/"Frequently Asked Questions"/"Ready to Book Your …?". Kept: "About [treatment]", intros, alt text, heading-level fixes, compliance edits, Team title. Location stays in meta titles/descriptions. Result: 39 mentions (the extra one per page is the existing address or the on-hold testimonial). Before/after PDF regenerated (v2); the earlier v1 duplicated Root Canal part 1 as part 2 (sips crop bug) — fixed by cropping with Chrome.
+- **Second review (same day):** Services intro reverted to the original (added sentence removed); Team "Our Doctors" section reverted (H1 + intro original; doctor title change kept); Contact intro rewritten as one paragraph with a tap-to-call number (hours left to the Opening Hours block); long dashes removed from all new text (5 treatment intros, Team and Contact meta descriptions; Growth Plan Appendix A synced); Root Canal intro no longer mentions the location. Pre-existing site text still has some long dashes (not changed). Location mentions now 36. Before/after PDF v3.
+- **Task 7 (Analytics/Search Console) skipped** at Sathish's request (24 Oct 2026).
+
 ---
 
 ## Session 3 — 24 Oct 2026 (documents split into a clear set of three)

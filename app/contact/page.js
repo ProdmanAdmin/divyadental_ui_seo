@@ -7,7 +7,7 @@ import { pageMetadata } from "../utils/seo";
 export const metadata = pageMetadata({
   title: "Book a Dentist Appointment in Chitlapakkam | Phoenix Dental",
   description:
-    "Book at Phoenix Dental Care, Anna Street, Chitlapakkam, Chennai 600064. Open Mon–Sat 9 AM–8 PM, Sunday by appointment. Call or WhatsApp +91 90032 26380.",
+    "Book at Phoenix Dental Care, Anna Street, Chitlapakkam, Chennai 600064. Open Mon-Sat, 9 AM-8 PM; Sunday by appointment. Call or WhatsApp +91 90032 26380.",
   path: "/contact",
 });
 
@@ -19,7 +19,11 @@ export default function ContactPage() {
 
         <h1 className="text-4xl font-bold text-primary mb-2">Contact Us</h1>
         <p className="text-gray-600 mb-10">
-          We&apos;d love to hear from you. Fill in the form and our team will get back to you to confirm your appointment.
+          We&apos;d love to hear from you. To book a dentist appointment in Chitlapakkam, call or WhatsApp us on{" "}
+          <a href={`tel:${practiceInfo.phone.replace(/\s/g, "")}`} className="text-primary hover:underline">
+            {practiceInfo.phone}
+          </a>
+          , or fill in the form and our team will get back to you to confirm your appointment.
         </p>
 
         <div className="grid md:grid-cols-2 gap-12">

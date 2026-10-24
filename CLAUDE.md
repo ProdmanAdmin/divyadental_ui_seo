@@ -95,6 +95,8 @@ npm install          # slow on this network (~12 min the first time)
 npm run dev          # http://localhost:3000  (also: .claude/launch.json "next-dev")
 npm run build        # must pass before every push
 ```
+PDF documents (audits, SEO docs): `PYTHONPATH=/tmp/md2pdf-lib python3 tools/md2pdf.py <in.md> <out.pdf> "<header>"` after `pip install --target /tmp/md2pdf-lib markdown` (needs Google Chrome).
+
 There is no lint/type-check/test script. Minimum verification: `npm run build` passes, affected routes return 200 locally, new/changed pages checked at 375 px and desktop width. Re-run Lighthouse (`npx lighthouse <url> --preset=desktop|mobile`) when touching images or layout; install it outside the repo.
 
 ## Git and workflow
