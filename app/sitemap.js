@@ -10,6 +10,8 @@ export default function sitemap() {
     { url: absoluteUrl("/services"), lastModified, changeFrequency: "weekly", priority: 0.9 },
     { url: absoluteUrl("/team"), lastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: absoluteUrl("/contact"), lastModified, changeFrequency: "monthly", priority: 0.8 },
+    { url: absoluteUrl("/areas-we-serve"), lastModified, changeFrequency: "monthly", priority: 0.6 },
+    { url: absoluteUrl("/how-to-choose-a-dentist"), lastModified, changeFrequency: "monthly", priority: 0.6 },
   ];
 
   const serviceRoutes = services.map((service) => ({

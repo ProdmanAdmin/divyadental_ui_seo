@@ -8,7 +8,7 @@ export function absoluteUrl(path = "/") {
 }
 
 // Date the site content was last updated — used as the sitemap lastModified. Update when pages change.
-export const CONTENT_UPDATED = "2026-10-24";
+export const CONTENT_UPDATED = "2026-10-25";
 
 export const Experience_count = 10;
 export const Client_count = 1000;

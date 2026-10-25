@@ -57,6 +57,12 @@ Update this file at the end of every working session. Newest session first. Rule
 - **Second review (same day):** Services intro reverted to the original (added sentence removed); Team "Our Doctors" section reverted (H1 + intro original; doctor title change kept); Contact intro rewritten as one paragraph with a tap-to-call number (hours left to the Opening Hours block); long dashes removed from all new text (5 treatment intros, Team and Contact meta descriptions; Growth Plan Appendix A synced); Root Canal intro no longer mentions the location. Pre-existing site text still has some long dashes (not changed). Location mentions now 36. Before/after PDF v3.
 - **Task 7 (Analytics/Search Console) skipped** at Sathish's request (24 Oct 2026).
 
+### Task 9 done — branch `seo/task-9-new-pages` (from task 8), not committed yet
+- Plan approved (8 closest areas, footer links only, health-advice articles later). New pages: `app/how-to-choose-a-dentist/page.js` (7-point neutral checklist + clinic facts + booking) and `app/areas-we-serve/page.js` (8 nearby areas as a simple list, address, hours, Google Maps link, booking). Breadcrumb data on both; `pageMetadata` titles/descriptions (added to Growth Plan Appendix A).
+- Footer "Clinic" column: + Areas We Serve, How to Choose a Dentist. Breadcrumb labels added. Sitemap 20 → 22 URLs; `CONTENT_UPDATED` → 2026-10-25.
+- Verified: build passes (27 routes); both pages one H1, no skipped levels, no long dashes, no "best"; canonicals on official domain. Shown on localhost (production server). Review: `seo/task-9-new-pages.pdf`.
+- Later (needs Dr Divya's review as health advice): articles on toothache at night, child's dental fear, bleeding gums.
+
 ### Task 6 skipped (Sathish, 25 Oct 2026) — the 5 category pages stay as they are.
 
 ### Task 8 done (S2, S3) — branch `seo/task-8-security` (from task 5), not committed yet

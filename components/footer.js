@@ -9,6 +9,8 @@ const navLinks = [
   { name: "Services", href: "/services" },
   { name: "Team", href: "/team" },
   { name: "Contact", href: "/contact" },
+  { name: "Areas We Serve", href: "/areas-we-serve" },
+  { name: "How to Choose a Dentist", href: "/how-to-choose-a-dentist" },
 ];
 
 export default function Footer() {
