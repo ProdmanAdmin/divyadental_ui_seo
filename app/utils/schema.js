@@ -56,3 +56,16 @@ export function doctorSchema(member) {
     worksFor: clinicRef,
   };
 }
+
+// FAQ structured data for a list of { question, answer }.
+export function faqSchema(faqs) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: { "@type": "Answer", text: faq.answer },
+    })),
+  };
+}

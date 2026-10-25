@@ -16,6 +16,7 @@ Update this file at the end of every working session. Newest session first. Rule
 | 6 | Current timings incl. lunch break and holidays | Listings and site | Open |
 | 7 | Decisions: testimonials, Home offers, designation & experience wording | Advertising rules | Open |
 | 8 | What to do with phoenixdentalcare.in (we recommend a redirect) | Old-domain redirect (S4) | Open |
+| 9 | Answers for held-back FAQs: first-visit routine, payment methods, parking, how often to have a check-up, how long veneers/fillings last, right age for braces, experience wording (vs "10+ years" counter) | Task 5 follow-up FAQs | Open |
 
 ---
 
@@ -54,6 +55,14 @@ Update this file at the end of every working session. Newest session first. Rule
 - **Revised after Sathish's review (same day):** location text was over-repeated (77 mentions across pages). Rule now: **location added once per visible page** — Home: the small H1 line; other pages: the opening line. Reverted: treatment H1s back to the treatment name (`heading` fields removed), H1s on About/Services/Contact back to the originals (Team → "Meet Dr. Divya S"), Home opening-line location, Home "Our Treatments"/"Contact Us", Contact "Clinic Information", treatment headings "Benefits"/"Treatment Process"/"Frequently Asked Questions"/"Ready to Book Your …?". Kept: "About [treatment]", intros, alt text, heading-level fixes, compliance edits, Team title. Location stays in meta titles/descriptions. Result: 39 mentions (the extra one per page is the existing address or the on-hold testimonial). Before/after PDF regenerated (v2); the earlier v1 duplicated Root Canal part 1 as part 2 (sips crop bug) — fixed by cropping with Chrome.
 - **Second review (same day):** Services intro reverted to the original (added sentence removed); Team "Our Doctors" section reverted (H1 + intro original; doctor title change kept); Contact intro rewritten as one paragraph with a tap-to-call number (hours left to the Opening Hours block); long dashes removed from all new text (5 treatment intros, Team and Contact meta descriptions; Growth Plan Appendix A synced); Root Canal intro no longer mentions the location. Pre-existing site text still has some long dashes (not changed). Location mentions now 36. Before/after PDF v3.
 - **Task 7 (Analytics/Search Console) skipped** at Sathish's request (24 Oct 2026).
+
+### Task 5 done (A3) — branch `seo/task-5-faqs` (from task 4), not committed yet
+- Plan approved as written. 18 FAQs added: Home 3, Contact 2, Team 3 (new `data/faqs.js`), and 2 each on the 5 category pages (`faqs` in `data/services.js`). Reuses `TreatmentFAQ`; FAQ structured data via new `faqSchema()` in `app/utils/schema.js` (treatment pages keep their inline FAQPage).
+- Rules kept: facts already on the site only, no location in Q&A, no long dashes, no superlatives/promises. Answers do not mention the contact form (not delivering yet, S1).
+- Verified: 18 questions shown = 18 in FAQ data; 18/20 pages now have FAQPage (not About, Services); no duplicate FAQPage; titles/descriptions match Appendix A; one H1, no skipped levels; 375 px check (no horizontal scroll). Review: `seo/task-5-before-after.pdf`.
+- Held back (Divya action item 9): first visit, payment, parking, check-up frequency, veneer/filling lifespan, braces age, experience. Blog-style questions moved to Task 9.
+- **Revised after review:** FAQs removed from Preventive, Cosmetic, Restorative Dentistry and Orthodontics (Sathish: not needed). Now 10 new FAQs: Home 3, Contact 2, Team 3, Tooth Replacement 2. 15/20 pages carry FAQ data.
+- Noticed: the Google review card image on Home shows the Google Business Profile name as "Dr Divya's Phoenix Dental Care" (no full stop); the site now uses "Dr. Divya's". Decide which spelling to keep everywhere (GBP name and site should match exactly).
 
 ### Task 4 done (T8, A2) — branch `seo/task-4-structured-data` (from task 3), not committed yet
 - Plan confirmed by Sathish first (new rule: every task starts with a plan and waits for OK). Area served: **not added** (Sathish: don't change). Sunday left out of opening hours (by appointment only). No doctor image; no social links until Divya supplies them (see action items).

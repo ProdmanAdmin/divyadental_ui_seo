@@ -69,6 +69,10 @@ const categoryEntries = [
       "Replace missing teeth with lifelike options such as dentures, bridges, or implants — restoring both function and confidence. Missing teeth affect chewing, speech, and self-esteem. Our replacement solutions are natural-looking, durable, and designed to last.",
     imageSrc: "/images/tooth_replacement.jpg",
     category: "restorative",
+    faqs: [
+      { question: "Dentures, bridge or implant: what is the difference?", answer: "Dentures are removable replacement teeth. A bridge is fixed in place and supported by the neighbouring teeth. An implant replaces the tooth root with a titanium post that holds a crown, without relying on the neighbouring teeth." },
+      { question: "Why replace a missing tooth?", answer: "A missing tooth can affect chewing, speech and confidence. Replacing it helps restore comfort and function." },
+    ],
   },
 ];
 

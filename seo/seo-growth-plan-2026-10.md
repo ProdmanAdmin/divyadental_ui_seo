@@ -216,7 +216,8 @@ Dentists in India follow the Dental Council's code of ethics. On **14 October 20
 | 4 | The decisions in Section 8 (testimonials, offers, designation and experience wording) | So we can publish safely |
 | 5 | A professional **photo of Dr Divya**, plus clinic photos (no patients) | Her photo goes on the doctor profile on the website and Google (today the site shows a drawing); clinic photos for the Maps listing and directories |
 | 6 | Links to the clinic's **Instagram and Facebook pages**, if they exist (the current Instagram link on the site is an invite link, not the clinic's profile) | To connect them to the website, Google's clinic details and listings |
-| 7 | What should happen to the old address phoenixdentalcare.in (we recommend redirecting it to the new website) | So no patient lands on an error page |
+| 7 | Short answers to a few patient questions we held back: your first-visit routine, payment methods, parking, how often you advise a check-up, how long veneers and fillings usually last, the right age for braces, and your experience wording | So we can add these questions to the website accurately |
+| 8 | What should happen to the old address phoenixdentalcare.in (we recommend redirecting it to the new website) | So no patient lands on an error page |
 
 *Domain renewal (drdivyaphoenixdental.com, expires 13 Nov 2026) is being handled by Prodman Nexus on your behalf — no action needed from you.*
 

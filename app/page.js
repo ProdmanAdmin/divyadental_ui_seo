@@ -11,7 +11,9 @@ import FadeUp from "./utils/animations/FadeUp";
 import Treatments from "../components/home/treatments";
 import Link from "next/link";
 import JsonLd from "../components/seo/JsonLd";
-import { clinicSchema } from "./utils/schema";
+import { clinicSchema, faqSchema } from "./utils/schema";
+import TreatmentFAQ from "../components/services/TreatmentFAQ";
+import { homeFaqs } from "../data/faqs";
 import { practiceInfo, whatsappUrl, absoluteUrl } from "./utils/config";
 import { pageMetadata } from "./utils/seo";
 
@@ -27,6 +29,7 @@ export default function Home() {
   return (
     <main className="bg-[#F8F9FA]">
       <JsonLd data={clinicSchema()} />
+      <JsonLd data={faqSchema(homeFaqs)} />
 
       <div className="relative overflow-hidden">
         {/* Floating Icons */}
@@ -111,6 +114,10 @@ export default function Home() {
                   alt="Rate us"
                 />
               </a>
+            </div>
+
+            <div className="max-w-4xl w-full mx-auto">
+              <TreatmentFAQ faqs={homeFaqs} />
             </div>
 
             <FadeUp delay={0.3}>

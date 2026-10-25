@@ -2,7 +2,9 @@ import team from "../../data/team";
 import DoctorCard from "../../components/team/DoctorCard";
 import Breadcrumb from "../../components/Breadcrumb";
 import JsonLd from "../../components/seo/JsonLd";
-import { doctorSchema } from "../utils/schema";
+import { doctorSchema, faqSchema } from "../utils/schema";
+import TreatmentFAQ from "../../components/services/TreatmentFAQ";
+import { teamFaqs } from "../../data/faqs";
 import Link from "next/link";
 import { pageMetadata } from "../utils/seo";
 
@@ -21,6 +23,7 @@ export default function TeamPage() {
   return (
     <main className="bg-[#F8F9FA] min-h-screen">
       {personJsonLd && <JsonLd data={personJsonLd} />}
+      <JsonLd data={faqSchema(teamFaqs)} />
       <div className="max-w-7xl mx-auto px-6 py-12">
         <Breadcrumb />
 
@@ -33,6 +36,10 @@ export default function TeamPage() {
           {team.map((member) => (
             <DoctorCard key={member.id} member={member} />
           ))}
+        </div>
+
+        <div className="max-w-4xl">
+          <TreatmentFAQ faqs={teamFaqs} />
         </div>
 
         <section className="bg-pink-50 rounded-2xl p-8 text-center">
