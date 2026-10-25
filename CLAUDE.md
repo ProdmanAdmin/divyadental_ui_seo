@@ -1,7 +1,7 @@
 # Phoenix Dental Care — Project Instructions
 
 Website for **Dr. Divya's Phoenix Dental Care**, Chitlapakkam, Chennai.
-Live site: https://drdivyaphoenixdental.com (hosted on Netlify). Stack: Next.js 14.2.5 (App Router, JavaScript), Tailwind CSS 3, Framer Motion, react-icons. No database, no admin, no test/lint/type-check scripts.
+Live site: https://drdivyaphoenixdental.com (hosted on Netlify). Stack: Next.js 15.5.28 (App Router, JavaScript), React 19, Tailwind CSS 3, Framer Motion, react-icons. No database, no admin, no test/lint/type-check scripts.
 
 The treatment-pages upgrade (specs/001, specs/002) is **built**. The current phase is **SEO / AEO fixes and growth**, driven by the final audit and the keyword plan below. Follow those documents whenever you touch the site.
 
@@ -75,7 +75,7 @@ The National Dental Commission's advisory of **14 October 2026** (reported by Me
 - Contact form (S1): must **really deliver** enquiries (Netlify Forms with honeypot, or an email/WhatsApp service), check `response.ok`, show failure honestly, and be tested end-to-end before release.
 
 ### Security and dependencies (audit S-series)
-- `next@14.2.5` has known vulnerabilities (`npm audit`: 1 critical, 4 high). Upgrade to the latest patched 14.2.x (or 15.x), run `npm audit fix`, rebuild and smoke-test every route. Add security headers in `netlify.toml` (S3). Do not commit secrets; `.env*` is git-ignored.
+- **Done (Task 8, 25 Oct 2026):** upgraded to Next.js 15.5.28 + React 19 (all 37 Next.js advisories closed) and added security headers in `netlify.toml` (S3; no CSP yet). Remaining `npm audit`: PostCSS 8.4.31 bundled inside Next 15 (build-time only; fix needs Next 16). Re-run `npm audit` monthly; after any dependency change rebuild and smoke-test every route. Do not commit secrets; `.env*` is git-ignored.
 
 ## Treatment pages module (built — keep intact)
 
@@ -93,6 +93,7 @@ Data-driven: `data/services.js` (15 entries; 10 detailed with benefits, process,
 ```bash
 npm install          # slow on this network (~12 min the first time)
 npm run dev          # http://localhost:3000  (also: .claude/launch.json "next-dev")
+npm run start        # serve the production build (launch.json "next-start"); use this for screenshots/reviews
 npm run build        # must pass before every push
 ```
 PDF documents (audits, SEO docs): `PYTHONPATH=/tmp/md2pdf-lib python3 tools/md2pdf.py <in.md> <out.pdf> "<header>"` after `pip install --target /tmp/md2pdf-lib markdown` (needs Google Chrome).

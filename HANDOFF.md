@@ -17,6 +17,7 @@ Update this file at the end of every working session. Newest session first. Rule
 | 7 | Decisions: testimonials, Home offers, designation & experience wording | Advertising rules | Open |
 | 8 | What to do with phoenixdentalcare.in (we recommend a redirect) | Old-domain redirect (S4) | Open |
 | 9 | Answers for held-back FAQs: first-visit routine, payment methods, parking, how often to have a check-up, how long veneers/fillings last, right age for braces, experience wording (vs "10+ years" counter) | Task 5 follow-up FAQs | Open |
+| 10 | Update the Google Business Profile name to **Dr. Divya's Phoenix Dental Care** (with the full stop) to match the website (Sathish chose "Dr.", 25 Oct 2026) | Name consistency for Google Maps and AI assistants | Open (Prodman can do it once given Business Profile access) |
 
 ---
 
@@ -55,6 +56,16 @@ Update this file at the end of every working session. Newest session first. Rule
 - **Revised after Sathish's review (same day):** location text was over-repeated (77 mentions across pages). Rule now: **location added once per visible page** — Home: the small H1 line; other pages: the opening line. Reverted: treatment H1s back to the treatment name (`heading` fields removed), H1s on About/Services/Contact back to the originals (Team → "Meet Dr. Divya S"), Home opening-line location, Home "Our Treatments"/"Contact Us", Contact "Clinic Information", treatment headings "Benefits"/"Treatment Process"/"Frequently Asked Questions"/"Ready to Book Your …?". Kept: "About [treatment]", intros, alt text, heading-level fixes, compliance edits, Team title. Location stays in meta titles/descriptions. Result: 39 mentions (the extra one per page is the existing address or the on-hold testimonial). Before/after PDF regenerated (v2); the earlier v1 duplicated Root Canal part 1 as part 2 (sips crop bug) — fixed by cropping with Chrome.
 - **Second review (same day):** Services intro reverted to the original (added sentence removed); Team "Our Doctors" section reverted (H1 + intro original; doctor title change kept); Contact intro rewritten as one paragraph with a tap-to-call number (hours left to the Opening Hours block); long dashes removed from all new text (5 treatment intros, Team and Contact meta descriptions; Growth Plan Appendix A synced); Root Canal intro no longer mentions the location. Pre-existing site text still has some long dashes (not changed). Location mentions now 36. Before/after PDF v3.
 - **Task 7 (Analytics/Search Console) skipped** at Sathish's request (24 Oct 2026).
+
+### Task 6 skipped (Sathish, 25 Oct 2026) — the 5 category pages stay as they are.
+
+### Task 8 done (S2, S3) — branch `seo/task-8-security` (from task 5), not committed yet
+- Plan approved: Option 2. `next` 14.2.5 → **15.5.28**, `react`/`react-dom` 18.3.1 → **19.3.1**, `sharp` 0.35.4 → **0.35.5**, `npm audit fix` (nanoid, source-map-js). No code changes were needed (pages already await `params`).
+- `npm audit --omit=dev`: before 5 packages (1 critical, 4 high; 37 Next.js advisories) → after **2 entries (1 high, 1 moderate) = the same issue: PostCSS 8.4.31 bundled inside Next 15** (build-time CSS tool; only fix is Next 16, not approved).
+- `netlify.toml`: X-Content-Type-Options nosniff, X-Frame-Options SAMEORIGIN, Referrer-Policy strict-origin-when-cross-origin, Permissions-Policy camera/microphone/geolocation off, HSTS with includeSubDomains. No CSP (agreed). Headers only apply when Netlify deploys this repo — **verify with `curl -I` after deploy**.
+- Verified: build passes; all 20 pages + robots + sitemap 200, unknown page 404; SEO regression (titles, descriptions, canonicals, headings, alt, FAQ data, clinic/doctor data, sitemap) 0 issues; production console clean on Home/Root Canal/Contact/Team; mobile menu, slider, FAQ work. Before/after screenshots from production builds of both versions: About, Contact, Root Canal pixel-identical; Home/Services differ only by slider/animation timing. Shared JS 87 KB → 103 KB (Home 145 → 157 KB). Review: `seo/task-8-before-after.pdf`.
+- Dev-only notes: React 19 surfaces the old missing-`key` warning from `components/home/offers.js` (audit S5) in the dev console; Google font download can fail in dev on a flaky network (production build includes Inter + Montserrat).
+- `.claude/launch.json`: added `next-start` (production server) for reviews.
 
 ### Task 5 done (A3) — branch `seo/task-5-faqs` (from task 4), not committed yet
 - Plan approved as written. 18 FAQs added: Home 3, Contact 2, Team 3 (new `data/faqs.js`), and 2 each on the 5 category pages (`faqs` in `data/services.js`). Reuses `TreatmentFAQ`; FAQ structured data via new `faqSchema()` in `app/utils/schema.js` (treatment pages keep their inline FAQPage).
