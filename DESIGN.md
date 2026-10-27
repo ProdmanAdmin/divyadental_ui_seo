@@ -51,6 +51,21 @@ CLAUDE.md rule: preserve the current visual identity unless an audit item requir
 | 404 | Tooth emoji, large `404`, "Back to Home" button | `app/not-found.js` |
 | Decorative | Emoji background icons at 8% opacity (`.bg-icon`), `.glassy-dark` / `.glassy-white` panels, `.animate-slow-zoom-loop` | `globals.css` |
 
+### Patterns added during the October SEO work (Tasks 3–10)
+
+| Pattern | Classes / behaviour | Source |
+|---|---|---|
+| Home main heading line (H1) | Small line above the tagline: `text-sm font-semibold uppercase tracking-wide text-pink-700`; the tagline "Rejuvenating Smiles..." is now a `<p>` with `[font-family:var(--font-heading)]` so it looks the same | `app/page.js` |
+| Heading font on non-headings | `[font-family:var(--font-heading)]` keeps the Montserrat look on text that is no longer a heading (stat counters, testimonial names, footer brand) | Tasks 3 heading-level fixes |
+| FAQ section | Reuses `TreatmentFAQ` (white `details` cards, `+` icon, answers in `text-sm text-gray-600`) on Home (above Contact Us), Contact (below the form), Team (above the booking box) and Tooth Replacement | `components/services/TreatmentFAQ.js` |
+| Numbered checklist cards | `bg-white rounded-xl border p-5` with a pink number circle (`w-10 h-10 rounded-full bg-primary text-white`), H2 title + text | `app/how-to-choose-a-dentist/page.js` |
+| Area tags | `bg-white border rounded-full px-5 py-2 font-medium`, wrapped in a flex list | `app/areas-we-serve/page.js` |
+| Info card | `bg-white rounded-xl border p-6` with icon rows (address, hours) and a text link | `app/areas-we-serve/page.js` |
+| Booking box | Same as `TreatmentCTA`: `bg-pink-50 rounded-2xl p-8 md:p-12 text-center`, pink H2, primary button | Both new pages |
+| Footer "Clinic" column | Home · About · Services · Team · Contact · Areas We Serve · How to Choose a Dentist; Services column ends with "View all treatments →" | `components/footer.js` |
+| Doctor card heading level | `DoctorCard` takes `headingLevel` (h2 on Team, h3 inside treatment pages); image alt from `imageAlt` | `components/team/DoctorCard.js` |
+| Site icons and theme | `app/favicon.ico`, `app/icon.png` (512), `app/apple-icon.png` (180): the logo padded to square on white; manifest + `themeColor` `#ec4899` | `app/manifest.js`, `app/layout.js` |
+
 ### Motion
 
 Framer Motion helpers in `app/utils/animations` (`FadeUp`, `StaggerContainer`, `variants`). Keep animation subtle; avoid animating many elements on first paint (Home mobile TBT 1,180 ms — P3). Respect `prefers-reduced-motion` when adding new motion.
@@ -67,10 +82,10 @@ Photos in `public/images/` are served through `next/image` on cards and heroes, 
 | 2 | Stats bar: `emerald-700` (white text = 5.48:1). WhatsApp button: `green-700` (white text = 5.02:1). | U1 | — |
 | 3 | Add a **Call / WhatsApp** action visible above the fold on phones: phone icon in the header and a sticky bottom bar (Call · WhatsApp · Book). | U2 | Phone `tel:+919003226380`; WhatsApp `https://wa.me/919003226380`. |
 | 4 | Minimum tap target 44×44 px (24×24 absolute minimum): slider dots, footer links, social icons, nav links. Give slider dots `aria-label`s and a pause control. | U6, U7 | — |
-| 5 | Accessibility labels: `title` on the map iframe, names on icon-only links/buttons, keyboard-visible focus ring on links and buttons. | U7 | — |
-| 6 | Heading structure: stat counters become `<p>`; footer headings `h2`/`h3`; section order H1 → H2 → H3. | T5 | Shared with SEO. |
+| 5 | Accessibility labels: `title` on the map iframe, names on icon-only links/buttons, keyboard-visible focus ring on links and buttons. | U7 | **Partly done (Task 10):** Instagram icon link and Home map link now have names. Still open for Akash: iframe `title`, slider-dot names, focus ring. |
+| 6 | Heading structure: stat counters become `<p>`; footer headings `h2`/`h3`; section order H1 → H2 → H3. | T5 | **Done (Task 3, Prodman).** |
 | 7 | Footer: real social links or remove Facebook/Twitter/LinkedIn icons; add Privacy Policy and Terms pages; remove the "Powered by Netlify" badge (check Netlify settings). | U5, U9 | Instagram link must be the clinic's profile, not an invite URL. |
-| 8 | Render stat values in the HTML (no "0" before scroll); fix typos in offers copy once Divya confirms the offers ("Referal", "friendsand", "Upto 700"). | U4, U8 | Offers are on compliance hold. |
+| 8 | Render stat values in the HTML (no "0" before scroll); fix typos in offers copy once Divya confirms the offers ("Referal", "friendsand", "Upto 700"). | U4, U8 | Offers are on compliance hold. (Offers list `key`s added in Task 10; text unchanged.) |
 | 9 | Home hero: `next/image` with dimensions and `priority` on one image only; thumbnails lazy; no `<link rel=preload>` for five full-size photos. | P1, P2 | — |
 | 10 | Before/after gallery stays hidden (component hides when empty). | U10 | On hold — compliance. |
 

@@ -12,13 +12,28 @@ Prepared by **Prodman Nexus Solutions — Sathish Kumar M** for **Dr Divya S**. 
 
 Read in this order: **1 → 2 → 3**. The audit says what is wrong, the keyword library says what patients search for, and the growth plan says how we use both.
 
+## Task review documents (before/after, for approval)
+
+| Task | Document | What it shows |
+|---|---|---|
+| 3 | [`seo/task-3-wording-for-approval.pdf`](seo/task-3-wording-for-approval.pdf) | Proposed headings, opening lines and photo descriptions (marked as revised) |
+| 3 | [`seo/task-3-before-after.pdf`](seo/task-3-before-after.pdf) | Headings and opening lines, version 3 after two reviews |
+| 4 | [`seo/task-4-before-after.pdf`](seo/task-4-before-after.pdf) | Official clinic name; clinic and doctor details for Google |
+| 5 | [`seo/task-5-before-after.pdf`](seo/task-5-before-after.pdf) | FAQs on Home, Contact, Team and Tooth Replacement |
+| 8 | [`seo/task-8-before-after.pdf`](seo/task-8-before-after.pdf) | Software update and security settings |
+| 9 | [`seo/task-9-new-pages.pdf`](seo/task-9-new-pages.pdf) | New pages: Areas We Serve, How to Choose a Dentist |
+| 10 | [`seo/task-10-before-after.pdf`](seo/task-10-before-after.pdf) | Icons, AI summary file (llms.txt), clearer links |
+
 ## Internal working documents (team only)
 
 | Document | Purpose |
 |---|---|
 | [`CLAUDE.md`](CLAUDE.md) | Rules to follow whenever anyone works on the website or these files |
 | [`DESIGN.md`](DESIGN.md) | Design system and audit-driven design changes (for Akash, UI/UX) |
-| [`HANDOFF.md`](HANDOFF.md) | Session log, decisions, next steps, open questions |
+| [`HANDOFF.md`](HANDOFF.md) | Current status (read first), session log, decisions, next steps, Divya's action items |
+| [`README.md`](README.md) | How to run and build the website, project structure |
+| [`public/llms.txt`](public/llms.txt) | Short clinic summary for AI assistants (published at /llms.txt) |
+| [`tools/md2pdf.py`](tools/md2pdf.py) | Builds the branded PDF documents from Markdown |
 
 ## Monthly updates
 

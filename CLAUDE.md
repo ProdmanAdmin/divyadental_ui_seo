@@ -20,7 +20,7 @@ The treatment-pages upgrade (specs/001, specs/002) is **built**. The current pha
 
 ## Fixed business facts (single source: `practiceInfo` in `app/utils/config.js`)
 
-- Name: **Dr. Divya's Phoenix Dental Care** (use this exact spelling everywhere; the header currently drops the full stop and the WhatsApp text says "Phoenix Dental Clinic" — audit A2)
+- Name: **Dr. Divya's Phoenix Dental Care** (with the full stop; chosen by Sathish 25 Oct 2026). Header, footer, WhatsApp text and structured data use `practiceInfo.name` (Task 4). Titles and running text may use the short form "Phoenix Dental Care". The Google Business Profile still shows "Dr Divya's" (no full stop): update it once access is given (Divya action item 10).
 - Address: No 58/60, Ground Floor, Anna Street, Chitlapakkam, Chennai – 600064
 - Phone / WhatsApp: +91 90032 26380 · Email: phoenixdentalc@gmail.com
 - Hours: Monday–Saturday 9:00 AM–8:00 PM; Sunday by appointment only
@@ -47,11 +47,11 @@ If a task belongs to Akash, do not implement it unless the user asks; record it 
 4. Every `<img>`/`next/image` has meaningful `alt`; decorative images use `alt=""` (T6).
 5. Sitemap: correct domain, real `lastModified` per page (not build time), URL form that matches the live trailing-slash behaviour (T2, T10). **Confirm which commit/config Netlify deploys before changing URL form** — live serves `/about/`, repo `main` serves `/about` (T11).
 6. Keep robots allowing Googlebot, Bingbot, OAI-SearchBot, GPTBot, ClaudeBot, PerplexityBot. Never add `noindex` by accident.
-7. Structured data: keep `Dentist`, `Physician`, `BreadcrumbList`, `MedicalProcedure`, `FAQPage`; add `image/logo`, `geo`, `hasMap`, `sameAs`, Sunday hours; `provider.address` must be a `PostalAddress` (T8).
+7. Structured data lives in `app/utils/schema.js` (`clinicSchema`, `clinicRef`, `doctorSchema`, `faqSchema`): `Dentist` (Home, Contact), `Person` for Dr Divya (Team; not `Physician`), `BreadcrumbList`, `MedicalProcedure` (provider = clinic with `PostalAddress`), `FAQPage`. Sunday is left out of opening hours (by appointment). `areaServed` not set (Sathish). Add `sameAs` and the doctor `image` only when Divya supplies real links/photo (T8).
 8. Keyword work: take the page's main + supporting keywords from the keyword map (Keyword Library §2.10). Natural, patient-focused wording — **no keyword stuffing**.
 
 ### AEO (audit A-series)
-- Treatment pages keep **answer-first FAQs** (first sentence = the answer, 40–60 words) with FAQ JSON-LD. Add the "new questions" listed in Keyword Library §3.2 to Home, Contact, Team and the five category pages (A3).
+- Treatment pages keep **answer-first FAQs** with FAQ JSON-LD. New FAQs are live on Home, Contact, Team (`data/faqs.js`) and Tooth Replacement (Task 5). **Sathish removed them from Preventive, Cosmetic, Restorative and Orthodontics: do not add FAQs there.** Held-back questions wait for Divya (action item 9).
 - Show Dr. Divya's name, credentials and a "last reviewed" date on treatment pages.
 - `public/llms.txt` (A1) is in place (Task 10). Keep it in sync when treatments, timings or key pages change.
 - Monthly: run the 14 AI test prompts (Keyword Library §3.3) and record results in HANDOFF.md.
@@ -79,7 +79,7 @@ The National Dental Commission's advisory of **14 October 2026** (reported by Me
 
 ## Treatment pages module (built — keep intact)
 
-Data-driven: `data/services.js` (15 entries; 10 detailed with benefits, process, FAQs; 5 category entries are thin — T13) → `app/services/[slug]/page.js` → components in `components/services/`. Page sections in order: hero, overview, benefits, procedure, FAQ, before/after (hidden when empty), testimonials, doctor, appointment CTA, related treatments, breadcrumb. Add or edit treatments in data, not by copying pages. Existing slugs must not change (SEO).
+Data-driven: `data/services.js` (15 entries; 10 detailed with benefits, process, FAQs; 5 category entries stay short: Task 6 / T13 skipped by Sathish; each entry has `metaTitle`, `metaDescription`, `intro`) → `app/services/[slug]/page.js` → components in `components/services/`. Other pages: `/areas-we-serve/` and `/how-to-choose-a-dentist/` (Task 9, linked from the footer). Page sections in order: hero, overview, benefits, procedure, FAQ, before/after (hidden when empty), testimonials, doctor, appointment CTA, related treatments, breadcrumb. Add or edit treatments in data, not by copying pages. Existing slugs must not change (SEO).
 
 ## Architecture and style rules (retained from the original project instructions)
 
@@ -102,7 +102,8 @@ There is no lint/type-check/test script. Minimum verification: `npm run build` p
 
 ## Git and workflow
 
-- `origin` = https://github.com/ProdmanAdmin/divyadental_ui_seo (branch `main`). `upstream` = the original Phoenix-Dental-Care_UI repo — **read-only, never push to it**.
+- `origin` = https://github.com/ProdmanAdmin/divyadental_ui_seo. `upstream` = the original Phoenix-Dental-Care_UI repo — **read-only, never push to it**.
+- **`main` is Sathish's only source: do not commit to it, merge into it or rewrite it unless he asks.** Working branch: **`Sathish_main_seo`** (`main` + all October SEO work). `Final_seo_october` is the October snapshot. Start new work from `Sathish_main_seo` on a new branch per task.
 - Commit or push **only when the user asks**. Reference audit IDs in commit messages (e.g. `fix(seo): single SITE_URL, canonicals (T1,T3)`).
 - Large pushes can time out on this network (`git config http.postBuffer` is already raised); retry before assuming failure.
 - At the end of every session update **HANDOFF.md** (done / decisions / next steps / open questions).
