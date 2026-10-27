@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="flex space-x-4 text-gray-600">
             <FaFacebookF className="hover:text-pink-500 cursor-pointer transition" />
             <FaTwitter className="hover:text-pink-500 cursor-pointer transition" />
-            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=ulrhf7o">
+            <a target="_blank" rel="noopener noreferrer" aria-label={`${practiceInfo.name} on Instagram`} href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=ulrhf7o">
               <FaInstagram className="hover:text-pink-500 cursor-pointer transition" />
             </a>
             <FaLinkedinIn className="hover:text-pink-500 cursor-pointer transition" />
@@ -58,7 +58,7 @@ export default function Footer() {
             <li><Link href="/services/cosmetic-dentistry" className="hover:text-primary transition">Cosmetic Dentistry</Link></li>
             <li><Link href="/services/orthodontics" className="hover:text-primary transition">Orthodontics</Link></li>
             <li><Link href="/services/root-canal-treatment" className="hover:text-primary transition">Root Canal Treatment</Link></li>
-            <li><Link href="/services" className="hover:text-primary transition font-medium">View All →</Link></li>
+            <li><Link href="/services" className="hover:text-primary transition font-medium">View all treatments →</Link></li>
           </ul>
         </div>
 

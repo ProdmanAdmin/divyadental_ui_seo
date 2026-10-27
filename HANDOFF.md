@@ -57,6 +57,12 @@ Update this file at the end of every working session. Newest session first. Rule
 - **Second review (same day):** Services intro reverted to the original (added sentence removed); Team "Our Doctors" section reverted (H1 + intro original; doctor title change kept); Contact intro rewritten as one paragraph with a tap-to-call number (hours left to the Opening Hours block); long dashes removed from all new text (5 treatment intros, Team and Contact meta descriptions; Growth Plan Appendix A synced); Root Canal intro no longer mentions the location. Pre-existing site text still has some long dashes (not changed). Location mentions now 36. Before/after PDF v3.
 - **Task 7 (Analytics/Search Console) skipped** at Sathish's request (24 Oct 2026).
 
+### Task 10 done (T9, A1, T14, S5) — branch `seo/task-10-finishes` (from task 9), not committed yet
+- Plan approved as written. Icons: `app/favicon.ico` (32 + 48 px PNGs), `app/icon.png` (512), `app/apple-icon.png` (180), made from `Logo.jpeg` padded to square with white (no crop); layout no longer points to `/favicon.jpeg` (file kept). `app/manifest.js` (name, short name "Phoenix Dental", standalone, white background, theme #ec4899); `viewport.themeColor` in `app/layout.js`.
+- `public/llms.txt`: clinic details, doctor, 15 treatments, key pages; no prices/offers/testimonials/experience years.
+- Link names: Instagram icon `aria-label`, Home map link `aria-label`; footer "View All →" → "View all treatments →". Offers list `key`s (removes the React 19 dev warning). README rewritten (correct repo, commands, structure).
+- Verified: build passes (31 routes); /favicon.ico, /icon.png, /apple-icon.png, /manifest.webmanifest, /llms.txt return 200; head has icon, apple-touch-icon, manifest, theme-color; 22 pages: titles/descriptions match Appendix A, one H1, no skipped levels, no unnamed links; console clean. Review: `seo/task-10-before-after.pdf`.
+
 ### Task 9 done — branch `seo/task-9-new-pages` (from task 8), not committed yet
 - Plan approved (8 closest areas, footer links only, health-advice articles later). New pages: `app/how-to-choose-a-dentist/page.js` (7-point neutral checklist + clinic facts + booking) and `app/areas-we-serve/page.js` (8 nearby areas as a simple list, address, hours, Google Maps link, booking). Breadcrumb data on both; `pageMetadata` titles/descriptions (added to Growth Plan Appendix A).
 - Footer "Clinic" column: + Areas We Serve, How to Choose a Dentist. Breadcrumb labels added. Sitemap 20 → 22 URLs; `CONTENT_UPDATED` → 2026-10-25.

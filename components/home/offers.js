@@ -7,7 +7,7 @@ const Component = () => {
         <h2 className="text-5xl font-bold text-center mb-9 text-white">Offers</h2> 
         <ul className='list-disc list-inside flex flex-col gap-2'>
             {Offers.map(o => (
-              <li className='text-base text-white font-semibold'>{o}</li>
+              <li key={o} className='text-base text-white font-semibold'>{o}</li>
             ))}
         </ul>  
     </div>

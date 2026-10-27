@@ -1,62 +1,47 @@
-# Phoenix Dental Care
+# Dr. Divya's Phoenix Dental Care: Website
 
-A modern, SEO-friendly dental clinic website built with Next.js 14 and Tailwind CSS.
+Website for Dr. Divya's Phoenix Dental Care, Chitlapakkam, Chennai.
+Live site: https://drdivyaphoenixdental.com (hosted on Netlify).
 
-## Tech Stack
+## Tech stack
 
-- **Framework:** Next.js 14 (App Router)
-- **Styling:** Tailwind CSS 3
-- **Animations:** Framer Motion
-- **Icons:** React Icons
-- **Deployment:** Netlify
+- Next.js 15 (App Router, JavaScript) and React 19
+- Tailwind CSS 3, Framer Motion, React Icons
 
-## Prerequisites
+## Getting started
 
-- Node.js 18 or later
-- npm 9 or later
-
-## Getting Started
-
-### 1. Clone the repository
+Requires Node.js 18.18 or later (developed on Node 22).
 
 ```bash
-git clone https://github.com/ramkumarAkash/phoenix-dental.git
-cd phoenix-dental
-```
-
-### 2. Install dependencies
-
-```bash
+git clone https://github.com/ProdmanAdmin/divyadental_ui_seo.git
+cd divyadental_ui_seo
 npm install
+npm run dev        # http://localhost:3000
 ```
 
-### 3. Run the development server
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Available Scripts
-
-| Command | Description |
+| Command | What it does |
 |---|---|
-| `npm run dev` | Start development server with hot reload |
-| `npm run build` | Build the application for production |
-| `npm start` | Start the production server |
+| `npm run dev` | Development server with hot reload |
+| `npm run build` | Production build (must pass before every push) |
+| `npm run start` | Serve the production build locally |
 
-## Project Structure
+## Project structure
 
 ```
-phoenix-dental/
-├── app/                  # Next.js App Router pages and layouts
-├── components/           # Reusable UI components
-├── public/               # Static assets (images, icons)
-├── styles/               # Global styles
-├── netlify.toml          # Netlify deployment configuration
-├── tailwind.config.js    # Tailwind CSS configuration
-└── next.config.js        # Next.js configuration
+app/                 Pages (App Router), metadata, sitemap.js, robots.js, manifest.js, icons
+  services/[slug]/   Data-driven treatment pages
+  utils/             config.js (clinic facts, SITE_URL), seo.js, schema.js
+components/          Header, footer, home, services and team components
+data/                services.js (treatments), team.js, faqs.js
+public/              Images, llms.txt
+audits/  seo/        Website audit and SEO documents (PDF + Markdown)
+tools/md2pdf.py      Builds the branded PDF documents
+netlify.toml         Build command and security headers
 ```
 
-The build output is placed in `.next/`. Check bundle sizes and any build warnings before deploying.
+## Documents
+
+- `DOCUMENTS.md`: index of the client documents (audit, keyword library, SEO growth plan)
+- `CLAUDE.md`: rules to follow when changing the site
+- `DESIGN.md`: design system
+- `HANDOFF.md`: work log, decisions and next steps

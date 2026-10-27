@@ -53,7 +53,7 @@ If a task belongs to Akash, do not implement it unless the user asks; record it 
 ### AEO (audit A-series)
 - Treatment pages keep **answer-first FAQs** (first sentence = the answer, 40–60 words) with FAQ JSON-LD. Add the "new questions" listed in Keyword Library §3.2 to Home, Contact, Team and the five category pages (A3).
 - Show Dr. Divya's name, credentials and a "last reviewed" date on treatment pages.
-- Add `public/llms.txt` (A1) — optional, low priority.
+- `public/llms.txt` (A1) is in place (Task 10). Keep it in sync when treatments, timings or key pages change.
 - Monthly: run the 14 AI test prompts (Keyword Library §3.3) and record results in HANDOFF.md.
 
 ### Compliance — dental advertising in India (read before writing any copy)
