@@ -6,7 +6,7 @@ Update this file at the end of every working session. Newest session first. Rule
 
 ## Current status (27 Oct 2026) — read this first
 
-**All October SEO work is live on https://drdivyaphoenixdental.com (deployed 27 Oct 2026, checked the same day).** One follow-up fix (security headers on pages) is committed and needs a redeploy.
+**All October SEO work is live on https://drdivyaphoenixdental.com (deployed 27 Oct 2026, checked the same day).** Security-header fix (8b) is live too: all 5 headers confirmed on pages, robots, sitemap, llms.txt and icons (27 Oct 2026).
 
 | Branch | Purpose | Commit |
 |---|---|---|
@@ -27,13 +27,14 @@ Update this file at the end of every working session. Newest session first. Rule
 | 8 | Next.js 15.5.28 + React 19, security headers (S2, S3) | Done | `58fbac0` | `seo/task-8-before-after.pdf` |
 | 9 | New pages: Areas We Serve, How to Choose a Dentist | Done | `d254d8a` | `seo/task-9-new-pages.pdf` |
 | 10 | Icons, manifest, llms.txt, link names, tidy-ups (T9, A1, T14, S5) | Done | `56e9719` | `seo/task-10-before-after.pdf` |
-| 8b | Security headers on pages too, via `next.config.js` (S3 follow-up) | Done, **redeploy needed** | see `git log` | — |
+| 8b | Security headers on pages too, via `next.config.js` (S3 follow-up) | Done, **live (checked 27 Oct)** | see `git log` | — |
 
 ### Live check after deploy (27 Oct 2026)
 - **Passed on all 22 pages:** 200; title + description exactly as Growth Plan Appendix A; self-referencing canonical and `og:url` on the official domain; OG image + Twitter card; one H1, no skipped levels; every image has alt; no `phoenixdentalcare.in`; JSON-LD (Dentist + FAQPage on Home/Contact, Person + FAQPage on Team, MedicalProcedure + BreadcrumbList on treatment pages, FAQPage on the 11 pages with FAQs); FAQ counts Home 3, Contact 2, Team 3, Tooth Replacement 2, 10 treatment pages 5, the 4 category pages 0.
 - Header/footer/WhatsApp name "Dr. Divya's Phoenix Dental Care"; footer links to the 2 new pages + "View all treatments"; robots.txt + sitemap (22 URLs, lastmod 2026-10-25); llms.txt, favicon, icons, manifest; http→https, www→apex, `/about`→`/about/`; 404 page; no console errors on Home.
 - **Found:** Netlify `[[headers]]` in `netlify.toml` only reach static CDN files (llms.txt, `_next/static`). Pages, robots.txt and icons served by the Next.js runtime had only HSTS (without includeSubDomains) and nosniff. **Fix:** same 5 headers added in `next.config.js` `headers()`; locally 5/5 on pages, robots, sitemap, icons and llms.txt. **After the redeploy run `curl -sI https://drdivyaphoenixdental.com/` and confirm all 5.**
 - **Deploy blocked (27 Oct 2026):** Netlify build failed with "unrecognized Git contributor". The free Netlify plan allows one Git contributor on a private repo, and our commits were signed `siam@Sathishs-Mac.local`, which is not linked to any GitHub account. **Fix:** this repo's git identity is now `ProdmanAdmin <162564817+ProdmanAdmin@users.noreply.github.com>` (the GitHub account linked in Netlify's Git contributors). **Always commit with this identity** (`git config user.email` in this repo); never with the Mac default. The build still failed with that identity while commit messages carried a `Co-Authored-By: Claude` line (Netlify counts co-authors as contributors), so **commit messages must not contain any `Co-Authored-By` line** (Sathish, 27 Oct 2026).
+- **Netlify account (found 27 Oct 2026):** the Netlify team is owned by Divya's account (phoenixdentalc@gmail.com, free plan, 1 member, **no 2FA**). Builds only run for commits from the Git account linked to that login. Sathish linked **ProdmanAdmin** on 27 Oct 2026, then the build published. Anyone else pushing (e.g. Akash under his own GitHub) will be blocked: agree a publishing route first.
 - **Still open:** `http://www.` takes 2 redirects (T10, Netlify domain setting, not code). Not re-checked: `phoenixdentalcare.in` (S4, Divya item 8).
 
 ### Deployment readiness (checked 27 Oct 2026)
@@ -43,11 +44,17 @@ Update this file at the end of every working session. Newest session first. Rule
 - Not blockers, but still open on the live site after deploy: contact form delivery (Akash, S1), heavy images (Akash, P1), testimonials/offers on hold (Divya).
 
 ### To go live (next)
-1. ~~Deploy~~ Done 27 Oct 2026. Redeploy once more for the security-header fix, then confirm the 5 headers with `curl -sI`.
+1. ~~Deploy~~ Done 27 Oct 2026. ~~Security-header redeploy~~ Done and confirmed 27 Oct 2026.
 2. ~~Live check~~ Done 27 Oct 2026 (see "Live check after deploy").
 3. Submit the sitemap in Google Search Console and Bing Webmaster Tools (needs Divya's access).
 4. Renew the domain before 13 Nov 2026 (Prodman, on Divya's behalf) and record it here.
 5. Run the November audit and the 14 AI test prompts; compare with the 12 Oct baseline.
+
+### October wrap-up documents (27 Oct 2026) — see DOCUMENTS.md #4–6
+- Re-scored the live site with the 12 Oct method: **54 → 78 / 100** (Technical SEO 29→87, Performance 59→72, UI/UX 65→65, AEO 89 from 73, Security 67→78 after the header fix went live). Issues: 16 fixed, 6 partly (T8, T10, A3, P3, P4, U7), 23 open (15 Akash, 8 waiting on Divya or next check).
+- Lighthouse 27 Oct (single runs, live): Home mobile 60/86/100/100 (was 39/74/100/92), Home desktop 64/86/100/100; Services mobile 91/96/100/100; Root Canal mobile 95/96, desktop 100/96; Contact 99/93. SEO 100 on all 8 runs. Services/treatment pages now 0.3–0.7 MB (were ~19 MB) → P5 fixed; Home still ~12 MB. Raw JSON is not kept in the repo.
+- Live re-checks: domain **still expires 13 Nov 2026 (not renewed)**; old domain still HTTP 500; images still `max-age=0`, `_next/static` now 1-year immutable; security-header fix now live after the Netlify contributor link (see below).
+- Client PDFs must not mention branches, code details or URLs (Sathish).
 
 ### Working rules agreed with Sathish (also in memory)
 - Before every task: plan with exact visible wording, behind-the-scenes changes, what will not change, decisions, verification; wait for OK.
@@ -73,6 +80,7 @@ Contact form delivery (S1, Critical), image compression and speed (P1–P7, Crit
 | 7 | Decisions: testimonials, Home offers, designation & experience wording | Advertising rules | Open |
 | 8 | What to do with phoenixdentalcare.in (we recommend a redirect) | Old-domain redirect (S4) | Open |
 | 9 | Answers for held-back FAQs: first-visit routine, payment methods, parking, how often to have a check-up, how long veneers/fillings last, right age for braces, experience wording (vs "10+ years" counter) | Task 5 follow-up FAQs | Open |
+| 11 | Switch on **2FA** for the Netlify owner account (phoenixdentalc@gmail.com): it controls the live site | Account security | Open |
 | 10 | Update the Google Business Profile name to **Dr. Divya's Phoenix Dental Care** (with the full stop) to match the website (Sathish chose "Dr.", 25 Oct 2026) | Name consistency for Google Maps and AI assistants | Open (Prodman can do it once given Business Profile access) |
 
 ---

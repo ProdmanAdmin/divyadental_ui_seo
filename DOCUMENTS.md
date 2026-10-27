@@ -12,6 +12,16 @@ Prepared by **Prodman Nexus Solutions — Sathish Kumar M** for **Dr Divya S**. 
 
 Read in this order: **1 → 2 → 3**. The audit says what is wrong, the keyword library says what patients search for, and the growth plan says how we use both.
 
+## October 2026 wrap-up documents (27 Oct 2026)
+
+No branch names, code details or web addresses in these three (Sathish's rule). Score re-measured on the live site with the same method as the 12 Oct audit.
+
+| # | Document | For | What it is | PDF | Other formats |
+|---|---|---|---|---|---|
+| 4 | **Website Progress Report, October 2026** | Divya (client) | What we did and what it means, health score **54 → 78 / 100** by section, what is working well, Lighthouse before/now, what is still open by owner, what we need from Divya, November plan; appendix with all 45 issues then/now | [`reports/client-progress-report-2026-10.pdf`](reports/client-progress-report-2026-10.pdf) | [`.md`](reports/client-progress-report-2026-10.md) |
+| 5 | **Website Testing Guide** | Sathish | Step-by-step tests: quick check after each update, Google searches (12 tracked keywords), Rich Results / Schema checks, PageSpeed, security, Search Console, 14 AI prompts, Business Profile; testing calendar; expected page titles | [`reports/website-testing-guide-2026-10.pdf`](reports/website-testing-guide-2026-10.pdf) | [`.md`](reports/website-testing-guide-2026-10.md) |
+| 6 | **Design and Speed Fixes: Brief for Akash** | Akash (UI/UX) | Ground rules (SEO work and advertising rules), 16 tasks in priority order (S1, P1–P7, U1–U11) with done-when checks, Lighthouse targets, colour values, what Divya must supply, hand-over checklist | [`reports/akash-ui-ux-brief-2026-10.pdf`](reports/akash-ui-ux-brief-2026-10.pdf) | [`.md`](reports/akash-ui-ux-brief-2026-10.md) |
+
 ## Task review documents (before/after, for approval)
 
 | Task | Document | What it shows |
