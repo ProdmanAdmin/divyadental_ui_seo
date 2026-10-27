@@ -6,7 +6,7 @@ Update this file at the end of every working session. Newest session first. Rule
 
 ## Current status (27 Oct 2026) — read this first
 
-**All October SEO work is done, committed and pushed. Nothing is live yet.**
+**All October SEO work is live on https://drdivyaphoenixdental.com (deployed 27 Oct 2026, checked the same day).** One follow-up fix (security headers on pages) is committed and needs a redeploy.
 
 | Branch | Purpose | Commit |
 |---|---|---|
@@ -27,6 +27,13 @@ Update this file at the end of every working session. Newest session first. Rule
 | 8 | Next.js 15.5.28 + React 19, security headers (S2, S3) | Done | `58fbac0` | `seo/task-8-before-after.pdf` |
 | 9 | New pages: Areas We Serve, How to Choose a Dentist | Done | `d254d8a` | `seo/task-9-new-pages.pdf` |
 | 10 | Icons, manifest, llms.txt, link names, tidy-ups (T9, A1, T14, S5) | Done | `56e9719` | `seo/task-10-before-after.pdf` |
+| 8b | Security headers on pages too, via `next.config.js` (S3 follow-up) | Done, **redeploy needed** | see `git log` | — |
+
+### Live check after deploy (27 Oct 2026)
+- **Passed on all 22 pages:** 200; title + description exactly as Growth Plan Appendix A; self-referencing canonical and `og:url` on the official domain; OG image + Twitter card; one H1, no skipped levels; every image has alt; no `phoenixdentalcare.in`; JSON-LD (Dentist + FAQPage on Home/Contact, Person + FAQPage on Team, MedicalProcedure + BreadcrumbList on treatment pages, FAQPage on the 11 pages with FAQs); FAQ counts Home 3, Contact 2, Team 3, Tooth Replacement 2, 10 treatment pages 5, the 4 category pages 0.
+- Header/footer/WhatsApp name "Dr. Divya's Phoenix Dental Care"; footer links to the 2 new pages + "View all treatments"; robots.txt + sitemap (22 URLs, lastmod 2026-10-25); llms.txt, favicon, icons, manifest; http→https, www→apex, `/about`→`/about/`; 404 page; no console errors on Home.
+- **Found:** Netlify `[[headers]]` in `netlify.toml` only reach static CDN files (llms.txt, `_next/static`). Pages, robots.txt and icons served by the Next.js runtime had only HSTS (without includeSubDomains) and nosniff. **Fix:** same 5 headers added in `next.config.js` `headers()`; locally 5/5 on pages, robots, sitemap, icons and llms.txt. **After the redeploy run `curl -sI https://drdivyaphoenixdental.com/` and confirm all 5.**
+- **Still open:** `http://www.` takes 2 redirects (T10, Netlify domain setting, not code). Not re-checked: `phoenixdentalcare.in` (S4, Divya item 8).
 
 ### Deployment readiness (checked 27 Oct 2026)
 - Fresh clone of `Sathish_main_seo` from GitHub + `npm ci` + `npm run build`: **passes** (Next.js 15.5.28, 31 routes). Every commit on `main` is included; only file "missing" vs `main` is the superseded `seo/seo-aeo-growth-plan-2026-10.*` (replaced on purpose by the Keyword Library + Growth Plan).
@@ -35,8 +42,8 @@ Update this file at the end of every working session. Newest session first. Rule
 - Not blockers, but still open on the live site after deploy: contact form delivery (Akash, S1), heavy images (Akash, P1), testimonials/offers on hold (Divya).
 
 ### To go live (next)
-1. Confirm which repo/branch Netlify deploys from (T11 — still unknown). Either point Netlify at `Sathish_main_seo`, or merge it into `main` when Sathish decides.
-2. After deploy, check on the live site: `/robots.txt` and `/sitemap.xml` use drdivyaphoenixdental.com (22 pages); `curl -I` shows the 5 security headers; `/llms.txt`, `/favicon.ico`, the 2 new pages load; titles/descriptions match Growth Plan Appendix A.
+1. ~~Deploy~~ Done 27 Oct 2026. Redeploy once more for the security-header fix, then confirm the 5 headers with `curl -sI`.
+2. ~~Live check~~ Done 27 Oct 2026 (see "Live check after deploy").
 3. Submit the sitemap in Google Search Console and Bing Webmaster Tools (needs Divya's access).
 4. Renew the domain before 13 Nov 2026 (Prodman, on Divya's behalf) and record it here.
 5. Run the November audit and the 14 AI test prompts; compare with the 12 Oct baseline.

@@ -1,7 +1,8 @@
 [build]
   command = "npm run build"
 
-# Security headers for every page (audit S3). Content-Security-Policy is intentionally not set yet:
+# Security headers (audit S3). Netlify applies these to static files only; pages served by the
+# Next.js runtime get the same headers from next.config.js. Keep both lists identical. Content-Security-Policy is intentionally not set yet:
 # it needs careful tuning so the Google map, WhatsApp links and page scripts keep working.
 [[headers]]
   for = "/*"

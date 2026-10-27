@@ -75,7 +75,7 @@ The National Dental Commission's advisory of **14 October 2026** (reported by Me
 - Contact form (S1): must **really deliver** enquiries (Netlify Forms with honeypot, or an email/WhatsApp service), check `response.ok`, show failure honestly, and be tested end-to-end before release.
 
 ### Security and dependencies (audit S-series)
-- **Done (Task 8, 25 Oct 2026):** upgraded to Next.js 15.5.28 + React 19 (all 37 Next.js advisories closed) and added security headers in `netlify.toml` (S3; no CSP yet). Remaining `npm audit`: PostCSS 8.4.31 bundled inside Next 15 (build-time only; fix needs Next 16). Re-run `npm audit` monthly; after any dependency change rebuild and smoke-test every route. Do not commit secrets; `.env*` is git-ignored.
+- **Done (Task 8, 25 Oct 2026):** upgraded to Next.js 15.5.28 + React 19 (all 37 Next.js advisories closed) and added security headers (S3; no CSP yet). They are set in **both** `next.config.js` `headers()` (pages served by the Next.js runtime) and `netlify.toml` (static CDN files): Netlify's `[[headers]]` alone do not reach pages (found in the live check, 27 Oct 2026). Change both together. Remaining `npm audit`: PostCSS 8.4.31 bundled inside Next 15 (build-time only; fix needs Next 16). Re-run `npm audit` monthly; after any dependency change rebuild and smoke-test every route. Do not commit secrets; `.env*` is git-ignored.
 
 ## Treatment pages module (built — keep intact)
 
