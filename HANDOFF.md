@@ -11,7 +11,7 @@ Update this file at the end of every working session. Newest session first. Rule
 | Branch | Purpose | Commit |
 |---|---|---|
 | `main` | Sathish's original source. **Do not commit to it or merge into it unless Sathish asks.** | `eb6a77d` (unchanged) |
-| `Final_seo_october` | All October SEO work (snapshot) | `56e9719` |
+| `Final_seo_october` | All October SEO work; kept identical to `Sathish_main_seo` (fast-forwarded 27 Oct 2026) | same as `Sathish_main_seo` |
 | **`Sathish_main_seo`** | **Working branch:** `main` + `Final_seo_october` merged (merge commit `cae55af`). Continue here. | latest |
 | `seo/task-*` | One branch per task, each built on the previous one (all contained in the two branches above) | — |
 
@@ -27,6 +27,12 @@ Update this file at the end of every working session. Newest session first. Rule
 | 8 | Next.js 15.5.28 + React 19, security headers (S2, S3) | Done | `58fbac0` | `seo/task-8-before-after.pdf` |
 | 9 | New pages: Areas We Serve, How to Choose a Dentist | Done | `d254d8a` | `seo/task-9-new-pages.pdf` |
 | 10 | Icons, manifest, llms.txt, link names, tidy-ups (T9, A1, T14, S5) | Done | `56e9719` | `seo/task-10-before-after.pdf` |
+
+### Deployment readiness (checked 27 Oct 2026)
+- Fresh clone of `Sathish_main_seo` from GitHub + `npm ci` + `npm run build`: **passes** (Next.js 15.5.28, 31 routes). Every commit on `main` is included; only file "missing" vs `main` is the superseded `seo/seo-aeo-growth-plan-2026-10.*` (replaced on purpose by the Keyword Library + Growth Plan).
+- Netlify needs **Node 18.18 or newer** (Next 15). Check the site's Node version in Netlify (Site configuration → Build & deploy → Environment / build image); set `NODE_VERSION = 22` if it is older.
+- Recommended: deploy `Sathish_main_seo` as a **branch deploy / deploy preview** first, check it, then make it the production branch (or merge into `main` when Sathish decides).
+- Not blockers, but still open on the live site after deploy: contact form delivery (Akash, S1), heavy images (Akash, P1), testimonials/offers on hold (Divya).
 
 ### To go live (next)
 1. Confirm which repo/branch Netlify deploys from (T11 — still unknown). Either point Netlify at `Sathish_main_seo`, or merge it into `main` when Sathish decides.
