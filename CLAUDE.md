@@ -104,7 +104,7 @@ There is no lint/type-check/test script. Minimum verification: `npm run build` p
 
 - `origin` = https://github.com/ProdmanAdmin/divyadental_ui_seo. `upstream` = the original Phoenix-Dental-Care_UI repo — **read-only, never push to it**.
 - **`main` is Sathish's only source: do not commit to it, merge into it or rewrite it unless he asks.** Working branch: **`Sathish_main_seo`** (`main` + all October SEO work). `Final_seo_october` is the October snapshot. Start new work from `Sathish_main_seo` on a new branch per task.
-- Commit as **`ProdmanAdmin <162564817+ProdmanAdmin@users.noreply.github.com>`** (set in this repo's git config). Netlify's free plan blocks builds from any other commit author on this private repo ("unrecognized Git contributor").
+- Commit as **`ProdmanAdmin <162564817+ProdmanAdmin@users.noreply.github.com>`** (set in this repo's git config). Netlify's free plan blocks builds from any other commit author on this private repo ("unrecognized Git contributor"). **Never add a `Co-Authored-By` line** to commit messages: Netlify counts co-authors too and the build fails.
 - Commit or push **only when the user asks**. Reference audit IDs in commit messages (e.g. `fix(seo): single SITE_URL, canonicals (T1,T3)`).
 - Large pushes can time out on this network (`git config http.postBuffer` is already raised); retry before assuming failure.
 - At the end of every session update **HANDOFF.md** (done / decisions / next steps / open questions).
