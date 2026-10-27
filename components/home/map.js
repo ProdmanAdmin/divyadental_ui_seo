@@ -10,6 +10,7 @@ export default function MapRedirect() {
       href={mapUrl}
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="Open the clinic location in Google Maps"
       className="block w-full h-[300px] rounded-lg overflow-hidden border"
     >
       <iframe

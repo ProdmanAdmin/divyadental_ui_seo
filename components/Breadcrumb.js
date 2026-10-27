@@ -8,6 +8,8 @@ const segmentLabels = {
   services: "Services",
   team: "Team",
   contact: "Contact",
+  "areas-we-serve": "Areas We Serve",
+  "how-to-choose-a-dentist": "How to Choose a Dentist",
 };
 
 export default function Breadcrumb({ serviceNames = {} }) {

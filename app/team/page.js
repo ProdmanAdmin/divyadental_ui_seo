@@ -2,41 +2,28 @@ import team from "../../data/team";
 import DoctorCard from "../../components/team/DoctorCard";
 import Breadcrumb from "../../components/Breadcrumb";
 import JsonLd from "../../components/seo/JsonLd";
+import { doctorSchema, faqSchema } from "../utils/schema";
+import TreatmentFAQ from "../../components/services/TreatmentFAQ";
+import { teamFaqs } from "../../data/faqs";
 import Link from "next/link";
+import { pageMetadata } from "../utils/seo";
 
-export const metadata = {
-  title: "Our Doctors",
+export const metadata = pageMetadata({
+  title: "Dr Divya S, BDS, MDS | Child & Adult Dentist, Chitlapakkam",
   description:
-    "Meet the dental team at Phoenix Dental Care. Led by Dr. Divya S, BDS, MDS — a specialist in Pediatric and Preventive Dentistry in Chitlapakkam, Chennai.",
-  openGraph: {
-    title: "Our Doctors | Phoenix Dental Care",
-    description:
-      "Meet the dental team at Phoenix Dental Care — led by Dr. Divya S, specialist in Pediatric and Preventive Dentistry.",
-    url: "https://www.phoenixdentalcare.in/team",
-  },
-};
+    "Dr Divya S, BDS, MDS: consultant paediatric dentist, adult and child dental surgeon and Associate Professor. Phoenix Dental Care, Chitlapakkam, Chennai.",
+  path: "/team",
+});
 
 const primaryDoctor = team[0];
 
-const personJsonLd = primaryDoctor
-  ? {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      name: primaryDoctor.name,
-      jobTitle: primaryDoctor.title,
-      description: primaryDoctor.bio,
-      worksFor: {
-        "@type": "Dentist",
-        name: "Phoenix Dental Care",
-        url: "https://www.phoenixdentalcare.in",
-      },
-    }
-  : null;
+const personJsonLd = primaryDoctor ? doctorSchema(primaryDoctor) : null;
 
 export default function TeamPage() {
   return (
     <main className="bg-[#F8F9FA] min-h-screen">
       {personJsonLd && <JsonLd data={personJsonLd} />}
+      <JsonLd data={faqSchema(teamFaqs)} />
       <div className="max-w-7xl mx-auto px-6 py-12">
         <Breadcrumb />
 
@@ -49,6 +36,10 @@ export default function TeamPage() {
           {team.map((member) => (
             <DoctorCard key={member.id} member={member} />
           ))}
+        </div>
+
+        <div className="max-w-4xl">
+          <TreatmentFAQ faqs={teamFaqs} />
         </div>
 
         <section className="bg-pink-50 rounded-2xl p-8 text-center">

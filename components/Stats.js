@@ -41,10 +41,10 @@ function Counter({ target, label, suffix = "+" }) {
 
   return (
     <div ref={ref} className="text-center">
-      <h1 className="text-6xl font-bold">
+      <p className="text-6xl font-bold [font-family:var(--font-heading)]">
         {count}
         {count === target && suffix}
-      </h1>
+      </p>
       <p className="text-xl opacity-90 mt-2">{label}</p>
     </div>
   );

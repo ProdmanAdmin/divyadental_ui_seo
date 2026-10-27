@@ -14,7 +14,7 @@ export default function ServiceCard({ service }) {
         />
       </div>
       <div className="p-6 flex flex-col flex-1">
-        <h3 className="font-semibold text-lg mb-2">{service.name}</h3>
+        <h2 className="font-semibold text-lg mb-2">{service.name}</h2>
         <p className="text-sm text-gray-600 flex-1">{service.summary}</p>
         <Link
           href={`/services/${service.slug}`}

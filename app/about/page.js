@@ -4,18 +4,14 @@ import WhyChooseUs from "../../components/home/whyChooseUs";
 import Stats from "../../components/Stats";
 import { practiceInfo } from "../utils/config";
 import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
+import { pageMetadata } from "../utils/seo";
 
-export const metadata = {
-  title: "About Us",
+export const metadata = pageMetadata({
+  title: "About Dr Divya's Phoenix Dental Care | Chitlapakkam",
   description:
-    "Learn about Dr. Divya's Phoenix Dental Care — a trusted dental clinic in Chitlapakkam, Chennai, committed to gentle, advanced, and affordable dental care for all ages.",
-  openGraph: {
-    title: "About Us | Phoenix Dental Care",
-    description:
-      "Learn about Dr. Divya's Phoenix Dental Care — a trusted dental clinic in Chitlapakkam, Chennai.",
-    url: "https://www.phoenixdentalcare.in/about",
-  },
-};
+    "About Dr Divya's Phoenix Dental Care, a neighbourhood dental clinic in Chitlapakkam, Chennai, offering gentle, modern and affordable care for all ages.",
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (
@@ -29,9 +25,9 @@ export default function AboutPage() {
         <section className="bg-pink-50 rounded-2xl p-8 mb-12">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Our Story</h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            Dr. Divya&apos;s Phoenix Dental Care is your trusted neighborhood dental clinic in Chitlapakkam, Chennai,
+            Dr. Divya&apos;s Phoenix Dental Care is your neighbourhood dental clinic in Chitlapakkam, Chennai,
             dedicated to providing gentle, advanced, and affordable dental care for all ages.
-            Led by Dr. Divya, we focus mainly on painless dentistry, combining modern technology with
+            Led by Dr. Divya, we focus on gentle, comfortable dentistry, combining modern technology with
             compassionate care to ensure every patient feels comfortable and relaxed.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">

@@ -1,26 +1,23 @@
 import services from "../../data/services";
+import { absoluteUrl } from "../utils/config";
 import ServiceCard from "../../components/services/ServiceCard";
 import Breadcrumb from "../../components/Breadcrumb";
 import JsonLd from "../../components/seo/JsonLd";
+import { pageMetadata } from "../utils/seo";
 
-export const metadata = {
-  title: "Our Services",
+export const metadata = pageMetadata({
+  title: "Dental Treatments in Chitlapakkam, Chennai | Phoenix Dental",
   description:
-    "Explore dental treatments at Phoenix Dental Care — from preventive and cosmetic dentistry to orthodontics, root canal treatment, and smile makeovers.",
-  openGraph: {
-    title: "Our Services | Phoenix Dental Care",
-    description:
-      "Explore dental treatments at Phoenix Dental Care in Chitlapakkam, Chennai.",
-    url: "https://www.phoenixdentalcare.in/services",
-  },
-};
+    "Explore dental treatments in Chitlapakkam, Chennai: check-ups, root canal, implants, braces, aligners, whitening, laser dentistry and children's care.",
+  path: "/services",
+});
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.phoenixdentalcare.in" },
-    { "@type": "ListItem", position: 2, name: "Services", item: "https://www.phoenixdentalcare.in/services" },
+    { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
+    { "@type": "ListItem", position: 2, name: "Services", item: absoluteUrl("/services") },
   ],
 };
 

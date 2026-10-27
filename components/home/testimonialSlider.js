@@ -41,7 +41,7 @@ export default function TestimonialSlider() {
           <div key={i} className="min-w-full px-4">
             <div className="bg-white rounded-2xl shadow-lg px-12 py-16 text-center">
               <p className="text-gray-700 italic mb-8">“{t.review}”</p>
-              <h4 className="font-semibold text-lg">{t.name}</h4>
+              <p className="font-semibold text-lg [font-family:var(--font-heading)]">{t.name}</p>
               <p className="text-sm text-blue-600">{t.treatment}</p>
             </div>
           </div>

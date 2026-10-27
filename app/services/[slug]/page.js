@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import services from "../../../data/services";
-import { practiceInfo } from "../../utils/config";
+import { absoluteUrl } from "../../utils/config";
+import { pageMetadata } from "../../utils/seo";
+import { clinicRef } from "../../utils/schema";
 import Breadcrumb from "../../../components/Breadcrumb";
 import JsonLd from "../../../components/seo/JsonLd";
 import TreatmentHero from "../../../components/services/TreatmentHero";
@@ -22,20 +24,12 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const service = services.find((s) => s.slug === slug);
   if (!service) return {};
-  const canonicalUrl = `https://www.phoenixdentalcare.in/services/${slug}`;
-  return {
-    title: service.metaTitle || service.name,
+  return pageMetadata({
+    title: service.metaTitle || `${service.name} | Phoenix Dental Care`,
     description: service.metaDescription || service.summary,
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      title: service.metaTitle || service.name,
-      description: service.metaDescription || service.summary,
-      url: canonicalUrl,
-      images: [{ url: `https://www.phoenixdentalcare.in${service.imageSrc}` }],
-    },
-  };
+    path: `/services/${slug}`,
+    image: { url: service.imageSrc, alt: service.heroAlt || service.name },
+  });
 }
 
 export default async function ServiceDetailPage({ params }) {
@@ -43,15 +37,14 @@ export default async function ServiceDetailPage({ params }) {
   const service = services.find((s) => s.slug === slug);
   if (!service) notFound();
 
-  const baseUrl = "https://www.phoenixdentalcare.in";
-  const pageUrl = `${baseUrl}/services/${slug}`;
+  const pageUrl = absoluteUrl(`/services/${slug}`);
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: baseUrl },
-      { "@type": "ListItem", position: 2, name: "Services", item: `${baseUrl}/services` },
+      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
+      { "@type": "ListItem", position: 2, name: "Services", item: absoluteUrl("/services") },
       { "@type": "ListItem", position: 3, name: service.name },
     ],
   };
@@ -63,11 +56,7 @@ export default async function ServiceDetailPage({ params }) {
     description: service.description,
     procedureType: "Therapeutic",
     url: pageUrl,
-    provider: {
-      "@type": "Dentist",
-      name: practiceInfo.name,
-      address: practiceInfo.address,
-    },
+    provider: clinicRef,
   };
 
   const serviceNames = { [service.slug]: service.name };
@@ -102,7 +91,7 @@ export default async function ServiceDetailPage({ params }) {
           category={service.category}
         />
 
-        <TreatmentOverview description={service.description} />
+        <TreatmentOverview name={service.name} intro={service.intro} description={service.description} />
 
         <TreatmentBenefits benefits={service.benefits} />
 

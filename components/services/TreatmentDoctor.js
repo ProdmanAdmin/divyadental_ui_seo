@@ -8,7 +8,7 @@ export default function TreatmentDoctor({ doctorId }) {
   return (
     <section className="mb-12">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">Meet Your Doctor</h2>
-      <DoctorCard member={doctor} />
+      <DoctorCard member={doctor} headingLevel="h3" />
     </section>
   );
 }
